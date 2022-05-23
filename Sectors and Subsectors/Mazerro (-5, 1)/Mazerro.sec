@@ -1,0 +1,570 @@
+@SUB-SECTOR: Nurat Province SECTOR: Mazerro
+# 
+#--------1---------2---------3---------4---------5-------
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al
+#----------   ---- ---------  - --------------- -  --- --
+Nequzan       0104 D654551-5  S Ag Ni              625 Cs
+Onilytje      0105 X556552-0    Ag Ni           R  604 Na
+Ceka-1        0106 X8B6000-0    Ba Fl Lo Ni     R  000 Na
+Onapilytia    0107 D9D4458-6  S Fl Ni              100 Cs
+Nurat         0204 B8CA551-D  N Fl Ni Wa Cp        410 Cs
+Wenusirroia   0207 DA97566-7  S Ag Ni              114 Cs
+Sokaluset     0306 X456214-0    Lo Ni           R  502 Na
+Orusonal      0307 X600000-0    Ba Lo Ni Va     R  035 Na
+Honromana     0401 D662334-2    Lo Ni              503 Na
+324-961       0408 X668000-0    Ba Lo Ni        R  024 Na
+Banoral       0409 E635264-3    Lo Ni              213 Na
+Zareteryt     0504 C1007CA-6    Na Va              813 Na
+Qudzas        0506 C545566-9    Ag Ni              734 Cs
+Binaurirce    0508 B654223-7  2 Lo Ni              634 Cs
+Inzazeus      0509 X8B7320-0    Fl Lo Ni        R  111 Na
+Vonsyma       0603 E63349C-5    Ni Po              200 Na
+Hasjeus       0608 B66859B-7    Ag Ni              311 Cs
+Esonfaos      0609 E310220-4    Lo Ni              500 Na
+Mahozela      0701 X536000-0    Ba Lo Ni        R  025 Na
+ERCARENIA     0703 E66AACG-B    Hi Wa              122 Na
+Liralhoia     0708 C423103-7    Lo Ni Po           114 Na
+Azero         0709 X500000-0    Ba Lo Ni Va     R  024 Na
+Ceres         0710 E646531-2    Ag Ni              224 Cs
+Satfabi       0802 B698324-6  S Lo Ni              110 Cs
+Zeqanus       0805 X427000-0    Ba Lo Ni        R  012 Na
+Alanorer      0806 E659655-4                       122 Na
+
+@SUB-SECTOR: District 428 SECTOR: Mazerro
+# 
+#--------1---------2---------3---------4---------5-------
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al
+#----------   ---- ---------  - --------------- -  --- --
+Gytkaxe       0904 C600454-6    Ni Va              405 Cs
+Salsa         0906 C610330-5    Lo Ni              314 Na
+Apapsy        0908 X200478-5    Ni Va           R  502 Na
+Enanu         1003 E68A220-4    Lo Ni Wa           702 Na
+Ererirav      1007 E536121-3    Lo Ni              112 Na
+Edapmaus      1008 E541304-5    Lo Ni Po        R  713 Na
+Ilroho        1104 D664489-4  S Ni                 323 Cs
+Resmaneia     1106 D633735-2  S Po                 824 Cs
+Marequzeos    1107 C432347-6    Lo Ni Po           224 Na
+Tirjerapus    1110 E687326-5    Lo Ni              105 Na
+Percerofabos  1302 E675102-3    Lo Ni              113 Na
+Zemasarro     1306 E556545-3    Ag Ni              223 Na
+German        1308 E8A6668-5    Fl                 300 Na
+Zerofala      1309 X301100-6    Ic Lo Ni Va     R  124 Na
+San Nemazan   1401 D7BA55A-7  S Fl Ni Wa           912 Cs
+Zecezet       1402 X667341-1    Lo Ni           R  200 Na
+Zareri        1407 E443799-2    Po                 222 Na
+Salbifapos    1410 C500322-8    Lo Ni Va           403 Na
+Jalus         1501 C622487-5    Ni Po              112 Cs
+Gekaho        1502 X546100-0    Lo Ni           R  323 Na
+Hofasoxe      1504 D837547-3  S Ni                 924 Cs
+Crursyi       1602 B000625-8    As Na Cp           112 Na
+Ilugeria      1603 D7B8323-4    Fl Lo Ni           111 Na
+Inonreus      1606 D9B8222-6    Fl Lo Ni           700 Na
+Rozavzereus   1607 E678302-3    Lo Ni              723 Na
+Xariros       1608 E69A348-4    Lo Ni Wa           414 Na
+Rerasquze     1609 X79A000-0    Ba Lo Ni Wa     R  024 Na
+
+@SUB-SECTOR: District 367 SECTOR: Mazerro
+# 
+#--------1---------2---------3---------4---------5-------
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al
+#----------   ---- ---------  - --------------- -  --- --
+Datxala       1705 E669332-8    Lo Ni              113 Na
+Verlabus      1710 C421786-5  S Na Po              134 Cs
+Larzannei     1801 E69A559-6    Ni Wa              110 Na
+Zorytsy       1802 D569375-7  S Lo Ni           A  313 Cs
+Kusavso       1803 X565000-0    Ba Lo Ni        R  014 Na
+Doquxeos-4    1808 X68A000-0    Ba Lo Ni Wa     R  013 Na
+Dorjalcebi    1810 E668254-3    Lo Ni              203 Cs
+Nesapalusia   1902 D877264-5  S Lo Ni              124 Cs
+Pronxapos     1908 XAC8000-0    Ba Fl Lo Ni     R  033 Na
+Cebasanus     2003 C678665-3    Ag              A  224 Na
+Kaberia       2004 X300000-0    Ba Lo Ni Va     R  023 Na
+Vessaros      2007 D300598-4  S Ni Va              504 Cs
+Eduronsyhous  2101 D743322-6  S Lo Ni Po           524 Cs
+Enbifa        2104 E310866-5    Na                 212 Na
+Usalsaus      2201 C510242-5    Lo Ni              323 Na
+Cavla         2203 C000440-B    As Ni Cp           810 Na
+Auralos-7     2204 X433000-0    Ba Lo Ni Po     R  011 Na
+Jabirened     2207 C6B9541-5    Fl Ni              724 Na
+Ononma-4      2208 X610104-2    Lo Ni           R  222 Na
+Xesonorka     2209 E553898-2    Po                 122 Na
+Esmarus       2302 E54636B-2    Lo Ni              702 Na
+Edirze        2305 D544420-5    Ni                 624 Na
+Cekallaia     2306 C110575-7    Ni                 223 Na
+Sosybibi      2308 C732425-5    Ni Po              515 Na
+Zesabia       2402 XA99000-0    Ba Lo Ni        R  021 Na
+
+@SUB-SECTOR: Esaenceos SECTOR: Mazerro
+# 
+#--------1---------2---------3---------4---------5-------
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al
+#----------   ---- ---------  - --------------- -  --- --
+781-711       2502 X436000-0    Ba Lo Ni        R  000 Na
+Nenapus       2505 E76A300-6    Lo Ni Wa           504 Na
+Redokaze      2604 E434534-4    Ni                 723 Na
+Reqab         2606 D848344-5    Lo Ni              324 Na
+Rorral        2608 C673378-6  S Lo Ni              102 Cs
+Ceraos        2702 X432468-0    Ni Po           R  223 Na
+Zegemaos      2703 D423647-3    Po                 910 Cs
+Apytenytia    2708 C97A510-6    Ni Wa              424 Im
+996-889       2709 X588000-0    Ba Lo Ni        R  012 Na
+Inusos        2710 E535465-3    Ni                 624 Im
+Esaenceos     2804 B578723-7  N Ag Cp              814 Cs
+Biretalqan    2805 E200135-4    Lo Ni Va           224 Cs
+Auszaos       2807 CA96132-8    Lo Ni              303 Im
+216-975       2810 X100000-0    Ba Lo Ni Va     R  024 Na
+Laroze        2901 E769114-3    Lo Ni              912 Cs
+Anoner        2903 C100575-7    Ni Va           A  115 Na
+Ururir-3      2904 E842110-3    Lo Ni Po           203 Na
+Glusneia-7    2907 E731126-3    Lo Ni Po           504 Na
+Birasedia     3004 D740310-4  S De Lo Ni Po        104 Cs
+Erdoria       3005 E761237-2    Lo Ni              304 Na
+Karar         3006 DAA3753-5  S Fl                 223 Im
+Barquus       3009 D58A527-4  S Ni Wa              313 Im
+Ganalka       3106 C699344-5  S Lo Ni              123 Im
+Masreso       3107 E510768-6    Na                 124 Im
+Iralza        3110 B533100-8  2 Lo Ni Po           120 Im
+Cedquia       3209 E9A6330-5    Fl Lo Ni           222 Im
+Blirerirerxe  3210 C841321-4  S Lo Ni Po           102 Im
+
+@SUB-SECTOR: Irirudinon SECTOR: Mazerro
+# 
+#--------1---------2---------3---------4---------5-------
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al
+#----------   ---- ---------  - --------------- -  --- --
+Irbice        0114 E100544-5    Ni Va              222 Na
+Ririredbar-7  0120 C566103-5  S Lo Ni              300 Cs
+Kasydo-3      0213 X422000-0    Ba Lo Ni Po     R  005 Na
+Ytrecere      0219 C731487-5  S Ni Po              123 Cs
+Nurobroos     0314 D776324-5  S Lo Ni              324 Cs
+Gronreqania   0315 C100543-A    Ni Va              103 Cs
+Apganos       0318 C7B8524-6    Fl Ni              723 Na
+Grenalapus    0319 X645344-0    Lo Ni           R  212 Na
+TRONILDARUS   0411 C432944-7  S Hi Na Po           300 Cs
+Xejerzema     0413 C200247-B    Lo Ni Va           210 Na
+Qatsa-3       0415 XAA7000-0    Ba Fl Lo Ni     R  024 Na
+Kanor         0416 X543136-0    Lo Ni Po        R  904 Na
+Rarqan        0417 X599575-0    Ni              R  225 Na
+Zapze-7       0420 D8BA200-5    Fl Lo Ni Wa        123 Na
+Jesarirma     0511 D778100-3  S Lo Ni              834 Cs
+Jergebil      0514 D575300-8  S Lo Ni              224 Cs
+Inenonia      0516 D677244-4  S Lo Ni              502 Cs
+Faroqurar-4   0519 C757210-6  S Lo Ni              602 Cs
+976-955       0611 X742000-0    Ba Lo Ni Po     R  000 Na
+Zaka          0614 C667552-7  S Ag Ni              123 Cs
+AVCALALUROS   0616 D543967-4    Hi In Po           113 Na
+Binirso-3     0712 E954132-5    Lo Ni              513 Na
+Halusensa     0715 E510212-7    Lo Ni              100 Na
+Qarur         0718 B633324-8    Lo Ni Po           603 Na
+Thoninondoos  0719 C78A56A-6    Ni Wa              734 Na
+Zarnee        0811 D986411-2  S Ni                 400 Cs
+Jehosaronia   0812 C626565-9    Ni                 513 Na
+Irirudinon    0813 C69A7AE-A  S Wa Cp              102 Cs
+680-741       0814 X7A4000-0    Ba Fl Lo Ni     R  004 Na
+Apfab         0815 D310343-8    Lo Ni              100 Na
+Blapavsaralia 0818 E620240-8    De Lo Ni Po        212 Cs
+Werhasus      0820 E6A7340-5    Fl Lo Ni           512 Cs
+
+@SUB-SECTOR: District 499 SECTOR: Mazerro
+# 
+#--------1---------2---------3---------4---------5-------
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al
+#----------   ---- ---------  - --------------- -  --- --
+Sarosona-2    0911 D66A200-6    Lo Ni Wa        A  412 Na
+Udusesgar     0915 D4436BC-7    Po                 804 Cs
+Kahoia        0917 E733120-3    Lo Ni Po           814 Na
+Hogenalos     0918 X685000-0    Ba Lo Ni        R  035 Na
+Dokan         0919 E20047B-9    Ni Va              124 Na
+Onroxe        0920 C444466-5    Ni                 525 Na
+Satilne       1011 E510200-5    Lo Ni              624 Cs
+Urangeos      1016 C525620-4                       133 Na
+Keszajee      1017 C768100-9  S Lo Ni              623 Cs
+Loblaedus     1111 C775489-6    Ni                 600 Na
+Orudererho    1112 E630300-5    De Lo Ni Po     A  923 Na
+Iredxe        1114 X655368-0    Lo Ni           R  703 Na
+Jerranus-3    1115 X645000-0    Ba Lo Ni        R  034 Na
+Ytavza        1212 A200673-A  N Na Va Cp           825 Cs
+Ytxefaso      1213 E000735-9    As Na              923 Cs
+Jerzanus      1217 D447736-2  S Ag                 124 Cs
+Wancatjaia    1219 X455521-0    Ag Ni           R  912 Na
+Esgetso       1316 E666248-4    Lo Ni              104 Na
+Mapudxe       1414 E796258-3    Lo Ni              323 Na
+Chencequxey   1415 E000535-5    As Ni              112 Na
+Usrar-7       1418 A655100-9  N Lo Ni              104 Cs
+Qusan         1420 E300159-7    Lo Ni Va           114 Na
+Qusfabiho     1517 C424332-7    Lo Ni              233 Na
+Enironytus    1616 C110368-7  S Lo Ni              134 Cs
+961-997       1619 X876000-0    Ba Lo Ni        R  000 Na
+
+@SUB-SECTOR: District 929 SECTOR: Mazerro
+# 
+#--------1---------2---------3---------4---------5-------
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al
+#----------   ---- ---------  - --------------- -  --- --
+Xerkazeia     1714 XAC6000-0    Ba Fl Lo Ni     R  003 Na
+Usetonxe      1716 D310254-A  S Lo Ni              103 Cs
+Esobceia      1719 E438437-7    Ni                 314 Na
+Rocexe        1812 C200555-7    Ni Va              325 Cs
+Xexaddor      1818 B110576-9    Ni                 622 Cs
+Hokasap       1819 C440100-6  S De Lo Ni Po        322 Cs
+Kalla         1911 D578563-2  S Ag Ni              111 Cs
+Japesen       1913 B457530-A  2 Ag Ni Cp           202 Cs
+Serusorud     1920 E577658-6    Ag                 200 Na
+Ytirlar       2015 D667133-4  S Lo Ni              823 Cs
+Usetav        2016 X8B6000-0    Ba Fl Lo Ni     R  001 Na
+Usindofasous  2019 E546536-2    Ag Ni              924 Cs
+358-783       2115 X6AA000-0    Ba Fl Lo Ni Wa  R  000 Na
+Rosarzay      2117 E698520-4    Ag Ni           A  102 Na
+206-668       2119 X879000-0    Ba Lo Ni        R  013 Na
+Kabires       2212 X644000-0    Ba Lo Ni        R  023 Na
+Sarxesfa      2213 X520640-0    De Na Po        R  624 Na
+Onulat        2215 E79A241-4    Lo Ni Wa           104 Na
+Vircan        2217 X557000-0    Ba Lo Ni        R  022 Na
+Irge          2218 X300521-3    Ni Va           R  300 Na
+Fytedapan     2311 E999210-7    Lo Ni              514 Cs
+Korqad        2316 E768649-5    Ag Ri              112 Cs
+Fasalma       2411 D000135-6  S As Lo Ni           510 Cs
+Sapiluia      2415 E756232-4    Lo Ni           R  224 Na
+Qujeqavia     2416 E764552-3    Ag Ni              324 Im
+Jilradobia-3  2417 B510231-B  S Lo Ni              304 Cs
+Dronilen      2418 X698000-0    Ba Lo Ni        R  012 Na
+Domakap       2419 X52657A-4    Ni              R  922 Na
+
+@SUB-SECTOR: Carso SECTOR: Mazerro
+# 
+#--------1---------2---------3---------4---------5-------
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al
+#----------   ---- ---------  - --------------- -  --- --
+Kadkados      2519 A534420-A    Ni                 310 Im
+412-279       2520 X79A000-0    Ba Lo Ni Wa     R  004 Im
+Zadaveria     2612 E56A423-6    Ni Wa              410 Im
+Uhanonu       2614 E000776-5    As Na              304 Cs
+Carso         2615 B9B5455-C  2 Fl Ni Cp           425 Cs
+Sasbie        2711 C523557-6  S Ni Po              223 Im
+Flussoxe      2712 C999100-A  S Lo Ni              111 Im
+Aenka         2715 X872000-0    Ba Lo Ni        R  001 Im
+Doqugeus      2718 B100514-B  N Ni Va              110 Im
+Trytetenesia  2719 E200315-4    Lo Ni Va           814 Im
+Jesazace      2811 D646420-2  S Ni                 102 Im
+Oninxece      2816 C563365-4  S Lo Ni              514 Im
+Nurerzaro     2818 B699100-D    Lo Ni              104 Im
+Sasanus       2820 E452320-3    Lo Ni Po           402 Im
+Storirrania   2914 B100574-9    Ni Va              312 Im
+Galenxavia    2918 X865747-1    Ag Ri           R  222 Im
+Glenusonuser  2919 C555755-4    Ag                 623 Im
+Angeza        2920 E544100-3    Lo Ni              114 Im
+Onuce         3012 C30057C-6    Ni Va           A  720 Im
+Zasonsaus     3013 E8A6667-1    Fl                 323 Im
+Naron         3014 C58A411-6    Ni Wa              802 Im
+Sarsaos       3015 E7B7122-7    Fl Lo Ni           304 Im
+Zorfaho       3016 C643211-4    Lo Ni Po           214 Im
+220-495       3018 X556000-0    Ba Lo Ni        R  023 Im
+Frarxanonos   3112 E423733-5    Po                 610 Im
+Thapera       3113 D547122-4  S Lo Ni              723 Im
+Densobius     3114 C663300-5  S Lo Ni              313 Im
+Usesne        3115 D9D8100-7  S Fl Lo Ni           614 Im
+Udaliro       3118 C69A331-6    Lo Ni Wa           124 Im
+Larap         3213 C526200-6  S Lo Ni              113 Im
+Haes          3214 E874200-6    Lo Ni              112 Im
+Grirobirjero  3216 C646232-4    Lo Ni              300 Im
+Fanusqu       3219 C7A8562-4    Fl Ni              135 Im
+Farlao        3220 C530547-A  S De Ni Po           424 Im
+
+@SUB-SECTOR: Raesos SECTOR: Mazerro
+# 
+#--------1---------2---------3---------4---------5-------
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al
+#----------   ---- ---------  - --------------- -  --- --
+Zaravhoia     0123 D964640-5    Ag Ri              322 Na
+Ererfabi      0124 C776876-3                       102 Na
+Nefalaka      0126 E110234-5    Lo Ni              210 Na
+Aproneqanu    0129 C668205-9    Lo Ni              902 Cs
+Jeronma       0225 E699232-8    Lo Ni              113 Na
+RABINJE       0227 D468AFC-6  S Hi                 124 Cs
+Danerob       0230 XA8A000-0    Ba Lo Ni Wa     R  023 Na
+Eseror        0322 E523114-7    Lo Ni Po           233 Cs
+Maobavos      0323 C200353-7    Lo Ni Va           203 Na
+Arebi         0324 X423000-0    Ba Lo Ni Po     R  024 Na
+Laseril       0326 EA85545-2    Ag Ni              303 Na
+Ytlarsaos     0421 X578411-0    Ni              R  104 Na
+Danir         0425 E30058A-4    Ni Va           R  835 Na
+Serrescavia   0427 E547231-2    Lo Ni           A  714 Na
+Apurerjeia    0428 X4617CG-0                    R  211 Na
+Fludapirureru 0521 E632135-3    Lo Ni Po           425 Na
+Maxareros     0522 X100310-1    Lo Ni Va        R  114 Na
+Quzanroe      0527 C422141-8    Lo Ni Po           513 Cs
+Blenernaia    0528 C778565-9    Ag Ni              124 Na
+Napytanus     0621 C532226-5    Lo Ni Po           112 Na
+Ceden         0630 E454410-3    Ni                 834 Na
+Obapinre-1    0721 X67A110-0    Lo Ni Wa        R  132 Na
+Birilos       0722 E455138-4    Lo Ni              402 Cs
+Tirrase       0724 E520584-7    De Ni Po           201 Na
+RAESOS        0730 C530ADE-7  S De Hi Na Po Cp     124 Cs
+Stonreni      0821 DAC7204-4  S Fl Lo Ni           834 Cs
+Ytersad       0823 DA8A79A-3  S Ri Wa              914 Cs
+Jaredze       0824 E100232-5    Lo Ni Va           214 Na
+Fletapinus    0825 E665512-2    Ag Ni              104 Cs
+Nesosato      0827 CA84212-4    Lo Ni              210 Na
+
+@SUB-SECTOR: Xemain SECTOR: Mazerro
+# 
+#--------1---------2---------3---------4---------5-------
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al
+#----------   ---- ---------  - --------------- -  --- --
+Praved        0921 C420336-9    De Lo Ni Po        211 Na
+Biner         0922 E200120-5    Lo Ni Va           324 Na
+Alob          0923 B625323-7    Lo Ni              311 Na
+Neganja       0925 D000266-6  S As Lo Ni           202 Cs
+418-825       0927 X522000-0    Ba Lo Ni Po     R  023 Na
+Flaludo       0930 X7A5000-0    Ba Fl Lo Ni     R  002 Na
+Trapusen      1023 X300236-0    Lo Ni Va        R  404 Na
+Lasytaudia    1025 E664476-3    Ni                 614 Na
+Romamagan     1026 B997241-6    Lo Ni              612 Na
+Alirusinet    1122 D695431-6    Ni                 223 Na
+Xemain        1123 C8698AA-7    Cp                 100 Cs
+Hocehodo-4    1127 D6A5100-3    Fl Lo Ni           124 Na
+Sohatu        1129 D687321-2    Lo Ni              123 Na
+Glanquroner   1130 C764213-6  S Lo Ni              413 Cs
+Sorore        1223 X675000-0    Ba Lo Ni        R  013 Na
+Zarxeroe      1224 E697405-3    Ni                 414 Cs
+Rosasobia     1227 X648000-0    Ba Lo Ni        R  014 Na
+Abila         1229 DA9A100-9  S Lo Ni Wa           212 Cs
+Qapcerroo     1325 C000510-8    As Ni              404 Na
+Etlabat       1326 X556000-0    Ba Lo Ni        R  015 Na
+Alinhavyt     1327 X432000-0    Ba Lo Ni Po     R  000 Na
+Syqared       1328 E778200-5    Lo Ni              414 Cs
+Usan          1422 C686232-7  S Lo Ni              324 Cs
+Thalalalia    1424 X300000-0    Ba Lo Ni Va     R  013 Na
+Aursa         1428 C553244-7  S Lo Ni Po           211 Cs
+Zedorobon-5   1523 E548211-2    Lo Ni              313 Na
+Narilla       1526 C544302-9    Lo Ni           A  222 Na
+Iludxe        1527 C8D8300-8  S Fl Lo Ni           534 Cs
+938-808       1528 X784000-0    Ba Lo Ni        R  003 Na
+Casytos       1621 C300459-8    Ni Va              123 Cs
+Sytrarud      1623 C310659-8    Na                 124 Cs
+Zonzanneia    1629 X455000-0    Ba Lo Ni        R  002 Na
+
+@SUB-SECTOR: Croblamaro SECTOR: Mazerro
+# 
+#--------1---------2---------3---------4---------5-------
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al
+#----------   ---- ---------  - --------------- -  --- --
+Iravquos-4    1722 C794142-4    Lo Ni           R  114 Na
+Birsab        1726 C635658-5                       103 Na
+Donefat       1728 E110321-7    Lo Ni              200 Na
+Ytsashoia     1729 C526414-9  S Ni                 123 Cs
+Jerfalus      1730 C110143-C  S Lo Ni              423 Cs
+Sobrasos      1824 X468100-1    Lo Ni           R  301 Na
+Obalbirolae   1830 D773401-8  S Ni                 404 Cs
+Rasan         1922 B964410-A    Ni                 804 Na
+235-793       1923 X589000-0    Ba Lo Ni        R  024 Na
+Onanir        1927 E578110-3    Lo Ni              924 Na
+Orurir        1930 X844000-0    Ba Lo Ni        R  004 Na
+Bases         2022 E610653-4    Na                 904 Na
+Croblamaro    2027 B000532-9  N As Ni Cp           123 Cs
+Rarapan       2127 C79A666-5    Wa                 114 Na
+Gresapfa      2128 D420448-4  S De Ni Po           214 Cs
+San Jeranma   2130 C200433-6    Ni Va              413 Cs
+Rilkafaso     2222 C786620-3    Ag                 823 Na
+Creroredamaus 2225 C510656-6    Na                 404 Cs
+Zanxe         2227 E6205A8-5    De Ni Po           123 Na
+Calravbi      2228 C525231-5    Lo Ni              502 Na
+Onushoregeus  2230 E500127-4    Lo Ni Va        A  133 Na
+961-794       2324 X834000-0    Ba Lo Ni        R  010 Na
+Wytsan        2328 E565589-6    Ag Ni              132 Cs
+Sasin         2329 X510000-0    Ba Lo Ni        R  003 Na
+Fazad         2330 X100000-0    Ba Lo Ni Va     R  001 Na
+Hohosados     2421 D745623-4  S Ag                 512 Cs
+Gequdla       2422 C587668-5  S Ag Ri              104 Cs
+Allaquus      2423 E67A123-9    Lo Ni Wa           923 Na
+Rasbil        2424 C574345-4    Lo Ni              120 Na
+Doganne       2426 D647878-1  S                    401 Cs
+Esorgeos      2429 E7A1777-1    Fl              A  212 Na
+
+@SUB-SECTOR: Sluszahofaus SECTOR: Mazerro
+# 
+#--------1---------2---------3---------4---------5-------
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al
+#----------   ---- ---------  - --------------- -  --- --
+Conmama       2524 E300453-6    Ni Va              114 Im
+Kanavzat      2528 E776365-5    Lo Ni              235 Im
+Etbiga        2529 E796767-1    Ag                 123 Im
+Hanau         2530 X6A7000-0    Ba Fl Lo Ni     R  000 Im
+Medapdasos    2622 E544544-4    Ag Ni              324 Im
+Usoberonus    2628 BAD4300-7    Fl Lo Ni           423 Im
+San Sosyhoia  2722 XA9948A-0    Ni              R  105 Im
+Inusu         2723 E843541-2    Ni Po              310 Im
+Mazama        2821 E420402-9    De Ni Po           625 Im
+Kacebi        2822 C655310-4    Lo Ni              710 Im
+Robed         2823 E846103-7    Lo Ni              624 Im
+Sososyos      2827 D57A577-7  S Ni Wa           R  300 Im
+Saapia        2828 C200424-6    Ni Va              523 Im
+446-718       2829 X433000-0    Ba Lo Ni Po     R  024 Im
+Sorojeus      2924 X89A000-0    Ba Lo Ni Wa     R  010 Im
+621-997       2926 X78A000-0    Ba Lo Ni Wa     R  014 Im
+Alquxebi      3021 E687100-4    Lo Ni              300 Im
+Burytlaus     3023 D100100-6    Lo Ni Va           924 Im
+Sluszahofaus  3024 C669457-A  S Ni Cp              334 Im
+Vudonho       3026 X679000-0    Ba Lo Ni        R  001 Im
+Zan..         3028 X777000-0    Ba Lo Ni        R  011 Im
+187-882       3122 X885000-0    Ba Lo Ni        R  024 Im
+Qanquy        3130 X766330-0    Lo Ni           R  220 Im
+New Prenobsy  3222 D634523-8    Ni                 314 Im
+Syrequsia     3223 E621437-8    Ni Po              123 Im
+Usaphous      3225 C633466-5    Ni Po              225 Im
+Randore       3226 X943000-0    Ba Lo Ni Po     R  025 Im
+Resbios       3229 D554556-7  S Ag Ni              123 Im
+
+@SUB-SECTOR: District 369 SECTOR: Mazerro
+# 
+#--------1---------2---------3---------4---------5-------
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al
+#----------   ---- ---------  - --------------- -  --- --
+Brapinirer    0132 C532252-B  S Lo Ni Po           200 Cs
+Klaudceia     0133 C879212-7    Lo Ni              925 Na
+Zasojeus      0134 X100000-0    Ba Lo Ni Va     R  014 Na
+Onudersaos-7  0137 X430000-0    Ba De Lo Ni Po  R  024 Na
+Zenesus       0138 E445300-4    Lo Ni              400 Na
+Aceiros       0231 D530247-3    De Lo Ni Po        434 Cs
+Obrap         0232 D634427-3    Ni                 211 Cs
+Draenor       0233 E734452-5    Ni                 700 Na
+Hoquroia      0237 D747725-3    Ag                 903 Na
+Ytalus-4      0240 X573235-0    Lo Ni           R  121 Na
+Sturusav      0331 E47A541-5    Ni Wa              724 Na
+Urraros       0332 E664351-3    Lo Ni              410 Na
+Orholaia      0339 B500100-8  N Lo Ni Va Cp        224 Cs
+Netenet       0340 E765550-6    Ag Ni              233 Na
+Eserenro      0431 C757258-A  S Lo Ni              124 Cs
+Xalaze        0438 X679000-0    Ba Lo Ni        R  020 Na
+Irinxary      0440 C423655-7  S Po                 623 Cs
+Tusairon-3    0535 E667243-2    Lo Ni              115 Na
+Rosyma        0540 C540246-9  S De Lo Ni Po        524 Cs
+Apononir      0639 E67A372-8    Lo Ni Wa           623 Na
+Jalsakaus-1   0640 C943251-5    Lo Ni Po           513 Na
+Quronus       0737 E31068B-8    Na                 900 Na
+Ushania       0739 E7B6374-3    Fl Lo Ni        A  113 Na
+Ilqaretila    0740 E550564-2    De Ni Po           413 Na
+Aonceza       0831 C646110-4    Lo Ni              604 Na
+936-400       0834 X545000-0    Ba Lo Ni        R  033 Na
+Vetsar        0837 C100105-9    Lo Ni Va        A  100 Na
+
+@SUB-SECTOR: District 882 SECTOR: Mazerro
+# 
+#--------1---------2---------3---------4---------5-------
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al
+#----------   ---- ---------  - --------------- -  --- --
+Erinus        0931 A635231-9  N Lo Ni Cp           300 Cs
+Cegedo        0934 D640230-2    De Lo Ni Po        201 Cs
+Etesed        1033 C759358-7  S Lo Ni              213 Cs
+Stursylahous  1038 E448667-3    Ag                 125 Cs
+798-114       1039 X799000-0    Ba Lo Ni        R  024 Na
+Napus         1134 E79A454-5    Ni Wa              323 Cs
+Onras         1138 X535100-4    Lo Ni           R  202 Na
+Slalurradoos  1139 X9A3000-0    Ba Fl Lo Ni     R  013 Na
+Quxerare      1140 CA9A657-6    Wa                 724 Na
+Obzal         1231 X632300-2    Lo Ni Po        R  513 Na
+Dobesanuia    1234 B99A101-C  2 Lo Ni Wa           701 Cs
+Frudusur      1235 E599564-5    Ni                 124 Na
+Flobquma      1335 D651452-4    Ni Po              123 Cs
+Kaludus       1338 B655747-8    Ag                 123 Na
+Lababia       1339 D520543-7  S De Ni Po           134 Cs
+Doharonos     1431 D645241-7    Lo Ni              434 Na
+Alilonal-1    1432 X554100-2    Lo Ni           R  412 Na
+Orinze        1435 E547444-6    Ni                 402 Na
+Daredirenus   1531 C510124-5    Lo Ni              403 Na
+Rulazan       1532 X8A4210-0    Fl Lo Ni        R  434 Na
+Enonjea       1534 E642567-4    Ni Po              512 Na
+Eneriroros    1538 D78A123-9    Lo Ni Wa           124 Na
+Qusdas        1631 EAA5697-5    Fl                 103 Na
+Refasated     1632 E868457-7    Ni                 604 Cs
+427-672       1635 X565000-0    Ba Lo Ni        R  012 Na
+Klapudusiror  1639 C533275-5  S Lo Ni Po        A  924 Cs
+Milansyge     1640 X8DA000-0    Ba Fl Lo Ni Wa  R  002 Na
+
+@SUB-SECTOR: District 550 SECTOR: Mazerro
+# 
+#--------1---------2---------3---------4---------5-------
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al
+#----------   ---- ---------  - --------------- -  --- --
+Usroia        1732 B521553-8  N Ni Po              200 Cs
+Onursoma      1733 D544365-6    Lo Ni              324 Na
+234-329       1735 X437000-0    Ba Lo Ni        R  001 Na
+Obanze        1736 E510220-3    Lo Ni              603 Cs
+Gletzere      1740 B669543-7    Ni                 122 Na
+Rarusce       1833 C652676-7    Po                 134 Na
+Narobia       1834 A57A112-A  N Lo Ni Wa Cp        200 Cs
+Xananon       1837 X8A9586-0    Fl Ni           R  923 Na
+Sarehous      1840 BAB7165-B  N Fl Lo Ni           102 Cs
+Sesmas        1933 D424235-6    Lo Ni              310 Na
+Useravkareos  1937 E423313-4    Lo Ni Po           323 Na
+Ongenal       1940 C600657-7    Na Va              200 Na
+Eseron        2032 C632165-8  S Lo Ni Po           200 Cs
+Kaladoho      2034 XAA4430-0    Fl Ni           R  322 Na
+Onudilze      2035 CA95647-3    Ag              R  300 Na
+Fadzasoi      2036 E665300-3    Lo Ni              102 Cs
+Praroed       2037 B311555-B    Ic Ni              424 Na
+Fagania-6     2134 A600224-9    Lo Ni Va           122 Na
+Sarusous      2137 C66A216-8    Lo Ni Wa           123 Na
+Avbios        2139 C689336-5  S Lo Ni              201 Cs
+Furaporuos    2140 D544551-3    Ag Ni           A  200 Na
+CANIRROIA     2232 C5869EB-7  S Hi                 102 Cs
+CERARUS       2240 E6569BC-4    Hi                 403 Na
+Prapro        2331 E679448-3    Ni                 702 Na
+Arresosy      2337 E454659-3    Ag                 113 Na
+San Hytirilu  2338 E434478-4    Ni              A  200 Na
+Oborfalia     2431 D68A556-6  S Ni Wa              322 Cs
+Lusavqu       2434 X8CA867-1    Fl Wa           R  133 Na
+Syfa          2435 C896655-4  S Ag                 124 Cs
+Kahoia        2438 C000104-8  S As Lo Ni           534 Cs
+Maverhas      2439 C699100-7    Lo Ni              114 Cs
+
+@SUB-SECTOR: District 506 SECTOR: Mazerro
+# 
+#--------1---------2---------3---------4---------5-------
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al
+#----------   ---- ---------  - --------------- -  --- --
+Manbas        2533 C677300-8  S Lo Ni              205 Im
+Obirkani      2538 B554585-6  N Ag Ni              113 Im
+Zapxe         2634 C610223-5  S Lo Ni              303 Im
+Erhoso        2635 D655641-5  S Ag                 614 Im
+Donquia       2640 D659140-5    Lo Ni              514 Im
+Qalirrezaos   2736 C646755-5  S Ag                 200 Im
+Zerer         2832 E1005A7-5    Ni Va           R  323 Im
+Zanirgee      2833 C653457-5    Ni Po              224 Im
+Fadenbi       2838 E6B8686-4    Fl                 213 Im
+Urkan         2840 X310000-0    Ba Lo Ni        R  005 Im
+Resyla        2932 D535444-3  S Ni                 104 Im
+Naronrexe     2934 B672756-8  N Cp                 113 Im
+Brilormal     3035 C746532-4    Ag Ni              202 Im
+Zaza          3037 E532433-4    Ni Po              402 Im
+Gesaron       3134 C644134-4  S Lo Ni              522 Im
+Sapdo         3138 E864498-6    Ni                 125 Im
+Rorus         3231 E620300-4    De Lo Ni Po        111 Im
+Darobin       3236 E455545-3    Ag Ni              422 Im
+Ransoos       3237 C667323-4    Lo Ni              105 Im
+Iroryteria    3238 X8B4000-0    Ba Fl Lo Ni     R  014 Im
+
+<?xml version="1.0" encoding="utf-8" ?>
+<Sector>
+  <Borders>
+    <Border Allegiance="Im" Label="Tesseract">2416 2517 2616 2716 2715 2714 2713 2612 2712 2711 2710 2809 2808 2708 2807 2908 3007 3006 3106 3205 3204 3304 3303 3304 3305 3306 3307 3308 3309 3310 3311 3312 3313 3314 3315 3316 3317 3318 3319 3320 3321 3322 3323 3324 3325 3326 3327 3328 3329 3330 3331 3332 3333 3334 3335 3336 3337 3338 3339 3340 3341 3241 3141 3041 2941 2841 2741 2641 2541 2640 2639 2638 2538 2637 2636 2635 2634 2633 2533 2532 2531 2530 2529 2528 2527 2526 2525 2524 2523 2522 2521 2520 2519 2518 2517 2416 </Border>
+  </Borders>
+<Subsectors>
+<Subsector Index="A">Nurat</Subsector>
+<Subsector Index="B">District 428</Subsector>
+<Subsector Index="C">District 367</Subsector>
+<Subsector Index="D">Esaenceos</Subsector>
+<Subsector Index="E">Irirudinon</Subsector>
+<Subsector Index="F">District 499</Subsector>
+<Subsector Index="G">District 929</Subsector>
+<Subsector Index="H">Carso</Subsector>
+<Subsector Index="I">Raesos</Subsector>
+<Subsector Index="J">Xemain</Subsector>
+<Subsector Index="K">Croblamaro</Subsector>
+<Subsector Index="L">Sluszahofaus</Subsector>
+<Subsector Index="M">District 369</Subsector>
+<Subsector Index="N">District 882</Subsector>
+<Subsector Index="O">District 550</Subsector>
+<Subsector Index="P">District 506</Subsector>
+</Subsectors>
+</Sector>
