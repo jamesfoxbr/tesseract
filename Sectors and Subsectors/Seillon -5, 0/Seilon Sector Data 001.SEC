@@ -1,0 +1,562 @@
+# SECTORNAME
+#
+#--------1---------2---------3---------4---------5---------6---
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al LRX *
+#----------   ---- ---------  - --------------- -  --- -- --- -
+Hunanderum    0101 X5A5334-0    Fl Lo           R  125 Im
+Woaroshird    0102 C8A4544-4  S Fl Ni              112 Cs 
+Caratuz       0104 X400000-0    Ba Va           R  022 Na 
+JESSERM       0105 C776ABC-7  S Hi In           A  102 Cs 
+Aramidshush   0108 E667847-1    Ri                 524 Na 
+Yamariding    0114 E894154-3    Lo                 303 Na 
+Quebrael      0123 B994152-8  2 Lo                 410 Cs 
+Tavonnian     0124 E353656-7    Ni Po              824 Na 
+Bumunu        0127 E122243-8    Lo Po              700 Na 
+Efremiroos    0130 E400789-6    Na Va              514 Na 
+Tralterhone   0132 E674333-7    Lo                 814 Cs 
+Nehaller      0134 E530500-4    De Ni Po           114 Na 
+Pregen        0135 C574311-9    Lo                 135 Cs 
+Aramidshus    0136 D545456-3  S Ni                 502 Cs 
+Landelia      0137 D459401-6    Ni                 203 Na 
+Kenorane      0138 E200643-4    Na Ni Va           202 Na 
+Extolan       0140 C420135-6    De Lo Po           313 Na 
+Sabrakin      0201 E756547-4    Ag Ni              221 Na 
+Fistopola     0202 X762200-0    Lo              R  221 Na 
+Joannet       0203 C242479-6  S Ni Po Co           104 Cs 
+237-461       0207 X585000-0    Ba              R  025 Na 
+Zeenago       0209 C457400-A    Ni                 804 Cs 
+Thiremheb     0210 E400345-7    Lo Va              121 Na 
+Ganstabeth    0211 B59A89A-9    Wa                 133 Cs 
+Horell        0213 C210476-6    Ni              A  103 Na 
+Baken         0215 E454443-6    Ni                 825 Na 
+Ariscillon    0216 X89A300-2    Lo Wa           R  524 Na 
+Doug          0217 B579666-6    Ni                 102 Na 
+Gulik         0219 D447410-3  S Ni                 124 Cs 
+Peridge       0220 E643422-7    Ni Po              624 Cs 
+Fernica       0221 D633320-6  S Lo Po              124 Cs 
+Couberg       0225 C8CA433-9  S Fl Ni Wa           823 Cs 
+Moughasi      0228 E200301-8    Lo Va              114 Cs 
+Caldeiraco    0232 C689313-5    Lo                 622 Na 
+Pirenghale    0235 E444100-5    Lo                 114 Na 
+Oljaton       0301 E477104-5    Lo                 322 Na 
+Zecha         0302 E476738-3    Ag                 510 Na 
+Agemake       0307 C63358B-5    Ni Po              423 Na 
+Bruforth      0308 C885552-9  S Ag Ni              212 Cs 
+Machelepin    0309 C364354-A    Lo                 602 Na 
+Alaskett      0310 X235100-2    Lo              R  523 Na 
+Ploderlinin   0312 C578124-4    Lo                 601 Na 
+455-727       0313 X110000-0    Ba              R  020 Na 
+Schure        0317 C351100-6  S Lo Po           A  303 Cs 
+Frisei        0318 X500459-0    Ni Va           R  723 Na 
+Pestalus      0324 C58A513-7  S Ni Wa              113 Cs 
+Newpenhahn    0325 B200756-8    Na Va           A  210 Na 
+Spellena      0326 C410220-8    Lo                 300 Cs 
+Anne          0328 E340253-5    De Lo Po           102 Cs 
+Phartin       0329 X440000-0    Ba De Po        R  000 Na 
+D'Maratuta    0332 C100115-7    Lo Va              604 Na 
+Ander         0334 C664247-7    Lo                 401 Na 
+Bunkekusha    0335 C100222-C    Lo Va              205 Na 
+LEONIN        0336 D444ABB-B  S Hi In Cp           114 Cs 
+Mourarch      0337 C531144-5    Lo Po              302 Na 
+Windenelt-9   0338 X200000-0    Ba Va           R  013 Na 
+Youghaistos   0401 E594220-2    Lo Co              911 Na 
+Taradon       0403 X200000-0    Ba Va           R  024 Na 
+Shiikusu      0406 E499364-5    Lo                 224 Na 
+Warctimenet   0407 E668563-3    Ag Ni              100 Cs 
+Pereslow      0408 C78A89C-6    Ri Wa              324 Na 
+Kreto         0409 C747246-5    Lo                 400 Na 
+Calazarco     0410 D000304-8  S As Lo              122 Cs 
+Shir          0413 D458346-6    Lo                 612 Na 
+Frointhy      0415 A9AA388-D    Fl Lo Wa Cp        222 Na 
+Eretactorm    0417 X542000-0    Ba Po           R  015 Na 
+Upurnhahn     0421 C965457-5  S Ni                 723 Cs 
+Palahadiiru   0423 C252420-5    Ni Po              604 Na 
+Astellon      0426 E157102-9    Lo                 412 Na 
+Underadley    0427 A69A104-F  N Lo Wa Cp           332 Cs 
+758-142       0428 X7C8000-0    Ba Fl           R  024 Na 
+Andamisa      0431 C876220-5    Lo                 711 Na 
+Nehalia       0432 E441265-5    Lo Po              424 Cs 
+743-755       0438 X356000-0    Ba              R  022 Na 
+Newelleshko   0440 E8A8496-3    Fl Ni              424 Na 
+Zephandus     0501 B252403-C    Ni Po Cp           814 Cs 
+Salahadidun   0503 X58A000-0    Ba Wa           R  000 Na 
+Lanthert      0505 E687422-2    Ni Co              100 Cs 
+Minori        0508 D210543-4  S Ni                 223 Cs 
+Grantalorya   0509 E100658-5    Na Ni Va           522 Cs 
+Sultan        0515 X537110-0    Lo Co           R  124 Na 
+Belley        0517 D763115-4    Lo                 400 Na 
+Bowmannia     0518 C531223-5  S Lo Po              201 Cs 
+Schi          0521 C65776A-7    Ag                 500 Na 
+Baikaa        0523 E876445-2    Ni                 134 Na 
+Ploderumus    0530 E873158-3    Lo                 234 Na 
+586-513       0531 X49A000-0    Ba Wa Co        R  002 Na 
+Hradonia      0532 C200337-7  S Lo Va              403 Cs 
+Millma        0537 B444330-7    Lo                 115 Na 
+SCHWALDIVIA   0604 E968ADB-4    Hi                 123 Cs 
+Portham       0606 E2316A6-3    Na Ni Po           421 Na 
+Etherili      0608 C433555-9    Ni Po              400 Na 
+Cheridika     0612 B895454-7  S Ni                 113 Cs 
+Miraco        0614 X320000-0    Ba De Po        R  014 Na 
+Dinorizo      0616 C736769-9  S                    405 Cs 
+Korhonar      0617 X510000-0    Ba              R  014 Na 
+Berenzio      0618 X89A000-0    Ba Wa           R  022 Na 
+Insirkadib    0619 X641566-0    Ni Po           R  203 Na 
+Theradinger   0620 C156432-7  S Ni                 424 Cs 
+Horonstaff    0621 E434100-6    Lo              A  310 Na 
+Whandamin     0622 X668100-4    Lo              R  400 Na 
+Agdaridot     0625 B320865-C  N De Na Po           623 Cs 
+Wonstra       0626 E149245-5    Lo                 610 Na 
+Raydradon     0628 E76A5A8-9    Ni Wa              123 Na 
+Muchadur      0631 E000875-5    As Na              123 Na 
+Rhistaridot   0637 E735764-6                       413 Na 
+Zappalmark    0638 B56A501-9  N Ni Wa           A  224 Cs 
+Torreneb      0702 E332564-4    Ni Po              313 Na 
+Thironidan    0703 E545457-7    Ni                 722 Cs 
+Calitaki      0704 C579774-4  S                 A  910 Cs 
+Mitakenia     0706 E568124-2    Lo                 125 Na 
+Focala        0708 D344421-6  S Ni                 123 Cs 
+EMERONIN      0710 D5A9959-5    Fl Hi              225 Na 
+Kinoria       0711 E978464-2    Ni Co              424 Cs 
+Semin         0713 E546214-2    Lo Co              124 Na 
+Henojokiya    0721 C732247-A    Lo Po              100 Cs 
+Erisi         0723 E334313-6    Lo Co              123 Na 
+Magaller      0725 D632615-2  S Na Ni Po           113 Cs 
+Kollonger     0726 C562686-4  S Ni Ri              524 Cs 
+Coconisirk    0728 E530375-6    De Lo Po           800 Na 
+Youghaiatha   0733 C998201-6  S Lo                 421 Cs 
+New Mosken    0737 X243000-0    Ba Po           R  002 Na 
+Agemark       0738 E220223-7    De Lo Po           535 Cs 
+Ra-Shakene    0739 C555112-4  S Lo                 404 Cs 
+Taiwalla      0740 D66A756-6  S Ri Wa              712 Cs 
+Arpolammar    0802 C523102-6    Lo Po           A  114 Na 
+Karaco        0803 CAC8476-5  S Fl Ni              525 Cs 
+Zaibonesala   0804 E99A400-7    Ni Wa           A  400 Na 
+Drolant       0806 E345100-4    Lo              A  335 Na 
+Frisser       0807 X575000-0    Ba              R  004 Na 
+Batarnium     0809 D654511-2    Ag Ni              624 Cs 
+873-574       0812 X100000-0    Ba Va           R  022 Na 
+Haggardo      0813 D631500-5  S Ni Po Co        A  110 Cs 
+Brufording    0814 CAC8379-4  S Fl Lo              134 Cs 
+Korhornium    0815 C5A7235-5    Fl Lo              913 Cs 
+Kenginez      0817 C5AA558-A  S Fl Ni Wa           701 Cs 
+Terramiva     0820 X795320-3    Lo              R  224 Na 
+Quani         0821 X99A000-0    Ba Wa           R  014 Na 
+Eshanetema    0822 E7A8467-2    Fl Ni              114 Cs 
+Doughengdu    0826 D337455-5  S Ni                 323 Cs 
+Peirote       0827 X48A000-0    Ba Wa           R  020 Na 
+Vieirani      0828 A000124-B  S As Lo              923 Cs 
+Baco          0831 E230447-5    De Ni Po           205 Na 
+Anomason      0833 X6BA200-1    Fl Lo Wa        R  124 Na 
+Dibald        0837 C230200-7    De Lo Po        A  200 Na 
+Ayerepading   0838 B940667-9  S De Ni Po           924 Cs 
+Spicenan      0901 C455200-8  S Lo                 313 Cs 
+Seiliputia    0905 X967326-0    Lo              R  112 Na 
+Ishinor       0906 CAB7856-8    Fl                 613 Na 
+Dzhangarine   0908 D897211-5  S Lo                 322 Cs 
+Gaviolamosa   0911 C100657-7    Na Ni Va           121 Na 
+Dene          0912 X655301-0    Lo              R  324 Na 
+Crouderlin    0914 C777442-5    Ni                 123 Cs 
+Keanda        0918 E766487-4    Ni                 213 Na 
+Ghandarulu    0920 C830200-6  S De Lo Po           623 Cs 
+Waalissen     0924 DAA8365-4  S Fl Lo              214 Cs 
+Sharosheo     0927 E654100-3    Lo                 310 Na 
+Jihlavenko    0929 C666110-9    Lo Co              102 Cs 
+Dinomag       0930 C465116-5    Lo                 223 Na 
+Sipedoni      0931 C9B7430-7    Fl Ni              702 Na 
+Viracochiso   0933 C377102-6    Lo                 221 Cs 
+Warction      0935 C458431-5    Ni                 105 Na 
+Paolamer      0937 C755200-5    Lo                 423 Na 
+Rorincelsus   0938 D856453-5    Ni Co              623 Na 
+Eshalle       1006 E0007B9-8    As Na              103 Cs 
+Moellervo     1007 E633203-6    Lo Po              402 Cs 
+119-340       1008 X548000-0    Ba              R  000 Na 
+Trimbergi     1015 C157744-8    Ag                 224 Cs 
+Eshasiledon   1016 X8A7000-0    Ba Fl           R  014 Na 
+Laurus        1017 EAC6334-2    Fl Lo              224 Na 
+Amrikono      1022 C310101-7  S Lo                 902 Cs 
+Matershber    1024 C457210-7  S Lo                 920 Cs 
+Kretine       1025 X610542-0    Ni              R  532 Na 
+Cristel       1026 D434104-A  S Lo                 524 Cs 
+Brufordenan   1027 X445000-0    Ba              R  033 Na 
+Prahadise     1030 D56A523-8    Ni Wa              133 Na 
+Whangardo     1031 C000753-9    As Na              202 Cs 
+Chire         1035 B786130-6    Lo Co              124 Na 
+Vonderlin     1036 E79A565-8    Ni Wa              104 Na 
+Yamarill      1037 C3546BF-4  S Ag Ni           A  503 Cs 
+Merlinatre    1040 B200468-C  N Ni Va              611 Cs 
+Fogelina      1101 E775115-3    Lo                 113 Na 
+Frisser       1103 C785355-6    Lo                 913 Na 
+Tautarisna    1104 C898266-5    Lo                 210 Na 
+Piracochia    1105 C797344-5  S Lo                 124 Cs 
+Guaningar     1106 D300103-5  S Lo Va              213 Cs 
+Empinago      1109 CACA202-B    Fl Lo Wa           214 Cs 
+Stelinir      1110 B563100-A    Lo                 103 Na 
+Eshadiiri     1111 E376100-5    Lo                 334 Cs 
+Farquanicer   1113 D598766-1  S Ag                 512 Cs 
+Katerpin      1114 C688353-5    Lo              A  123 Na 
+Huderlio      1116 C7A3425-4  S Fl Ni              213 Cs 
+Tailley       1117 C436642-6  S Ni                 124 Cs 
+Wonstens      1118 CAAA324-8  S Fl Lo Wa           112 Cs 
+Lancennast    1119 D8A8323-3    Fl Lo              523 Na 
+Zyramisi      1121 X510110-1    Lo              R  322 Na 
+Planoull      1122 D684551-5  S Ag Ni              700 Cs 
+Kristia       1123 CAA6563-6    Fl Ni              223 Na 
+Aostalom      1124 B9DA434-A  S Fl Ni Wa           810 Cs 
+Berenette     1126 X245000-0    Ba              R  024 Na 
+Ellicosic     1127 E68A202-6    Lo Wa              113 Na 
+Melinka       1132 B534240-7  N Lo                 100 Cs 
+Tomeile       1134 E210635-3    Na Ni              513 Na 
+Orthagassiz   1138 E7A98AA-2    Fl                 614 Na 
+Ghangxi       1201 E78A101-5    Lo Wa              133 Na 
+Tavonnis      1202 C310432-7  S Ni                 913 Cs 
+Musterhar     1204 D500402-9  S Ni Va              723 Cs 
+Bernus        1206 E677553-4    Ag Ni              103 Na 
+Santalus      1208 E58A241-7    Lo Wa              423 Na 
+Unxavannig    1210 E125222-5    Lo                 125 Na 
+Geisellner    1211 D669253-6  S Lo                 323 Cs 
+D'Gandijo     1212 D232430-9  S Ni Po              904 Cs 
+Janiishop     1215 C667243-4  S Lo                 121 Cs 
+Penebehogne   1216 X462000-0    Ba              R  013 Na 
+Dantezumas    1217 X543000-0    Ba Po Co        R  003 Na 
+Kamidshur     1221 X6A4456-0    Fl Ni           R  133 Na 
+398-667       1224 X7BA000-0    Ba Fl Wa        R  003 Na 
+Chaoshirote   1225 C643563-9    Ni Po              111 Cs 
+Grinocon      1226 E442522-6    Ni Po Co           610 Cs 
+Geniisa       1227 B430127-8  N De Lo Po           333 Cs 
+Lilisar       1233 X522000-0    Ba Po           R  004 Na 
+Bulgaringxi   1234 E300110-5    Lo Va              200 Na 
+Tussermont    1239 E210459-5    Ni                 100 Na 
+Reachollon    1303 D226213-5  S Lo                 733 Cs 
+Redinglory    1305 D442243-4    Lo Po              124 Na 
+Harradiiria   1306 C985214-4    Lo                 103 Na 
+Granice       1307 C335310-B    Lo                 624 Cs 
+L'Sistian     1308 D143588-4    Ni Po              322 Na 
+Danmarnia     1312 X9D8000-0    Ba Fl           R  024 Na 
+Wend          1313 C9B6110-5  S Fl Lo              504 Cs 
+Ayerepage     1315 E667548-2    Ag Ni              205 Na 
+Coshope       1325 C533202-8    Lo Po              113 Cs 
+Millontcoln   1327 B000300-D    As Lo Cp           224 Na 
+Epstella      1330 D78A734-4  S Wa                 222 Cs 
+Guernal       1333 X576500-0    Ag Ni           R  902 Na 
+Make          1335 C000210-8    As Lo              212 Cs 
+Henago        1338 D86A300-A  S Lo Wa              623 Cs 
+Garrionte     1340 A23747A-B  N Ni Cp              523 Cs 
+Carolay       1401 X43458A-2    Ni              R  904 Na 
+Bauschin      1402 E000761-8    As Na              524 Na 
+Imlariette    1405 C89A564-7    Ni Wa              413 Cs 
+Horonoga      1407 B578100-7  2 Lo                 110 Cs 
+Horonstang    1408 C864278-5    Lo              A  204 Na 
+Quangaria     1409 E676213-5    Lo                 313 Na 
+New Romal     1410 B634461-9  N Ni                 124 Cs 
+TIVIDIR       1416 C400A9B-9    Hi In Na Va        104 Na 
+386-587       1418 X510000-0    Ba              R  024 Na 
+303-622       1422 X678000-0    Ba              R  024 Na 
+Uakahirote    1423 C510540-7    Ni                 825 Na 
+Coshenkwhar   1428 E8A9100-5    Fl Lo           A  102 Na 
+Garriso       1432 C130630-7  S De Na Ni Po        114 Cs 
+Bellames      1433 E763595-6    Ni                 415 Na 
+Baconinocoy   1436 X210000-0    Ba              R  014 Na 
+Avernante     1439 X310799-3    Na              R  213 Na 
+Moughe        1440 E133766-7    Po                 125 Cs 
+Parsephi      1502 XA96578-0    Ag Ni           R  822 Na 
+Cosicornium   1505 C8BA249-A  S Fl Lo Wa           222 Cs 
+Neoptolane    1506 C644463-5    Ni                 400 Cs 
+Gregen        1509 B210100-9  N Lo Cp              323 Cs 
+Handarulu     1513 E78A335-4    Lo Wa              122 Na 
+San Maridge   1516 A4308AD-B  N De Na Po           123 Cs 
+Ariscill      1518 X589000-0    Ba              R  024 Na 
+Heinrichur    1519 X555510-0    Ag Ni           R  924 Na 
+EDUCATININ    1520 E775977-4    Hi In              102 Cs 
+Verbiestos    1522 C432101-9    Lo Po           A  904 Na 
+Juncarena     1523 B525666-A    Ni                 310 Na 
+Balam         1524 D665777-5  S Ag Ri              612 Cs 
+Miltigens     1526 D577450-3    Ni                 204 Cs 
+Asgardner     1527 C000474-8  S As Ni           A  215 Cs 
+Spiremiraco   1528 X9BA000-0    Ba Fl Wa        R  002 Na 
+Franes        1530 D000127-5    As Lo              124 Na 
+Cabringa      1531 E100430-5    Ni Va              212 Na 
+Ianisirk      1535 E8DA212-6    Fl Lo Wa           303 Na 
+Kianga        1536 E551277-5    Lo Po              410 Cs 
+Vino Torizo   1537 X447553-0    Ag Ni           R  101 Na 
+Kiirinet      1538 X156567-0    Ag Ni           R  214 Na 
+Roberger      1602 E154432-7    Ni                 320 Na 
+Beato         1605 E520230-3    De Lo Po           105 Na 
+Horonto       1607 X422000-0    Ba Po           R  014 Na 
+Lan-Chone     1608 E231321-5    Lo Po Co           523 Na 
+Gazulincito   1609 E796526-2    Ag Ni              605 Na 
+Bevernham     1616 XA86000-0    Ba              R  023 Na 
+Uppsalation   1617 X525000-0    Ba              R  004 Na 
+Nexinett      1621 E6B8114-2    Fl Lo              204 Na 
+Calaki        1622 C579468-7  S Ni                 813 Cs 
+Farrinia      1623 E561102-3    Lo                 414 Na 
+Windo         1628 E746541-6    Ag Ni              811 Na 
+Parengin      1636 C672553-8  S Ni                 102 Cs 
+Peneb         1637 D235204-5  S Lo                 104 Cs 
+Vibefgeri     1701 E597556-3    Ag Ni              234 Cs 
+SHAKEGENA     1702 X8839AE-0    Hi              R  225 Na 
+Juven         1703 B256310-B  N Lo Cp              613 Cs 
+Hiroshadib    1704 D200530-4  S Ni Va              423 Tc 
+Cristen       1705 C440547-5  S De Ni Po           611 Tc 
+Lubary        1706 D200876-7    Na Va              303 Na 
+Liirinante    1707 C9A7544-5    Fl Ni              624 Na 
+Quopistein    1708 X576376-0    Lo              R  222 Na 
+Gristia       1710 D000322-5  S As Lo              225 Cs 
+Gabreclos     1715 E8A5659-2    Fl Ni              503 Na 
+Fieldysh      1718 X7B6000-0    Ba Fl           R  012 Na 
+Haniceneb     1719 B452442-9    Ni Po              314 Tc 
+Youghaist     1720 E446401-4    Ni                 302 Tc 
+353-745       1722 X37A000-0    Ba Wa Co        R  022 Na 
+Traldivia     1724 D510110-3  S Lo                 124 Cs 
+Condeneloir   1729 X000000-0    As Ba           R  004 Na 
+Florisir      1733 X7A656A-0    Fl Ni           R  122 Na 
+Hanimarissa   1734 E557532-2    Ag Ni              423 Na 
+992-944       1806 X200000-0    Ba Va           R  024 Na 
+Cabracea      1807 E243101-7    Lo Po           A  903 Na 
+RIACONIDAN    1808 E7A39CC-3    Fl Hi              101 Tc 
+Icetika       1811 C356620-4    Ag Ni              123 Tc 
+PAYALLE       1812 B8319DB-B  S Hi Na Po           123 Tc 
+Amirago       1814 B445335-A  N Lo                 802 Tc 
+Quopistelio   1816 E400200-5    Lo Va              202 Tc 
+Ishirago      1825 E754112-2    Lo                 224 Na 
+Javasti       1826 E63458B-3    Ni                 301 Cs 
+Ageman        1828 X876000-0    Ba              R  014 Na 
+Astenpartin   1830 C523200-6    Lo Po              110 Na 
+Qevastiina    1834 E865413-3    Ni                 201 Na 
+YOUGHENGARI   1836 C6A9984-B    Fl Hi              212 Cs 
+Atenparth     1838 E779201-4    Lo                 212 Na 
+Bellon        1840 C300458-A  S Ni Va              223 Cs 
+Fiste         1902 X110105-2    Lo              R  113 Na 
+Pheradus      1903 E000200-6    As Lo              204 Tc 
+Keiremiron    1904 C432201-9    Lo Po              104 Tc 
+Monorbeson    1907 C437685-5    Ni                 502 Tc 
+Parvulescow   1908 C865779-6    Ag Ri              124 Tc 
+Tenetti       1913 E8D958A-5    Fl Ni              123 Tc 
+Mindo         1914 X987231-0    Lo              R  613 Tc 
+176-253       1915 X435000-0    Ba              R  000 Tc 
+Arbarrish     1916 E632157-8    Lo Po              114 Tc 
+Mtskhetarol   1917 E652100-3    Lo Po              304 Tc 
+Iku-Tuven     1918 E878201-6    Lo                 224 Tc 
+Surisna       1919 E69A347-8    Lo Wa              124 Tc 
+Sherilo       1923 X567254-0    Lo              R  134 Na 
+Ferilli       1925 B625100-C  S Lo Co Cp           302 Cs 
+Denorb        1926 E255330-8    Lo                 701 Na 
+505-607       1927 X6A5000-0    Ba Fl           R  023 Na 
+Hesseline     1928 E658278-2    Lo                 125 Na 
+Proskey       1929 D6667CE-6    Ag                 233 Na 
+Quhanga       1932 E424558-7    Ni                 204 Cs 
+Knorasus      1934 C988149-6  S Lo                 410 Cs 
+Soroshengar   1935 B524230-9  N Lo Co              120 Cs 
+Dinorbetti    1937 C879797-4  S                 A  303 Cs 
+Schustus      1938 D533551-4    Ni Po              302 Na 
+Thomeile      1940 E444213-4    Lo                 103 Na 
+Olshasii      2003 E400555-6    Ni Va              514 Tc 
+Zyramisi      2005 D200879-5    Na Va              104 Tc 
+Dunstenton    2006 D576112-4  S Lo                 125 Tc 
+Thiram        2007 E846573-2    Ag Ni           A  902 Tc 
+Trinal        2010 X479200-1    Lo              R  433 Na 
+Toromunu      2011 X562000-0    Ba              R  022 Tc 
+353-818       2014 X559000-0    Ba              R  024 Tc 
+FOSHADI       2018 C3449BC-7    Hi In Co           114 Tc 
+Stearengdu    2022 B232665-7  2 Na Ni Po           123 Cs 
+Arammaria     2024 X120220-6    De Lo Po        R  235 Na 
+Keatrouderu   2027 X364121-0    Lo              R  300 Na 
+Bakenecawa    2029 D730863-2  S De Na Po           402 Cs 
+Pikhan        2033 C410238-6  S Lo                 213 Cs 
+Dzhandr       2034 X100772-0    Na Va           R  320 Na 
+Sparto        2037 D548545-4    Ag Ni              911 Cs 
+Quhaistia     2101 E553267-3    Lo Po              900 Tc 
+Gersicornic   2102 C778558-A  S Ag Ni              413 Tc 
+Palam         2106 C634248-5    Lo                 402 Tc 
+Oikawainzel   2108 B853224-6    Lo Po              310 Tc 
+Anatro        2109 B400101-B    Lo Va              112 Tc 
+MONTANESELL   2112 E335943-5    Hi                 903 Tc 
+HANINOR       2113 B463978-B  N Hi Cp              223 Tc 
+Gabrinen      2114 X231000-0    Ba Po           R  013 Tc 
+Eshadidun     2116 E668215-3    Lo                 102 Tc 
+SCHWALLIA     2117 C310996-7    Hi In Na           404 Tc 
+Kernianisus   2118 D620321-4  S De Lo Po           224 Tc 
+Viipurield    2119 E435354-6    Lo                 913 Tc 
+Westopol      2120 X976000-0    Ba              R  022 Tc 
+Dunandi       2127 B799131-8  S Lo                 103 Tc 
+Trino         2128 C221530-9  S Ni Po              214 Tc 
+Taiyuangum    2129 C235550-7    Ni                 114 Tc 
+POLTAV        2134 E444989-4    Hi In              200 Na 
+Nadeschi      2137 C336110-8  S Lo                 424 Cs 
+Karakin       2140 E553300-3    Lo Po              404 Na 
+Piranke       2201 A42048D-A  S De Ni Po           121 Tc 
+Vand          2206 D6A5102-8  S Fl Lo           A  112 Tc 
+Keanor        2208 E210543-4    Ni                 202 Tc 
+Iderleshko    2210 B000544-9  N As Ni              601 Tc 
+Galalamman    2211 D410578-8  S Ni                 322 Tc 
+410-244       2213 X745000-0    Ba              R  024 Tc 
+Iku-Tureded   2214 E669245-5    Lo                 134 Tc 
+Sprinan       2217 E8A1645-5    Fl Ni              210 Tc 
+Meidessell    2219 C7A6468-9    Fl Ni              100 Tc 
+Luxelley      2222 E210532-8    Ni                 103 Na 
+Hammera       2223 E300223-5    Lo Va              324 Tc 
+Gesselizon    2224 D333554-A    Ni Po              223 Tc 
+Leandahl      2225 E842410-5    Ni Po              800 Tc 
+Geronsary     2227 X347685-0    Ag Ni           R  724 Tc 
+Garramin      2228 C889100-B    Lo                 603 Tc 
+Underald      2229 D7A8200-4  S Fl Lo           A  423 Tc 
+Chrisis       2230 E89647A-5    Ni                 103 Tc 
+PHERAGO       2235 E454ABF-6    Hi                 124 Cs 
+Plantens      2238 C9B7477-4  S Fl Ni           A  504 Cs 
+Jesedipery    2239 E300346-4    Lo Va           A  104 Na 
+Arcantaki     2240 E575765-1    Ag                 424 Na 
+Condamina     2301 D300479-4  S Ni Va              512 Tc 
+Kippentra     2302 E645667-2    Ag Ni              604 Tc 
+Sevas Torm    2304 B110454-B    Ni                 913 Tc 
+Balahadi      2305 E367410-3    Ni                 123 Tc 
+Manneca       2310 E89A546-4    Ni Wa              124 Tc 
+120-490       2312 X500000-0    Ba Va           R  002 Tc 
+Neopistens    2319 A89A556-B    Ni Wa              913 Tc 
+Somviller     2322 D510485-8  S Ni                 322 Tc 
+448-960       2325 X689000-0    Ba              R  000 Tc 
+Arunkeer      2326 DA99469-7  S Ni                 422 Tc 
+Crisgarns     2327 E795215-5    Lo                 234 Tc 
+Ryomalya      2330 C410663-9  S Na Ni              534 Tc 
+Moellervo     2332 D436534-4  S Ni                 713 Cs 
+Zechadib      2333 X6B3000-0    Ba Fl           R  021 Na 
+Frengdu       2336 E652623-4    Ni Po              910 Na 
+Princis       2337 A547754-A  N Ag Cp              702 Cs 
+Romeileak     2338 D546205-3  S Lo                 403 Cs 
+503-344       2339 X79A000-0    Ba Wa           R  025 Na 
+Pasadelia     2340 X224000-0    Ba              R  005 Na 
+Kaminantai    2401 X56489B-0    Ri              R  103 Tc 
+Sparthure     2402 E541100-8    Lo Po              103 Tc 
+Liladiirin    2403 E133372-5    Lo Po              115 Tc 
+Repine        2404 X8AA000-0    Ba Fl Wa        R  004 Tc 
+McLaughlit    2407 C889256-A  S Lo                 900 Tc 
+Eddingaria    2410 C999776-8                       704 Tc 
+279-994       2415 X453000-0    Ba Po           R  010 Tc 
+Surieldysh    2420 X301412-0    Ic Ni Va        R  502 Tc 
+Shaleen       2423 E757210-3    Lo                 222 Tc 
+Laverhor      2425 E650151-3    De Lo Po           111 Tc 
+Adapalm       2426 E400556-A    Ni Va              200 Tc 
+Sharthage     2435 D49A343-5  S Lo Wa              400 Cs 
+Nadrinez      2437 X767000-0    Ba              R  014 Na 
+Arisgari      2439 C359569-B    Ni                 123 Na 
+Shali         2440 E9EA7AE-3    Fl Wa              403 Na 
+Hathoussell   2509 B510103-B  2 Lo Cp              101 Tc 
+Exileenwich   2510 CACA348-6    Fl Lo Wa           421 Tc 
+Lill          2513 E877678-1    Ag Ni              224 Tc 
+613-798       2515 X445000-0    Ba              R  012 Tc 
+D'Ganstel     2516 E459432-4    Ni Co              100 Tc 
+Merthat       2518 E222420-4    Ni Po              712 Tc 
+Sesterhilt    2522 EA9A867-6    Wa                 624 Tc 
+Landalia      2528 C346322-7  S Lo              R  104 Tc 
+720-874       2529 X523000-0    Ba Po           R  004 Tc 
+Redem         2532 C489343-6    Lo                 103 Tc 
+Kamitakegen   2534 B23449A-8  2 Ni                 633 Tc 
+Ansi Karsky   2537 E59A6BA-3    Ni Wa Co           113 Tc 
+Maelsemades   2538 XAFA000-0    Ba Fl Wa        R  024 Tc 
+Horthat       2539 C640888-3  S De Po              422 Tc 
+Peridius      2602 X332000-0    Ba Po           R  024 Tc 
+Ishinom       2605 E665356-5    Lo                 113 Tc 
+Medasile      2606 X137000-0    Ba              R  002 Tc 
+Urammary      2612 E300103-5    Lo Va              522 Tc 
+Moradmansu    2613 X548000-0    Ba              R  000 Tc 
+Orleshas      2614 E443551-4    Ni Po Co           411 Tc 
+Ivendory      2616 C568357-5  S Lo                 103 Tc 
+Mustus        2620 C788310-7    Lo                 622 Tc 
+Anderadi      2621 X100553-2    Ni Va           R  801 Tc 
+Arthamosa     2627 X588000-0    Ba              R  012 Tc 
+Candardo      2628 E000214-7    As Lo              312 Tc 
+Salahadidun   2629 D553597-2    Ni Po           A  120 Tc 
+Diishan       2633 A6B6421-D    Fl Ni Cp           602 Tc 
+Rubraconia    2637 D668326-3    Lo                 925 Tc 
+Hudebon       2639 C300543-6  S Ni Va           A  403 Tc 
+199-986       2704 X425000-0    Ba              R  003 Tc 
+Boughlia      2706 E653145-4    Lo Po              803 Tc 
+Hamisiste     2709 X451767-0    Po              R  400 Tc 
+Perilli       2712 E30047B-4    Ni Va              802 Tc 
+Arisgarille   2715 D489332-9  S Lo                 113 Tc 
+Juhangwe      2716 D855679-1    Ag Ni              425 Tc 
+Dualenderle   2717 C542102-6  S Lo Po              224 Tc 
+YETINATAV     2718 C3669A8-7    Hi                 210 Tc 
+Sprieldt      2719 X656000-0    Ba Co           R  005 Tc 
+Bartiningar   2722 C572669-4  S Ni                 423 Tc 
+Hissendory    2724 D544220-7    Lo                 504 Tc 
+Jesedaruda    2737 C100223-9  S Lo Va              211 Tc 
+Dermones      2739 D645431-6  S Ni                 300 Tc 
+Atenton       2801 C86A333-8    Lo Wa              114 Tc 
+Kandon        2802 D40089E-6  S Na Va              324 Tc 
+Lomederu      2804 D659630-2    Ni Co              600 Tc 
+Junidase      2805 C678200-7    Lo                 824 Tc 
+507-406       2806 X99A000-0    Ba Wa           R  003 Tc 
+354-995       2809 X367000-0    Ba              R  023 Tc 
+Berger        2810 C389233-9    Lo                 310 Tc 
+Spiremiram    2812 C300268-B    Lo Va              103 Tc 
+Torradas      2814 E432787-3    Na Po              223 Tc 
+Caledemptio   2817 E687699-1    Ag Ni Ri           614 Tc 
+Phartia       2821 E687205-7    Lo                 110 Tc 
+Viliones      2822 E720320-3    De Lo Po           502 Tc 
+Durrenzori    2826 B651310-6  S Lo Po              224 Tc 
+Maringe       2831 X300204-3    Lo Va           R  210 Tc 
+788-830       2834 X78A000-0    Ba Wa           R  014 Tc 
+276-482       2838 X220000-0    Ba De Po        R  013 Tc 
+Einste        2839 X430201-1    De Lo Po        R  123 Tc 
+Oljatos       2903 B3326AA-9    Na Ni Po           110 Tc 
+Someneloir    2904 C469114-9    Lo                 702 Tc 
+Tortactoria   2905 D622230-4  S Lo Po              323 Tc 
+Arama         2915 D6A6147-2    Fl Lo              124 Tc 
+Antanah       2919 X8A8000-0    Ba Fl           R  021 Tc 
+Ferillatina   2923 D457554-7  S Ag Ni              103 Tc 
+Lyalala       2924 D254156-5    Lo                 100 Tc 
+Lovicenaica   2925 C722256-A    Lo Po              223 Tc 
+Shangreece    2926 D53158B-3  S Ni Po Co           103 Tc 
+Haniyah       2927 C556431-5  S Ni                 100 Tc 
+Elin          2931 D364300-7    Lo                 401 Tc 
+Delsemadel    2934 D786372-2    Lo              A  214 Tc 
+822-433       2937 X559000-0    Ba              R  002 Tc 
+Franes        2940 E549463-5    Ni                 214 Tc 
+Panacenne     3001 C657221-7  S Lo                 624 Tc 
+Orenburi      3003 X454000-0    Ba              R  024 Tc 
+Lepadib       3004 C246114-5  S Lo                 422 Tc 
+Everhor       3005 C110563-7    Ni                 100 Tc 
+Bisiana       3007 C575469-9    Ni                 603 Tc 
+Uakahiranes   3008 X78A000-0    Ba Wa           R  005 Tc 
+Torthangwe    3011 E556765-6    Ag                 123 Tc 
+Alascanum     3016 D278210-4  S Lo                 700 Tc 
+Kulisti       3019 C797243-5    Lo                 624 Tc 
+Bahar         3023 X5A5543-0    Fl Ni           R  614 Tc 
+Jamedes       3031 C100520-7    Ni Va              703 Tc 
+Barbarrina    3032 C000449-8    As Ni              111 Tc 
+Miltigens     3034 E8B5368-5    Fl Lo              202 Tc 
+Northandley   3036 C300666-7  S Na Ni Va           122 Tc 
+Acamarich     3037 B767400-7    Ni Co           A  524 Tc 
+Edebonorbes   3038 C689466-5    Ni                 112 Tc 
+Bruforthang   3104 A650457-9  S De Ni Po           402 Tc 
+Mither        3106 C100254-8  S Lo Va              734 Tc 
+Geninomn      3107 B451300-8  S Lo Po              323 Tc 
+Jenghall      3110 C6A7475-4  S Fl Ni              234 Tc 
+Idomeill      3111 E355862-5                       600 Tc 
+Fieldt        3113 C200557-B    Ni Va              324 Tc 
+Quinestov     3115 C774583-4    Ag Ni              320 Tc 
+844-756       3117 X534000-0    Ba              R  000 Tc 
+Shardahlin    3119 X365000-0    Ba              R  023 Tc 
+Carmi         3121 C752576-6  S Ni Po              302 Tc 
+Olivernin     3123 C448624-7    Ag Ni              422 Tc 
+Islentrasii   3126 X612000-0    Ba Ic           R  022 Tc 
+Anomitake     3127 D97A343-7  S Lo Wa              112 Tc 
+Olshangya     3128 C46A447-A  S Ni Wa Cp           100 Tc 
+Thira         3130 E665100-3    Lo                 112 Tc 
+Alaskey       3134 D000330-6  S As Lo              225 Tc 
+Phar          3137 D686345-2    Lo                 113 Tc 
+Garrior       3138 D246126-3    Lo                 223 Tc 
+Tralters      3140 D000436-A  S As Ni              523 Tc 
+Andamitchi    3202 E78A202-6    Lo Wa              313 Tc 
+Sterhiltig    3209 E251599-5    Ni Po              700 Tc 
+Muchachel     3210 C200344-6    Lo Va              110 Tc 
+ERETIKAWA     3211 B442A8B-B    Hi In Po Cp        124 Tc 
+Jenghene      3213 D645665-1  S Ag Ni              924 Tc 
+819-521       3217 X000000-0    As Ba           R  011 Tc 
+Binorb        3219 X7A3586-0    Fl Ni           R  304 Tc 
+Bake-Mura     3223 X867110-2    Lo              R  310 Tc 
+Sichona       3224 C7A2552-9    Fl Ni              535 Tc 
+Prilli        3228 XA86000-0    Ba              R  010 Tc 
+Andelin       3231 E9CA449-4    Fl Ni Wa           424 Tc 
+Lambring      3232 C6A3544-4    Fl Ni              825 Tc 
+Underhar      3238 D211137-4  S Ic Lo              104 Tc 
+

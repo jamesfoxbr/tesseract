@@ -1,0 +1,1402 @@
+﻿The TIVIDIR System (0426 Spinward Marches)
+
+--------Orbit-------
+Base Actual Distance       Name                 Content Type    UWP       TCs and Remarks
+Primary                                         Star            G3 V      Radii (Sol): 0.958 Mass (Sol): 0.98 Luminosity (Sol): 0.886
+Primary                                         Star            M8 V      Radii (Sol): 0.2403 Mass (Sol): 0.244 Luminosity (Sol): 0.002875
+0    0      0.2 AU                              Inner world     Y6B2220-6 Fl He Lo Tz                    Albedo: 0.42 Greenhouse: 1.9 Avg Temp: 621
+1    1.2    0.46 AU                             Worldlet        F26A69B-9 Ni Ri Tz                       Albedo: 0.61 Greenhouse: 1.1 Avg Temp: -43
+2    2.1    0.73 AU                             Large Gas Giant Size: Q   Size: Q   
+         eye    1209734 km                      Hospitable      H764445-5 Ni Pa Fa Sa Lk                 Albedo: 0.24 Greenhouse: 1.1 Avg Temp: 82
+         arr   12097339 km                      Big world       FFFA720-8 Oc Sa                          Albedo: 0.8 Greenhouse: 1 Avg Temp: -188
+3    3      1 AU           TIVIDIR              Hospitable      C400A98-9 Va Hi Na In                    Albedo: 0.16 Greenhouse: 1.05 Avg Temp: 47
+         dee      17550 km                      Storm world     Y254000-8 Di Ho Sa Lk                    Albedo: 0.23 Greenhouse: 1.05 Avg Temp: 20
+          yu    1755000 km                      Storm world     Y230000-4 De Di Po Ho Sa                 Albedo: 0.26 Greenhouse: 1 Avg Temp: -4
+4    4.2    1.84 AU                             Big world       GHFA545-5 Oc Ni Co                       Albedo: 0.8 Greenhouse: 1 Avg Temp: -219
+         kay     691900 km                      Rad world       Y874000-0 Ba Co Tu Sa Lk                 Albedo: 0.24 Greenhouse: 1.1 Avg Temp: -49
+         ess    4324375 km                      Big world       HFFA337-A Oc Lo Co Sa                    Albedo: 0.5 Greenhouse: 1 Avg Temp: -139
+5    4.8    2.56 AU                             Big world       FEEA785-9 Oc                             Albedo: 0.3 Greenhouse: 1.1 Avg Temp: -98
+6    6.2    6 AU                                Worldlet        Y300242-7 Va Lo                          Albedo: 0.3 Greenhouse: 1 Avg Temp: -169
+         bee       6456 km                      Ring System
+          ee      16141 km                      Ice world       Y000000-A As Di Sa Lk                    Albedo: 0.32 Greenhouse: 1 Avg Temp: -172
+       aitch      32281 km                      Worldlet        Y230379-4 De Lo Po Sa Lk                 Albedo: 0.24 Greenhouse: 1 Avg Temp: -160
+17   17.2   11734 AU                            Rad world       Y988000-0 Ba Fr                          Albedo: 0.44 Greenhouse: 1.15 Avg Temp: -271
+         gee      75885 km                      Rad world       Y467000-0 Ba Fr Sa Lk                    Albedo: 0.25 Greenhouse: 1.1 Avg Temp: -270
+World Name: 
+Orbit: 0
+Orbital Distance: 0.2 AU
+Diameter: 9660 km
+Jump Point distance: 103376546 km
+Time to Jump Point at ...: 1G: 2d 8h 32m 32s; 2G: 1d 15h 58m 53s; 3G: 32h 38m 40s; 4G: 28h 16m 16s; 5G: 25h 17m 11s; 6G: 23h 4m 59s; 
+Density Type: Heavy Core
+Density: 1.5 Earth
+Mass: 0.633 Earth
+Surface Gravity (G): 1.13 G
+Rotation Period: 709 hours 33 minutes 35 seconds
+Orbital Period: 29 days 13 hours 33 minutes 36 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 25Atm
+Atmosphere Composition: Corrosive gas mix at temperature 621&deg;C and at Very Dense pressure. The atmosphere is composed of Carbon Dioxide(99.9723925%) and Sulfur Dioxide(0.0276075%). 
+Albedo: 0.42
+Greenhouse: 1.9
+Base Surface Temperature: 621&deg;C
+Base Daytime temperature: 5091&deg;C
+Base Nighttime temperature: 576&deg;C
+Summer temperature increase: 0&deg;C
+Winter temperature decrease: 0&deg;C
+Upper Temperature Limit: 5091&deg;C
+Lower Temperature Limit: 576&deg;C
+Hydrographic Percentage: 22%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Transients
+Seismic Stress: Stress factor is 3<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < -1<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 6,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is a corrosive gas mix - a vacc suit is required.
+Population Digit Explanation: 2 - population is in the order of 10<sup>2</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>2</sup>
+World Government Type: This world has government type 2 (Participating Democracy). Rule by popular vote
+World Government Detail: The government is characterised as a participatory democracy. Leadership institutions include: Large group (assembly), 10 or more people which is Chosen by lot. Large group (assembly), 10 or more people which is Chosen by lot. Large group (assembly), 10 or more people which is Elected directly. When major laws need to be changed, there is a is a world meeting. All citizens gather at a central meeting place when summoned to vote on legislation.. There are no restrictions on suffrage. There are multiple competing political parties.(person's name) Party with a median social standing of 8. Liberation Republican Party with a median social standing of 8. New Radical Party with a median social standing of 7. Libertarian Democratic Party with a median social standing of 6. (person's name) Party with a median social standing of 6. Independence Reform Movement with a median social standing of 5. Around 90% of the eligible electorate participate. 
+Law Level Digit: 0
+Law Level explanation: The law level of 0 means that  there are no prohibitions (no law).
+Technology Level Digit: 6
+Technology Level explanation: The overall Technology Level (TL) of this world is 6. In the Traveller Universe, this is equivalent to approximately Nuclear Age 1950 CE. The latest energy in use might include nuclear fission. Society has evolved to include superpowers. Typical living environments include suburbs. The lastest communication devices used by the citizenry are broadcast images, video recording. Transport has advanced to groundcars, jet aircraft. The latest thing in medicine is internal imaging. Science is developing electronics, and the latest local technology includes electronics. The latest available computer is Model/1. The fastest speed is done by jet aircraft, equivalent to Speed 8 (500 kph). Commonly used personal weapons include auto rifle. Heavier military grade weapons at this technology level include multiple rocket launchers. Space travel is accomplished by rockets. The latest weapon in space is the None, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include None. 
+
+
+World Name: 
+Orbit: 1.2
+Orbital Distance: 0.46 AU
+Diameter: 2763 km
+Jump Point distance: 64481099 km
+Time to Jump Point at ...: 1G: 1d 20h 39m 21s; 2G: 31h 34m 35s; 3G: 25h 46m 55s; 4G: 22h 19m 40s; 5G: 19h 58m 14s; 6G: 18h 13m 50s; 
+Density Type: Molten Core
+Density: 1.02 Earth
+Mass: 0.01594 Earth
+Surface Gravity (G): 0.26 G
+Rotation Period: 2470 hours 18 minutes 35 seconds
+Orbital Period: 102 days 22 hours 19 minutes 11 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 1.1Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.61
+Greenhouse: 1.1
+Base Surface Temperature: -43&deg;C
+Base Daytime temperature: 532&deg;C
+Base Nighttime temperature: -77&deg;C
+Summer temperature increase: 0&deg;C
+Winter temperature decrease: 0&deg;C
+Upper Temperature Limit: 532&deg;C
+Lower Temperature Limit: -77&deg;C
+Hydrographic Percentage: 100%
+Surface Liquid Composition: Water
+Native Life: Yes
+Native Intelligent Life: Settlers
+Seismic Stress: Stress factor is 4<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 0<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: F
+Port Facilities: The spaceport is type F - Good. There is a downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive minor repairs at this port. Fuels the port can supply include unrefined hydrogen.
+Size UWP Digit Explanation: Approximately 2,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is standard - breathable without protection
+Population Digit Explanation: 6 - population is in the order of 10<sup>6</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>6</sup>
+World Government Type: This world has government type 9 (Impersonal Bureaucracy). Rule by impersonal agencies isolated from the governed populations
+World Government Detail: The government is an impersonal bureaucracy. Under single-party states or other non-democratic regimes, the political leadership may be recruited directly from the bureaucracy: When a ruler steps down, he appoints a trusted bureaucrat to take his place. The bureaucracy doesn't rule directly, but it doesn't have to, since the new ruler probably agrees with them anyway. While the real power rests with an impersonal bureaucracy, the apparent political leadership is a Monarchy. Ultimate executive power rests in the hands of a hereditary monarch. There may also be a weak legislature of some sort, made up of hereditary peers, elected representatives or 'advisors' appointed directly by the monarch. Bureaucratized monarchies tend to be much more 'open' and meritocratic than the more aristocratic monarchies found under government type 3 (self-perpetuating oligarchy).
+Law Level Digit: 11
+Law Level explanation: The law level of 11 means that  continental passports are required (extreme law).
+Technology Level Digit: 9
+Technology Level explanation: The overall Technology Level (TL) of this world is 9. In the Traveller Universe, this is equivalent to approximately 2050 CE. The latest energy in use might include early fusion. Society has evolved to include superpowers. Typical living environments include arcologies. The lastest communication devices used by the citizenry are 3D images and video. Transport has advanced to NAFAL. The latest thing in medicine is cryogenics and fast drug. Science is developing gravitics, and the latest local technology includes fluidics. The latest available computer is Model/3. The fastest speed is done by civil SST, equivalent to Speed 11 (2000 kph). Commonly used personal weapons include accelerator weapons. Heavier military grade weapons at this technology level include autocannon, multiple missile launchers, RAM grenades. Space travel is accomplished by G-drive-4, Power Plant-2, M-drive-1, NAFAL-1, Jump-1. The latest weapon in space is the slug thrower, and space defenses are sandcaster. Space sensors used at this technology level are scope, radar, while world sensors used by starships now include analyser / sniffer, deep radar. 
+
+
+World Name: 
+Orbit: eye
+Orbital Distance: 1209734 km
+Diameter: 11930 km
+Jump Point distance: 24089674 km
+Time to Jump Point at ...: 1G: 27h 17m 40s; 2G: 19h 18m 0s; 3G: 15h 45m 30s; 4G: 13h 38m 50s; 5G: 12h 12m 23s; 6G: 11h 8m 34s; 
+Density Type: Molten Core
+Density: 0.94 Earth
+Mass: 0.63 Earth
+Surface Gravity (G): 0.82 G
+Rotation Period: 196 hours 53 minutes 23 seconds
+Orbital Period: 8 days 4 hours 53 minutes 45 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.85Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.24
+Greenhouse: 1.1
+Base Surface Temperature: 82&deg;C
+Base Daytime temperature: 131&deg;C
+Base Nighttime temperature: 29&deg;C
+Summer temperature increase: 9&deg;C
+Winter temperature decrease: 15&deg;C
+Upper Temperature Limit: 970&deg;C
+Lower Temperature Limit: 29&deg;C
+Hydrographic Percentage: 42%
+Surface Liquid Composition: Water
+Native Life: Yes
+Native Intelligent Life: Settlers
+Seismic Stress: Stress factor is 76<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 72<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: H
+Port Facilities: The spaceport is type H - Basic. There is a downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 7,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is standard - breathable without protection
+Population Digit Explanation: 4 - population is in the order of 10<sup>4</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>4</sup>
+World Government Type: This world has government type 4 (Representative Democracy). Government by proxy
+World Government Detail: The government is characterised as a representative democracy. Leadership institutions include: Two people which is Elected directly. Large group (assembly), 10 or more people which is Appointed by another institution, but given significant job security. Large group (assembly), 10 or more people which is Elected directly. When major laws need to be changed, there is a is a draft-lottery legislature. A random group of citizens is summoned to participate in a legislative body whose approval is necessary for legislation. (These issues may be submitted to the population in referenda when these votes lie within a certain margin of error.). The following restrictions on suffrage apply: Must be an adult; Must be a citizen/long-term resident; Must meet property qualifications. There are multiple competing political parties.Yellow League with a median social standing of 7. (name of country) Purple Party with a median social standing of 4. (region or ethnic group) Party with a median social standing of 6. Independence People's Movement with a median social standing of 10. Around 80% of the eligible electorate participate. 
+Law Level Digit: 5
+Law Level explanation: The law level of 5 means that  shock, EMP, radiation, magnetic and mag-lev and gravitic weapons are prohibited (moderate law).
+Technology Level Digit: 5
+Technology Level explanation: The overall Technology Level (TL) of this world is 5. In the Traveller Universe, this is equivalent to approximately Rise of Petrochemicals 1930 CE. The latest energy in use might include Oil, petrochemicals. Society has evolved to include dictators. Typical living environments include skyscrapers. The lastest communication devices used by the citizenry are broadcast sound, sound recording. Transport has advanced to groundcars. The latest thing in medicine is internal imaging. Science is developing polymers, and the latest local technology includes electronics. The latest available computer is electric calculators. The fastest speed is done by ground cars, propellor aircraft, equivalent to Speed 7 (300 kph). Commonly used personal weapons include rifle, machinegun. Heavier military grade weapons at this technology level include artillery. Space travel is accomplished by rockets. The latest weapon in space is the None, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include None. 
+World Name: 
+Orbit: arr
+Orbital Distance: 12097339 km
+Diameter: 23881 km
+Jump Point distance: 24089674 km
+Time to Jump Point at ...: 1G: 27h 17m 40s; 2G: 19h 18m 0s; 3G: 15h 45m 30s; 4G: 13h 38m 50s; 5G: 12h 12m 23s; 6G: 11h 8m 34s; 
+Density Type: Molten Core
+Density: 1.02 Earth
+Mass: 6.724 Earth
+Surface Gravity (G): 1.91 G
+Rotation Period: 35 hours 30 minutes 35 seconds
+Orbital Period: 9 Lunar months 7 days 16 hours 48 minutes 0 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.2Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.8
+Greenhouse: 1
+Base Surface Temperature: -188&deg;C
+Base Daytime temperature: -174&deg;C
+Base Nighttime temperature: -230&deg;C
+Summer temperature increase: 26&deg;C
+Winter temperature decrease: 44&deg;C
+Upper Temperature Limit: -120&deg;C
+Lower Temperature Limit: -230&deg;C
+Hydrographic Percentage: 100%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Established Transplants
+Seismic Stress: Stress factor is 7<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 3<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: F
+Port Facilities: The spaceport is type F - Good. There is a downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive minor repairs at this port. Fuels the port can supply include unrefined hydrogen.
+Size UWP Digit Explanation: Approximately 15,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is unusual conditions but breathable.
+Population Digit Explanation: 7 - population is in the order of 10<sup>7</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>7</sup>
+World Government Type: This world has government type 2 (Participating Democracy). Rule by popular vote
+World Government Detail: The government is characterised as a participatory democracy. Leadership institutions include: Large group (assembly), 10 or more people which is Chosen by lot. Large group (assembly), 10 or more people which is Elected directly. When major laws need to be changed, there is a are referenda. Citizens report to their local polling stations and vote on a variety of issues by secret ballot.. This takes place electronically. The following restrictions on suffrage apply: Must be an adult. There are multiple competing political parties.Democratic Purple Party with a median social standing of 5. August Party with a median social standing of 7. Brown Union with a median social standing of 6. Liberation (region or ethnic group) Party with a median social standing of 6. Democratic Alliance with a median social standing of 5. Liberation Independence Nationalist Party with a median social standing of 10. Around 90% of the eligible electorate participate. 
+Law Level Digit: 0
+Law Level explanation: The law level of 0 means that  there are no prohibitions (no law).
+Technology Level Digit: 8
+Technology Level explanation: The overall Technology Level (TL) of this world is 8. In the Traveller Universe, this is equivalent to approximately 2000 CE. The latest energy in use might include renewables. Society has evolved to include superpowers. Typical living environments include suburbs. The lastest communication devices used by the citizenry are personal comms. Transport has advanced to rockets to orbit. The latest thing in medicine is organ transplants and slow drug. Science is developing photonics, and the latest local technology includes photonics. The latest available computer is Model/2. The fastest speed is done by rockets to orbit, equivalent to Speed 10 (1000 kph). Commonly used personal weapons include grenade launcher, assault rifle. Heavier military grade weapons at this technology level include autocannon, multiple missile launchers, RAM grenades. Space travel is accomplished by rockets, ion engine. The latest weapon in space is the mining laser, commcaster, and space defenses are None. Space sensors used at this technology level are jammer, communicator, while world sensors used by starships now include mass sensor. 
+
+
+World Name: TIVIDIR
+Orbit: 3
+Orbital Distance: 1 AU
+Diameter: 7020 km
+Jump Point distance: 702000 km
+Time to Jump Point at ...: 1G: 4h 39m 33s; 2G: 3h 17m 40s; 3G: 2h 41m 24s; 4G: 2h 19m 46s; 5G: 2h 5m 1s; 6G: 1h 54m 7s; 
+Density Type: Molten Core
+Density: 1 Earth
+Mass: 0.125 Earth
+Surface Gravity (G): 0.5 G
+Rotation Period: 18 hours 44 minutes 23 seconds
+Orbital Period: 329 days 23 hours 2 minutes 24 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0Atm
+Atmosphere Composition: None
+Albedo: 0.16
+Greenhouse: 1.05
+Base Surface Temperature: 47&deg;C
+Base Daytime temperature: 56&deg;C
+Base Nighttime temperature: -140&deg;C
+Summer temperature increase: 4&deg;C
+Winter temperature decrease: 6&deg;C
+Upper Temperature Limit: 79&deg;C
+Lower Temperature Limit: -209&deg;C
+Hydrographic Percentage: 1%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Transplants
+Seismic Stress: Stress factor is 9<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 5<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: C
+Port Facilities: The starport is type C - Routine. There is a downport, and a highport in orbit. The port has no shipyards and cannot build ships. Visiting ships can receive major repairs at this port. Fuels the port can supply include unrefined hydrogen.
+Size UWP Digit Explanation: Approximately 4,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is vacuum - a vacc suit is required.
+Population Digit Explanation: 10 - population is in the order of 10<sup>10</sup>.
+Population Multipler: 4
+Total Population Calculation: 40000000000 = 4 &times; 10<sup>10</sup>
+World Government Type: This world has government type 9 (Impersonal Bureaucracy). Rule by impersonal agencies isolated from the governed populations
+World Government Detail: The government is an impersonal bureaucracy. A crafty bureaucrat can accumulate so much political power than no politician will oppose him. He might become a media darling, for example, and use the press to discredit his critics. He could make friends in high places, who make sure his agency well-financed. Or he could track down incriminating documents and blackmail well-placed politicians. While the real power rests with an impersonal bureaucracy, the apparent political leadership is a Monarchy. Ultimate executive power rests in the hands of a hereditary monarch. There may also be a weak legislature of some sort, made up of hereditary peers, elected representatives or 'advisors' appointed directly by the monarch. Bureaucratized monarchies tend to be much more 'open' and meritocratic than the more aristocratic monarchies found under government type 3 (self-perpetuating oligarchy).
+Law Level Digit: 8
+Law Level explanation: The law level of 8 means that  open display of weapons is prohibited (high law).
+Technology Level Digit: 9
+Technology Level explanation: The overall Technology Level (TL) of this world is 9. In the Traveller Universe, this is equivalent to approximately 2050 CE. The latest energy in use might include early fusion. Society has evolved to include superpowers. Typical living environments include arcologies. The lastest communication devices used by the citizenry are 3D images and video. Transport has advanced to NAFAL. The latest thing in medicine is cryogenics and fast drug. Science is developing gravitics, and the latest local technology includes fluidics. The latest available computer is Model/3. The fastest speed is done by civil SST, equivalent to Speed 11 (2000 kph). Commonly used personal weapons include accelerator weapons. Heavier military grade weapons at this technology level include autocannon, multiple missile launchers, RAM grenades. Space travel is accomplished by G-drive-4, Power Plant-2, M-drive-1, NAFAL-1, Jump-1. The latest weapon in space is the slug thrower, and space defenses are sandcaster. Space sensors used at this technology level are scope, radar, while world sensors used by starships now include analyser / sniffer, deep radar. 
+World Name: 
+Orbit: dee
+Orbital Distance: 17550 km
+Diameter: 2608 km
+Jump Point distance: 684450 km
+Time to Jump Point at ...: 1G: 4h 36m 2s; 2G: 3h 15m 11s; 3G: 2h 39m 22s; 4G: 2h 18m 1s; 5G: 2h 3m 27s; 6G: 1h 52m 41s; 
+Density Type: Molten Core
+Density: 0.92 Earth
+Mass: 0.01438 Earth
+Surface Gravity (G): 0.23 G
+Rotation Period: 15 hours 26 minutes 59 seconds
+Orbital Period: 0 days 15 hours 27 minutes 21 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.5Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.23
+Greenhouse: 1.05
+Base Surface Temperature: 20&deg;C
+Base Daytime temperature: 25&deg;C
+Base Nighttime temperature: -3&deg;C
+Summer temperature increase: 22&deg;C
+Winter temperature decrease: 36&deg;C
+Upper Temperature Limit: 460&deg;C
+Lower Temperature Limit: -68&deg;C
+Hydrographic Percentage: 41%
+Surface Liquid Composition: Water
+Native Life: Yes
+Native Intelligent Life: Catastrophic Extinct Natives
+Seismic Stress: Stress factor is 25<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 21<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 2,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is thin - breathable without protection.
+Population Digit Explanation: 0 - population is in the order of 10<sup>0</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>0</sup>
+World Government Type: This world has government type 0 (No Government Structure). Family bonds predominate
+World Government Detail: No further detail available.
+Law Level Digit: 0
+Law Level explanation: The law level of 0 means that  there are no prohibitions (no law).
+Technology Level Digit: 8
+Technology Level explanation: The overall Technology Level (TL) of this world is 8. In the Traveller Universe, this is equivalent to approximately 2000 CE. The latest energy in use might include renewables. Society has evolved to include superpowers. Typical living environments include suburbs. The lastest communication devices used by the citizenry are personal comms. Transport has advanced to rockets to orbit. The latest thing in medicine is organ transplants and slow drug. Science is developing photonics, and the latest local technology includes photonics. The latest available computer is Model/2. The fastest speed is done by rockets to orbit, equivalent to Speed 10 (1000 kph). Commonly used personal weapons include grenade launcher, assault rifle. Heavier military grade weapons at this technology level include autocannon, multiple missile launchers, RAM grenades. Space travel is accomplished by rockets, ion engine. The latest weapon in space is the mining laser, commcaster, and space defenses are None. Space sensors used at this technology level are jammer, communicator, while world sensors used by starships now include mass sensor. 
+World Name: 
+Orbit: yu
+Orbital Distance: 1755000 km
+Diameter: 3610 km
+Jump Point distance: 361000 km
+Time to Jump Point at ...: 1G: 3h 20m 28s; 2G: 2h 21m 45s; 3G: 1h 55m 44s; 4G: 1h 40m 14s; 5G: 89m 39s; 6G: 81m 50s; 
+Density Type: Molten Core
+Density: 1 Earth
+Mass: 0.01563 Earth
+Surface Gravity (G): 0.25 G
+Rotation Period: 29 hours 1 minutes 11 seconds
+Orbital Period: 23 Lunar months 13 days 11 hours 54 minutes 14 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.23Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix with a taint caused by Sulfur Compounds
+Albedo: 0.26
+Greenhouse: 1
+Base Surface Temperature: -4&deg;C
+Base Daytime temperature: 8&deg;C
+Base Nighttime temperature: -120&deg;C
+Summer temperature increase: 24&deg;C
+Winter temperature decrease: 40&deg;C
+Upper Temperature Limit: 211&deg;C
+Lower Temperature Limit: -138&deg;C
+Hydrographic Percentage: 3%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Catastrophic Extinct Natives
+Seismic Stress: Stress factor is 1<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < -3<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 2,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is very thin - a respirator is required.
+Population Digit Explanation: 0 - population is in the order of 10<sup>0</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>0</sup>
+World Government Type: This world has government type 0 (No Government Structure). Family bonds predominate
+World Government Detail: No further detail available.
+Law Level Digit: 0
+Law Level explanation: The law level of 0 means that  there are no prohibitions (no law).
+Technology Level Digit: 4
+Technology Level explanation: The overall Technology Level (TL) of this world is 4. In the Traveller Universe, this is equivalent to approximately Mechanization 1900 CE. The latest energy in use might include Electricity. Society has evolved to include democracies. Typical living environments include skyscrapers. The lastest communication devices used by the citizenry are sound by wire, image capture. Transport has advanced to railroads. The latest thing in medicine is antiseptics and anesthetics. Science is developing medical, and the latest local technology includes mechanical. The latest available computer is analog computers. The fastest speed is done by railroads, equivalent to Speed 6 (100 kph). Commonly used personal weapons include cartridges. Heavier military grade weapons at this technology level include mortars. Space travel is accomplished by Stargazing. The latest weapon in space is the None, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include None. 
+
+
+World Name: 
+Orbit: 4.2
+Orbital Distance: 1.84 AU
+Diameter: 27676 km
+Jump Point distance: 2767600 km
+Time to Jump Point at ...: 1G: 9h 15m 5s; 2G: 6h 32m 30s; 3G: 5h 20m 28s; 4G: 4h 37m 32s; 5G: 4h 8m 14s; 6G: 3h 46m 36s; 
+Density Type: Molten Core
+Density: 1.02 Earth
+Mass: 9.788 Earth
+Surface Gravity (G): 2.17 G
+Rotation Period: 17 hours 39 minutes 36 seconds
+Orbital Period: 2 years 93 days 10 hours 33 minutes 35 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.55Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.8
+Greenhouse: 1
+Base Surface Temperature: -219&deg;C
+Base Daytime temperature: -214&deg;C
+Base Nighttime temperature: -235&deg;C
+Summer temperature increase: 16&deg;C
+Winter temperature decrease: 26&deg;C
+Upper Temperature Limit: -138&deg;C
+Lower Temperature Limit: -235&deg;C
+Hydrographic Percentage: 100%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Settlers
+Seismic Stress: Stress factor is 7<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 3<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: G
+Port Facilities: The spaceport is type G - Poor. There is a downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive slight repairs at this port. Fuels the port can supply include unrefined hydrogen.
+Size UWP Digit Explanation: Approximately 17,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is unusual conditions but breathable.
+Population Digit Explanation: 5 - population is in the order of 10<sup>5</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>5</sup>
+World Government Type: This world has government type 4 (Representative Democracy). Government by proxy
+World Government Detail: The government is characterised as a representative democracy. Leadership institutions include: Large group (assembly), 10 or more people which is Appointed by another institution, but given significant job security. Large group (assembly), 10 or more people which is Elected directly. Small group (council), 4 to 9 people which is Elected indirectly. Large group (assembly), 10 or more people which is A hereditary position. When major laws need to be changed, there is a is a world meeting. All citizens gather at a central meeting place when summoned to vote on legislation.. The following restrictions on suffrage apply: Must be an adult; Must meet property qualifications. There are multiple competing political parties.Democratic Movement with a median social standing of 7. Green Movement with a median social standing of 8. Around 90% of the eligible electorate participate. 
+Law Level Digit: 5
+Law Level explanation: The law level of 5 means that  shock, EMP, radiation, magnetic and mag-lev and gravitic weapons are prohibited (moderate law).
+Technology Level Digit: 5
+Technology Level explanation: The overall Technology Level (TL) of this world is 5. In the Traveller Universe, this is equivalent to approximately Rise of Petrochemicals 1930 CE. The latest energy in use might include Oil, petrochemicals. Society has evolved to include dictators. Typical living environments include skyscrapers. The lastest communication devices used by the citizenry are broadcast sound, sound recording. Transport has advanced to groundcars. The latest thing in medicine is internal imaging. Science is developing polymers, and the latest local technology includes electronics. The latest available computer is electric calculators. The fastest speed is done by ground cars, propellor aircraft, equivalent to Speed 7 (300 kph). Commonly used personal weapons include rifle, machinegun. Heavier military grade weapons at this technology level include artillery. Space travel is accomplished by rockets. The latest weapon in space is the None, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include None. 
+World Name: 
+Orbit: kay
+Orbital Distance: 691900 km
+Diameter: 12384 km
+Jump Point distance: 2075700 km
+Time to Jump Point at ...: 1G: 8h 0m 43s; 2G: 5h 39m 55s; 3G: 4h 37m 32s; 4G: 4h 0m 21s; 5G: 3h 34m 59s; 6G: 3h 16m 15s; 
+Density Type: Heavy Core
+Density: 1.55 Earth
+Mass: 1.55 Earth
+Surface Gravity (G): 1.55 G
+Rotation Period: 356 hours 49 minutes 47 seconds
+Orbital Period: 14 days 20 hours 49 minutes 55 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 1Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix with a taint caused by Sulfur Compounds
+Albedo: 0.24
+Greenhouse: 1.1
+Base Surface Temperature: -49&deg;C
+Base Daytime temperature: 40&deg;C
+Base Nighttime temperature: -83&deg;C
+Summer temperature increase: 8&deg;C
+Winter temperature decrease: 14&deg;C
+Upper Temperature Limit: 511&deg;C
+Lower Temperature Limit: -83&deg;C
+Hydrographic Percentage: 41%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Extinct Natives
+Seismic Stress: Stress factor is 11<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 7<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 8,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is standard but tainted - breathable with a filter mask.
+Population Digit Explanation: 0 - population is in the order of 10<sup>0</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>0</sup>
+World Government Type: This world has government type 0 (No Government Structure). Family bonds predominate
+World Government Detail: No further detail available.
+Law Level Digit: 0
+Law Level explanation: The law level of 0 means that  there are no prohibitions (no law).
+Technology Level Digit: 0
+Technology Level explanation: The overall Technology Level (TL) of this world is 0. In the Traveller Universe, this is equivalent to approximately Primitive, Stone Age. The latest energy in use might include Personal Effort, Fire. Society has evolved to include Tribe, clan. Typical living environments include Natural  Crude Shelters. The lastest communication devices used by the citizenry are Personal Senses  Messengers. Transport has advanced to Walking. The latest thing in medicine is Herbal Medicine, Mystical Therapy. Science is developing None, and the latest local technology includes None. The latest available computer is Counting. The fastest speed is done by Walking, equivalent to Speed 1 (5 kph). Commonly used personal weapons include Clubs, rocks. Heavier military grade weapons at this technology level include None. Space travel is accomplished by Stargazing. The latest weapon in space is the None, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include None. 
+World Name: 
+Orbit: ess
+Orbital Distance: 4324375 km
+Diameter: 24156 km
+Jump Point distance: 2415600 km
+Time to Jump Point at ...: 1G: 8h 38m 35s; 2G: 6h 6m 42s; 3G: 4h 59m 24s; 4G: 4h 19m 17s; 5G: 3h 51m 55s; 6G: 3h 31m 42s; 
+Density Type: Molten Core
+Density: 1.1 Earth
+Mass: 7.251 Earth
+Surface Gravity (G): 2.06 G
+Rotation Period: 25 hours 53 minutes 59 seconds
+Orbital Period: 8 Lunar months 8 days 5 hours 34 minutes 4 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.16Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.5
+Greenhouse: 1
+Base Surface Temperature: -139&deg;C
+Base Daytime temperature: -129&deg;C
+Base Nighttime temperature: -206&deg;C
+Summer temperature increase: 17&deg;C
+Winter temperature decrease: 29&deg;C
+Upper Temperature Limit: -32&deg;C
+Lower Temperature Limit: -206&deg;C
+Hydrographic Percentage: 100%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Transients
+Seismic Stress: Stress factor is 7<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 3<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: H
+Port Facilities: The spaceport is type H - Basic. There is a downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 15,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is unusual conditions but breathable.
+Population Digit Explanation: 3 - population is in the order of 10<sup>3</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>3</sup>
+World Government Type: This world has government type 3 (Self-Perpetuating Oligarchy). Rule by an isolated minority
+World Government Detail: No further detail available.
+Law Level Digit: 7
+Law Level explanation: The law level of 7 means that  pistols are prohibited (moderate law).
+Technology Level Digit: 10
+Technology Level explanation: The overall Technology Level (TL) of this world is 10. In the Traveller Universe, this is equivalent to approximately 2100 CE. The latest energy in use might include practical fusion. Society has evolved to include non-geographic communities. Typical living environments include arcologies. The lastest communication devices used by the citizenry are 3D images and video. Transport has advanced to gravity manipulation, lifters to orbit. The latest thing in medicine is anti-virals. Science is developing fluidics, and the latest local technology includes gravitics. The latest available computer is Model/4. The fastest speed is done by civil space transport, equivalent to Speed 12 (3000 kph). Commonly used personal weapons include laser weapons. Heavier military grade weapons at this technology level include autocannon, multiple missile launchers, RAM grenades. Space travel is accomplished by G-drive-7, Power Plant-3, M-drive-3, NAFAL-4, Jump-1. The latest weapon in space is the KK missile, datacaster, and space defenses are sandcaster. Space sensors used at this technology level are neutrino detector, while world sensors used by starships now include proximeter, life detector. 
+
+
+World Name: 
+Orbit: 4.8
+Orbital Distance: 2.56 AU
+Diameter: 22458 km
+Jump Point distance: 2245800 km
+Time to Jump Point at ...: 1G: 8h 20m 2s; 2G: 5h 53m 34s; 3G: 4h 48m 41s; 4G: 4h 10m 1s; 5G: 3h 43m 37s; 6G: 3h 24m 8s; 
+Density Type: Molten Core
+Density: 1.04 Earth
+Mass: 5.574 Earth
+Surface Gravity (G): 1.82 G
+Rotation Period: 21 hours 28 minutes 11 seconds
+Orbital Period: 3 years 256 days 5 hours 31 minutes 11 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.14Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.3
+Greenhouse: 1.1
+Base Surface Temperature: -98&deg;C
+Base Daytime temperature: -89&deg;C
+Base Nighttime temperature: -184&deg;C
+Summer temperature increase: 22&deg;C
+Winter temperature decrease: 37&deg;C
+Upper Temperature Limit: 42&deg;C
+Lower Temperature Limit: -185&deg;C
+Hydrographic Percentage: 100%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Established Transplants
+Seismic Stress: Stress factor is 2<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < -2<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: F
+Port Facilities: The spaceport is type F - Good. There is a downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive minor repairs at this port. Fuels the port can supply include unrefined hydrogen.
+Size UWP Digit Explanation: Approximately 14,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is thin but low - breathable only at very low (below sea level) altitudes.
+Population Digit Explanation: 7 - population is in the order of 10<sup>7</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>7</sup>
+World Government Type: This world has government type 8 (Civil Service Bureaucracy). Rule by agencies employing individuals selected by merit
+World Government Detail: Under a civil service bureaucracy, the government's non-bureaucratic leaders really do rule, at least when they're united, although administrators still shape policy through discreet and indirect means. While the real power rests with a civil service bureauracy, the apparent political leadership is a Representative Democracy. Citizens elect the world's leaders. These leaders tend to be lawyers or other well to do citizens, and most are members of large bureaucratized political parties. Citizens have little direct contact with their leaders in bureaucratic representative regimes, and what little they know about them, they learn from political advertising or the news media.
+Law Level Digit: 5
+Law Level explanation: The law level of 5 means that  shock, EMP, radiation, magnetic and mag-lev and gravitic weapons are prohibited (moderate law).
+Technology Level Digit: 9
+Technology Level explanation: The overall Technology Level (TL) of this world is 9. In the Traveller Universe, this is equivalent to approximately 2050 CE. The latest energy in use might include early fusion. Society has evolved to include superpowers. Typical living environments include arcologies. The lastest communication devices used by the citizenry are 3D images and video. Transport has advanced to NAFAL. The latest thing in medicine is cryogenics and fast drug. Science is developing gravitics, and the latest local technology includes fluidics. The latest available computer is Model/3. The fastest speed is done by civil SST, equivalent to Speed 11 (2000 kph). Commonly used personal weapons include accelerator weapons. Heavier military grade weapons at this technology level include autocannon, multiple missile launchers, RAM grenades. Space travel is accomplished by G-drive-4, Power Plant-2, M-drive-1, NAFAL-1, Jump-1. The latest weapon in space is the slug thrower, and space defenses are sandcaster. Space sensors used at this technology level are scope, radar, while world sensors used by starships now include analyser / sniffer, deep radar. 
+
+
+World Name: 
+Orbit: 6.2
+Orbital Distance: 6 AU
+Diameter: 5165 km
+Jump Point distance: 516500 km
+Time to Jump Point at ...: 1G: 3h 59m 47s; 2G: 2h 49m 33s; 3G: 2h 18m 26s; 4G: 1h 59m 53s; 5G: 1h 47m 14s; 6G: 1h 37m 53s; 
+Density Type: Icy Body
+Density: 0.38 Earth
+Mass: 0.02004 Earth
+Surface Gravity (G): 0.14 G
+Rotation Period: 33 hours 12 minutes 0 seconds
+Orbital Period: 13 years 103 days 15 hours 50 minutes 24 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0Atm
+Atmosphere Composition: None
+Albedo: 0.3
+Greenhouse: 1
+Base Surface Temperature: -169&deg;C
+Base Daytime temperature: -159&deg;C
+Base Nighttime temperature: -252&deg;C
+Summer temperature increase: 12&deg;C
+Winter temperature decrease: 20&deg;C
+Upper Temperature Limit: -159&deg;C
+Lower Temperature Limit: -252&deg;C
+Hydrographic Percentage: 1%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Transients
+Seismic Stress: Stress factor is 7<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 3<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 3,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is vacuum - a vacc suit is required.
+Population Digit Explanation: 2 - population is in the order of 10<sup>2</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>2</sup>
+World Government Type: This world has government type 4 (Representative Democracy). Government by proxy
+World Government Detail: The government is characterised as a representative democracy. Leadership institutions include: Large group (assembly), 10 or more people which is Elected directly. Large group (assembly), 10 or more people which is Appointed by another institution, but given significant job security. Small group (council), 4 to 9 people which is Elected directly. When major laws need to be changed, there is a is a world meeting. All citizens gather at a central meeting place when summoned to vote on legislation.. The following restrictions on suffrage apply: Must be an adult. Political Parties are banned.  Candidates run as individuals, without clear ideological position.Around 80% of the eligible electorate participate. 
+Law Level Digit: 2
+Law Level explanation: The law level of 2 means that  portable heavy weapons are prohibited (low law).
+Technology Level Digit: 7
+Technology Level explanation: The overall Technology Level (TL) of this world is 7. In the Traveller Universe, this is equivalent to approximately 1975 CE. The latest energy in use might include geothermal, solar. Society has evolved to include superpowers. Typical living environments include suburbs. The lastest communication devices used by the citizenry are broadcast images, video recording. Transport has advanced to rockets to orbit. The latest thing in medicine is organ transplants and slow drug. Science is developing programmer, and the latest local technology includes programming. The latest available computer is Model/2. The fastest speed is done by rockets to orbit, equivalent to Speed 9 (700 kph). Commonly used personal weapons include grenade launcher, assault rifle. Heavier military grade weapons at this technology level include gatling gun, missile launcher. Space travel is accomplished by rockets. The latest weapon in space is the missile, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include sound sensor, densitometer. 
+World Name: 
+Orbit: ee
+Orbital Distance: 16141 km
+Diameter: 588 km
+Jump Point distance: 500359 km
+Time to Jump Point at ...: 1G: 3h 56m 1s; 2G: 2h 46m 53s; 3G: 2h 16m 16s; 4G: 1h 58m 0s; 5G: 1h 45m 33s; 6G: 1h 36m 21s; 
+Density Type: Icy Body
+Density: 0.32 Earth
+Mass: 0.00003 Earth
+Surface Gravity (G): 0.0141 G
+Rotation Period: 34 hours 16 minutes 12 seconds
+Orbital Period: 1 days 10 hours 16 minutes 19 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0Atm
+Atmosphere Composition: None
+Albedo: 0.32
+Greenhouse: 1
+Base Surface Temperature: -172&deg;C
+Base Daytime temperature: -162&deg;C
+Base Nighttime temperature: -253&deg;C
+Summer temperature increase: 9&deg;C
+Winter temperature decrease: 15&deg;C
+Upper Temperature Limit: -162&deg;C
+Lower Temperature Limit: -253&deg;C
+Hydrographic Percentage: 5%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Vanished Transplants
+Seismic Stress: Stress factor is 15<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 11<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Planetoids, Asteroids or an object less than 1,000 miles in diameter
+Atmosphere UWP Digit Explanation: The atmosphere is vacuum - a vacc suit is required.
+Population Digit Explanation: 0 - population is in the order of 10<sup>0</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>0</sup>
+World Government Type: This world has government type 0 (No Government Structure). Family bonds predominate
+World Government Detail: No further detail available.
+Law Level Digit: 0
+Law Level explanation: The law level of 0 means that  there are no prohibitions (no law).
+Technology Level Digit: 10
+Technology Level explanation: The overall Technology Level (TL) of this world is 10. In the Traveller Universe, this is equivalent to approximately 2100 CE. The latest energy in use might include practical fusion. Society has evolved to include non-geographic communities. Typical living environments include arcologies. The lastest communication devices used by the citizenry are 3D images and video. Transport has advanced to gravity manipulation, lifters to orbit. The latest thing in medicine is anti-virals. Science is developing fluidics, and the latest local technology includes gravitics. The latest available computer is Model/4. The fastest speed is done by civil space transport, equivalent to Speed 12 (3000 kph). Commonly used personal weapons include laser weapons. Heavier military grade weapons at this technology level include autocannon, multiple missile launchers, RAM grenades. Space travel is accomplished by G-drive-7, Power Plant-3, M-drive-3, NAFAL-4, Jump-1. The latest weapon in space is the KK missile, datacaster, and space defenses are sandcaster. Space sensors used at this technology level are neutrino detector, while world sensors used by starships now include proximeter, life detector. 
+World Name: 
+Orbit: aitch
+Orbital Distance: 32281 km
+Diameter: 3259 km
+Jump Point distance: 484219 km
+Time to Jump Point at ...: 1G: 3h 52m 11s; 2G: 2h 44m 10s; 3G: 2h 14m 3s; 4G: 1h 56m 5s; 5G: 1h 43m 50s; 6G: 1h 34m 47s; 
+Density Type: Icy Body
+Density: 0.34 Earth
+Mass: 0.00531 Earth
+Surface Gravity (G): 0.085 G
+Rotation Period: 97 hours 26 minutes 23 seconds
+Orbital Period: 4 days 1 hours 26 minutes 23 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.25Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix with a taint caused by Sulfur Compounds
+Albedo: 0.24
+Greenhouse: 1
+Base Surface Temperature: -160&deg;C
+Base Daytime temperature: -121&deg;C
+Base Nighttime temperature: -216&deg;C
+Summer temperature increase: 28&deg;C
+Winter temperature decrease: 47&deg;C
+Upper Temperature Limit: -70&deg;C
+Lower Temperature Limit: -216&deg;C
+Hydrographic Percentage: 2%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Transients
+Seismic Stress: Stress factor is 9<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 5<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 2,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is very thin - a respirator is required.
+Population Digit Explanation: 3 - population is in the order of 10<sup>3</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>3</sup>
+World Government Type: This world has government type 7 (Balkanization). Rival governments compete for control
+World Government Detail: This world used to have a unified federal government. Then at one point the federal government made a huge mess of things -- the exact details are left up to the referee. The provincial governors got together and dissolved the federal government, just to get rid of the screw-ups. Since that point, however, the provincial governments haven't been able to re-unify their world: so it remains permanently Balkanized.  There are 20 states on this world. The conflict level is High. The world is in the grip of a cold war between rival powers. Military spending is high, and there is a sense that a hot war between the major powers could break out at any time. For the moment, though, competition is channeled into low-intensity conflicts (largely revolutions and civil wars) within smaller, less powerful states, and direct superpower confrontation is avoided.These are the characteristics each state: Nation 1: This nation has government type 1 (Company / Corporation: Rule by a managerial elite). The local law level is 1. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Creole mix of Anglic and some other language (roll a second time to determine) Nation 2: This nation has government type 6 (Captive Government / Colony: Rule by an externally imposed leadership). The local law level is 5. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Artificial language. An invented language such as Esperanto or Basic English. Nation 3: This nation has government type 7 (Balkanization: Rival governments compete for control). The local law level is 3. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Obscure dialect of Anglic. Derived from Anglic but only barely intelligible to the Anglic speakers of the Imperium. Nation 4: This nation has government type 4 (Representative Democracy: Government by proxy). The local law level is 3. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Creole mix of Anglic and some other language (roll a second time to determine) Nation 5: This nation has government type 3 (Self-Perpetuating Oligarchy: Rule by an isolated minority). The local law level is 2. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Artificial language. An invented language such as Esperanto or Basic English. Nation 6: This nation has government type 1 (Company / Corporation: Rule by a managerial elite). The local law level is 3. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Language of a minor human race, such as the Dynchia of the Old Expanses or the Ilthara of Reaver's Deep. Nation 7: This nation has government type 2 (Participating Democracy: Rule by popular vote). The local law level is 2. There is a local starport of class undefined. The local technology level is NaN. The vast majority of citizens speak Anglic as their first language.  Nation 8: This nation has government type 2 (Participating Democracy: Rule by popular vote). The local law level is 0. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Alien language. The language of a non-Human race, such as Aslan or a Vargr society. Nation 9: This nation has government type 5 (Feudal Technocracy: Governmental relationships based on mutually beneficial technical activities). The local law level is 6. There is a local starport of class Y. The local technology level is 4. The vast majority of citizens speak Anglic as their first language.  Nation 10: This nation has government type 1 (Company / Corporation: Rule by a managerial elite). The local law level is 0. There is a local starport of class undefined. The local technology level is NaN. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Creole mix of Anglic and some other language (roll a second time to determine) Nation 11: This nation has government type 2 (Participating Democracy: Rule by popular vote). The local law level is 4. There is a local starport of class Y. The local technology level is 4. The vast majority of citizens speak Anglic as their first language.  Nation 12: This nation has government type 7 (Balkanization: Rival governments compete for control). The local law level is 7. There is a local starport of class undefined. The local technology level is NaN. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is High Vilani, the official language of the First Imperium. Nation 13: This nation has government type 2 (Participating Democracy: Rule by popular vote). The local law level is 0. There is a local starport of class Y. The local technology level is 4. The world's elite speak Anglic, perhaps as their first language, but the majority speaks something else. The local language spoken is Language of a minor human race, such as the Darrians or the Syleans. Nation 14: This nation has government type 1 (Company / Corporation: Rule by a managerial elite). The local law level is 1. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Old Terran language. Spanish, Hindi, Arabic and Mandarin are common. Nation 15: This nation has government type 5 (Feudal Technocracy: Governmental relationships based on mutually beneficial technical activities). The local law level is 5. There is a local starport of class Y. The local technology level is 4. The world's elite speak Anglic, perhaps as their first language, but the majority speaks something else. The local language spoken is Language of a minor human race, such as the Dynchia of the Old Expanses or the Ilthara of Reaver's Deep. Nation 16: This nation has government type 2 (Participating Democracy: Rule by popular vote). The local law level is 3. There is a local starport of class Y. The local technology level is 4. The world's elite speak Anglic, perhaps as their first language, but the majority speaks something else. The local language spoken is Old Terran language. Spanish, Hindi, Arabic and Mandarin are common. Nation 17: This nation has government type 4 (Representative Democracy: Government by proxy). The local law level is 0. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is High Vilani, the official language of the First Imperium. Nation 18: This nation has government type 2 (Participating Democracy: Rule by popular vote). The local law level is 2. There is a local starport of class undefined. The local technology level is NaN. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Language of a minor human race, such as the Dynchia of the Old Expanses or the Ilthara of Reaver's Deep. Nation 19: This nation has government type 6 (Captive Government / Colony: Rule by an externally imposed leadership). The local law level is 4. There is a local starport of class undefined. The local technology level is NaN. The world's elite speak Anglic, perhaps as their first language, but the majority speaks something else. The local language spoken is Language of a minor human race, such as the Darrians or the Syleans. Nation 20: This nation has government type 5 (Feudal Technocracy: Governmental relationships based on mutually beneficial technical activities). The local law level is 5. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Obscure dialect of Anglic. Derived from Anglic but only barely intelligible to the Anglic speakers of the Imperium. 
+Law Level Digit: 9
+Law Level explanation: The law level of 9 means that  no weapons are allowed outside the home (high law).
+Technology Level Digit: 4
+Technology Level explanation: The overall Technology Level (TL) of this world is 4. In the Traveller Universe, this is equivalent to approximately Mechanization 1900 CE. The latest energy in use might include Electricity. Society has evolved to include democracies. Typical living environments include skyscrapers. The lastest communication devices used by the citizenry are sound by wire, image capture. Transport has advanced to railroads. The latest thing in medicine is antiseptics and anesthetics. Science is developing medical, and the latest local technology includes mechanical. The latest available computer is analog computers. The fastest speed is done by railroads, equivalent to Speed 6 (100 kph). Commonly used personal weapons include cartridges. Heavier military grade weapons at this technology level include mortars. Space travel is accomplished by Stargazing. The latest weapon in space is the None, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include None. 
+
+
+World Name: 
+Orbit: 17.2
+Orbital Distance: 11734 AU
+Diameter: 15177 km
+Jump Point distance: 1517700 km
+Time to Jump Point at ...: 1G: 6h 51m 3s; 2G: 4h 50m 39s; 3G: 3h 57m 19s; 4G: 3h 25m 31s; 5G: 3h 3m 49s; 6G: 2h 47m 48s; 
+Density Type: Molten Core
+Density: 1 Earth
+Mass: 1.424 Earth
+Surface Gravity (G): 1.13 G
+Rotation Period: 29 hours 0 minutes 0 seconds
+Orbital Period: 1148889 years 333 days 14 hours 38 minutes 24 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 2.4Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.44
+Greenhouse: 1.15
+Base Surface Temperature: -271&deg;C
+Base Daytime temperature: -265&deg;C
+Base Nighttime temperature: -271&deg;C
+Summer temperature increase: 13&deg;C
+Winter temperature decrease: 22&deg;C
+Upper Temperature Limit: -263&deg;C
+Lower Temperature Limit: -271&deg;C
+Hydrographic Percentage: 78%
+Surface Liquid Composition: Water
+Native Life: Yes
+Native Intelligent Life: Extinct Natives
+Seismic Stress: Stress factor is 9<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 5<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 9,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is dense - breathable without protection
+Population Digit Explanation: 0 - population is in the order of 10<sup>0</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>0</sup>
+World Government Type: This world has government type 0 (No Government Structure). Family bonds predominate
+World Government Detail: No further detail available.
+Law Level Digit: 0
+Law Level explanation: The law level of 0 means that  there are no prohibitions (no law).
+Technology Level Digit: 0
+Technology Level explanation: The overall Technology Level (TL) of this world is 0. In the Traveller Universe, this is equivalent to approximately Primitive, Stone Age. The latest energy in use might include Personal Effort, Fire. Society has evolved to include Tribe, clan. Typical living environments include Natural  Crude Shelters. The lastest communication devices used by the citizenry are Personal Senses  Messengers. Transport has advanced to Walking. The latest thing in medicine is Herbal Medicine, Mystical Therapy. Science is developing None, and the latest local technology includes None. The latest available computer is Counting. The fastest speed is done by Walking, equivalent to Speed 1 (5 kph). Commonly used personal weapons include Clubs, rocks. Heavier military grade weapons at this technology level include None. Space travel is accomplished by Stargazing. The latest weapon in space is the None, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include None. 
+World Name: 
+Orbit: gee
+Orbital Distance: 75885 km
+Diameter: 6841 km
+Jump Point distance: 1441815 km
+Time to Jump Point at ...: 1G: 6h 40m 39s; 2G: 4h 43m 18s; 3G: 3h 51m 19s; 4G: 3h 20m 19s; 5G: 2h 59m 10s; 6G: 2h 43m 33s; 
+Density Type: Molten Core
+Density: 0.88 Earth
+Mass: 0.11 Earth
+Surface Gravity (G): 0.44 G
+Rotation Period: 45 hours 1 minutes 12 seconds
+Orbital Period: 1 days 21 hours 1 minutes 26 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.9Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.25
+Greenhouse: 1.1
+Base Surface Temperature: -270&deg;C
+Base Daytime temperature: -262&deg;C
+Base Nighttime temperature: -270&deg;C
+Summer temperature increase: 10&deg;C
+Winter temperature decrease: 16&deg;C
+Upper Temperature Limit: -262&deg;C
+Lower Temperature Limit: -270&deg;C
+Hydrographic Percentage: 69%
+Surface Liquid Composition: Water
+Native Life: Yes
+Native Intelligent Life: Extinct Natives
+Seismic Stress: Stress factor is 31<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 27<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 4,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is standard - breathable without protection
+Population Digit Explanation: 0 - population is in the order of 10<sup>0</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>0</sup>
+World Government Type: This world has government type 0 (No Government Structure). Family bonds predominate
+World Government Detail: No further detail available.
+Law Level Digit: 0
+Law Level explanation: The law level of 0 means that  there are no prohibitions (no law).
+Technology Level Digit: 0
+Technology Level explanation: The overall Technology Level (TL) of this world is 0. In the Traveller Universe, this is equivalent to approximately Primitive, Stone Age. The latest energy in use might include Personal Effort, Fire. Society has evolved to include Tribe, clan. Typical living environments include Natural  Crude Shelters. The lastest communication devices used by the citizenry are Personal Senses  Messengers. Transport has advanced to Walking. The latest thing in medicine is Herbal Medicine, Mystical Therapy. Science is developing None, and the latest local technology includes None. The latest available computer is Counting. The fastest speed is done by Walking, equivalent to Speed 1 (5 kph). Commonly used personal weapons include Clubs, rocks. Heavier military grade weapons at this technology level include None. Space travel is accomplished by Stargazing. The latest weapon in space is the None, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include None. 
+
+
+
+World Name: 
+Orbit: 0
+Orbital Distance: 0.2 AU
+Diameter: 9660 km
+Jump Point distance: 103376546 km
+Time to Jump Point at ...: 1G: 2d 8h 32m 32s; 2G: 1d 15h 58m 53s; 3G: 32h 38m 40s; 4G: 28h 16m 16s; 5G: 25h 17m 11s; 6G: 23h 4m 59s; 
+Density Type: Heavy Core
+Density: 1.5 Earth
+Mass: 0.633 Earth
+Surface Gravity (G): 1.13 G
+Rotation Period: 709 hours 33 minutes 35 seconds
+Orbital Period: 29 days 13 hours 33 minutes 36 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 25Atm
+Atmosphere Composition: Corrosive gas mix at temperature 621&deg;C and at Very Dense pressure. The atmosphere is composed of Carbon Dioxide(99.9723925%) and Sulfur Dioxide(0.0276075%). 
+Albedo: 0.42
+Greenhouse: 1.9
+Base Surface Temperature: 621&deg;C
+Base Daytime temperature: 5091&deg;C
+Base Nighttime temperature: 576&deg;C
+Summer temperature increase: 0&deg;C
+Winter temperature decrease: 0&deg;C
+Upper Temperature Limit: 5091&deg;C
+Lower Temperature Limit: 576&deg;C
+Hydrographic Percentage: 22%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Transients
+Seismic Stress: Stress factor is 3<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < -1<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 6,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is a corrosive gas mix - a vacc suit is required.
+Population Digit Explanation: 2 - population is in the order of 10<sup>2</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>2</sup>
+World Government Type: This world has government type 2 (Participating Democracy). Rule by popular vote
+World Government Detail: The government is characterised as a participatory democracy. Leadership institutions include: Large group (assembly), 10 or more people which is Chosen by lot. Large group (assembly), 10 or more people which is Chosen by lot. Large group (assembly), 10 or more people which is Elected directly. When major laws need to be changed, there is a is a world meeting. All citizens gather at a central meeting place when summoned to vote on legislation.. There are no restrictions on suffrage. There are multiple competing political parties.(person's name) Party with a median social standing of 8. Liberation Republican Party with a median social standing of 8. New Radical Party with a median social standing of 7. Libertarian Democratic Party with a median social standing of 6. (person's name) Party with a median social standing of 6. Independence Reform Movement with a median social standing of 5. Around 90% of the eligible electorate participate. 
+Law Level Digit: 0
+Law Level explanation: The law level of 0 means that  there are no prohibitions (no law).
+Technology Level Digit: 6
+Technology Level explanation: The overall Technology Level (TL) of this world is 6. In the Traveller Universe, this is equivalent to approximately Nuclear Age 1950 CE. The latest energy in use might include nuclear fission. Society has evolved to include superpowers. Typical living environments include suburbs. The lastest communication devices used by the citizenry are broadcast images, video recording. Transport has advanced to groundcars, jet aircraft. The latest thing in medicine is internal imaging. Science is developing electronics, and the latest local technology includes electronics. The latest available computer is Model/1. The fastest speed is done by jet aircraft, equivalent to Speed 8 (500 kph). Commonly used personal weapons include auto rifle. Heavier military grade weapons at this technology level include multiple rocket launchers. Space travel is accomplished by rockets. The latest weapon in space is the None, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include None. 
+
+
+World Name: 
+Orbit: 1.2
+Orbital Distance: 0.46 AU
+Diameter: 2763 km
+Jump Point distance: 64481099 km
+Time to Jump Point at ...: 1G: 1d 20h 39m 21s; 2G: 31h 34m 35s; 3G: 25h 46m 55s; 4G: 22h 19m 40s; 5G: 19h 58m 14s; 6G: 18h 13m 50s; 
+Density Type: Molten Core
+Density: 1.02 Earth
+Mass: 0.01594 Earth
+Surface Gravity (G): 0.26 G
+Rotation Period: 2470 hours 18 minutes 35 seconds
+Orbital Period: 102 days 22 hours 19 minutes 11 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 1.1Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.61
+Greenhouse: 1.1
+Base Surface Temperature: -43&deg;C
+Base Daytime temperature: 532&deg;C
+Base Nighttime temperature: -77&deg;C
+Summer temperature increase: 0&deg;C
+Winter temperature decrease: 0&deg;C
+Upper Temperature Limit: 532&deg;C
+Lower Temperature Limit: -77&deg;C
+Hydrographic Percentage: 100%
+Surface Liquid Composition: Water
+Native Life: Yes
+Native Intelligent Life: Settlers
+Seismic Stress: Stress factor is 4<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 0<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: F
+Port Facilities: The spaceport is type F - Good. There is a downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive minor repairs at this port. Fuels the port can supply include unrefined hydrogen.
+Size UWP Digit Explanation: Approximately 2,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is standard - breathable without protection
+Population Digit Explanation: 6 - population is in the order of 10<sup>6</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>6</sup>
+World Government Type: This world has government type 9 (Impersonal Bureaucracy). Rule by impersonal agencies isolated from the governed populations
+World Government Detail: The government is an impersonal bureaucracy. Under single-party states or other non-democratic regimes, the political leadership may be recruited directly from the bureaucracy: When a ruler steps down, he appoints a trusted bureaucrat to take his place. The bureaucracy doesn't rule directly, but it doesn't have to, since the new ruler probably agrees with them anyway. While the real power rests with an impersonal bureaucracy, the apparent political leadership is a Monarchy. Ultimate executive power rests in the hands of a hereditary monarch. There may also be a weak legislature of some sort, made up of hereditary peers, elected representatives or 'advisors' appointed directly by the monarch. Bureaucratized monarchies tend to be much more 'open' and meritocratic than the more aristocratic monarchies found under government type 3 (self-perpetuating oligarchy).
+Law Level Digit: 11
+Law Level explanation: The law level of 11 means that  continental passports are required (extreme law).
+Technology Level Digit: 9
+Technology Level explanation: The overall Technology Level (TL) of this world is 9. In the Traveller Universe, this is equivalent to approximately 2050 CE. The latest energy in use might include early fusion. Society has evolved to include superpowers. Typical living environments include arcologies. The lastest communication devices used by the citizenry are 3D images and video. Transport has advanced to NAFAL. The latest thing in medicine is cryogenics and fast drug. Science is developing gravitics, and the latest local technology includes fluidics. The latest available computer is Model/3. The fastest speed is done by civil SST, equivalent to Speed 11 (2000 kph). Commonly used personal weapons include accelerator weapons. Heavier military grade weapons at this technology level include autocannon, multiple missile launchers, RAM grenades. Space travel is accomplished by G-drive-4, Power Plant-2, M-drive-1, NAFAL-1, Jump-1. The latest weapon in space is the slug thrower, and space defenses are sandcaster. Space sensors used at this technology level are scope, radar, while world sensors used by starships now include analyser / sniffer, deep radar. 
+
+
+World Name: 
+Orbit: eye
+Orbital Distance: 1209734 km
+Diameter: 11930 km
+Jump Point distance: 24089674 km
+Time to Jump Point at ...: 1G: 27h 17m 40s; 2G: 19h 18m 0s; 3G: 15h 45m 30s; 4G: 13h 38m 50s; 5G: 12h 12m 23s; 6G: 11h 8m 34s; 
+Density Type: Molten Core
+Density: 0.94 Earth
+Mass: 0.63 Earth
+Surface Gravity (G): 0.82 G
+Rotation Period: 196 hours 53 minutes 23 seconds
+Orbital Period: 8 days 4 hours 53 minutes 45 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.85Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.24
+Greenhouse: 1.1
+Base Surface Temperature: 82&deg;C
+Base Daytime temperature: 131&deg;C
+Base Nighttime temperature: 29&deg;C
+Summer temperature increase: 9&deg;C
+Winter temperature decrease: 15&deg;C
+Upper Temperature Limit: 970&deg;C
+Lower Temperature Limit: 29&deg;C
+Hydrographic Percentage: 42%
+Surface Liquid Composition: Water
+Native Life: Yes
+Native Intelligent Life: Settlers
+Seismic Stress: Stress factor is 76<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 72<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: H
+Port Facilities: The spaceport is type H - Basic. There is a downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 7,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is standard - breathable without protection
+Population Digit Explanation: 4 - population is in the order of 10<sup>4</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>4</sup>
+World Government Type: This world has government type 4 (Representative Democracy). Government by proxy
+World Government Detail: The government is characterised as a representative democracy. Leadership institutions include: Two people which is Elected directly. Large group (assembly), 10 or more people which is Appointed by another institution, but given significant job security. Large group (assembly), 10 or more people which is Elected directly. When major laws need to be changed, there is a is a draft-lottery legislature. A random group of citizens is summoned to participate in a legislative body whose approval is necessary for legislation. (These issues may be submitted to the population in referenda when these votes lie within a certain margin of error.). The following restrictions on suffrage apply: Must be an adult; Must be a citizen/long-term resident; Must meet property qualifications. There are multiple competing political parties.Yellow League with a median social standing of 7. (name of country) Purple Party with a median social standing of 4. (region or ethnic group) Party with a median social standing of 6. Independence People's Movement with a median social standing of 10. Around 80% of the eligible electorate participate. 
+Law Level Digit: 5
+Law Level explanation: The law level of 5 means that  shock, EMP, radiation, magnetic and mag-lev and gravitic weapons are prohibited (moderate law).
+Technology Level Digit: 5
+Technology Level explanation: The overall Technology Level (TL) of this world is 5. In the Traveller Universe, this is equivalent to approximately Rise of Petrochemicals 1930 CE. The latest energy in use might include Oil, petrochemicals. Society has evolved to include dictators. Typical living environments include skyscrapers. The lastest communication devices used by the citizenry are broadcast sound, sound recording. Transport has advanced to groundcars. The latest thing in medicine is internal imaging. Science is developing polymers, and the latest local technology includes electronics. The latest available computer is electric calculators. The fastest speed is done by ground cars, propellor aircraft, equivalent to Speed 7 (300 kph). Commonly used personal weapons include rifle, machinegun. Heavier military grade weapons at this technology level include artillery. Space travel is accomplished by rockets. The latest weapon in space is the None, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include None. 
+World Name: 
+Orbit: arr
+Orbital Distance: 12097339 km
+Diameter: 23881 km
+Jump Point distance: 24089674 km
+Time to Jump Point at ...: 1G: 27h 17m 40s; 2G: 19h 18m 0s; 3G: 15h 45m 30s; 4G: 13h 38m 50s; 5G: 12h 12m 23s; 6G: 11h 8m 34s; 
+Density Type: Molten Core
+Density: 1.02 Earth
+Mass: 6.724 Earth
+Surface Gravity (G): 1.91 G
+Rotation Period: 35 hours 30 minutes 35 seconds
+Orbital Period: 9 Lunar months 7 days 16 hours 48 minutes 0 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.2Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.8
+Greenhouse: 1
+Base Surface Temperature: -188&deg;C
+Base Daytime temperature: -174&deg;C
+Base Nighttime temperature: -230&deg;C
+Summer temperature increase: 26&deg;C
+Winter temperature decrease: 44&deg;C
+Upper Temperature Limit: -120&deg;C
+Lower Temperature Limit: -230&deg;C
+Hydrographic Percentage: 100%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Established Transplants
+Seismic Stress: Stress factor is 7<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 3<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: F
+Port Facilities: The spaceport is type F - Good. There is a downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive minor repairs at this port. Fuels the port can supply include unrefined hydrogen.
+Size UWP Digit Explanation: Approximately 15,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is unusual conditions but breathable.
+Population Digit Explanation: 7 - population is in the order of 10<sup>7</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>7</sup>
+World Government Type: This world has government type 2 (Participating Democracy). Rule by popular vote
+World Government Detail: The government is characterised as a participatory democracy. Leadership institutions include: Large group (assembly), 10 or more people which is Chosen by lot. Large group (assembly), 10 or more people which is Elected directly. When major laws need to be changed, there is a are referenda. Citizens report to their local polling stations and vote on a variety of issues by secret ballot.. This takes place electronically. The following restrictions on suffrage apply: Must be an adult. There are multiple competing political parties.Democratic Purple Party with a median social standing of 5. August Party with a median social standing of 7. Brown Union with a median social standing of 6. Liberation (region or ethnic group) Party with a median social standing of 6. Democratic Alliance with a median social standing of 5. Liberation Independence Nationalist Party with a median social standing of 10. Around 90% of the eligible electorate participate. 
+Law Level Digit: 0
+Law Level explanation: The law level of 0 means that  there are no prohibitions (no law).
+Technology Level Digit: 8
+Technology Level explanation: The overall Technology Level (TL) of this world is 8. In the Traveller Universe, this is equivalent to approximately 2000 CE. The latest energy in use might include renewables. Society has evolved to include superpowers. Typical living environments include suburbs. The lastest communication devices used by the citizenry are personal comms. Transport has advanced to rockets to orbit. The latest thing in medicine is organ transplants and slow drug. Science is developing photonics, and the latest local technology includes photonics. The latest available computer is Model/2. The fastest speed is done by rockets to orbit, equivalent to Speed 10 (1000 kph). Commonly used personal weapons include grenade launcher, assault rifle. Heavier military grade weapons at this technology level include autocannon, multiple missile launchers, RAM grenades. Space travel is accomplished by rockets, ion engine. The latest weapon in space is the mining laser, commcaster, and space defenses are None. Space sensors used at this technology level are jammer, communicator, while world sensors used by starships now include mass sensor. 
+
+
+World Name: TIVIDIR
+Orbit: 3
+Orbital Distance: 1 AU
+Diameter: 7020 km
+Jump Point distance: 702000 km
+Time to Jump Point at ...: 1G: 4h 39m 33s; 2G: 3h 17m 40s; 3G: 2h 41m 24s; 4G: 2h 19m 46s; 5G: 2h 5m 1s; 6G: 1h 54m 7s; 
+Density Type: Molten Core
+Density: 1 Earth
+Mass: 0.125 Earth
+Surface Gravity (G): 0.5 G
+Rotation Period: 18 hours 44 minutes 23 seconds
+Orbital Period: 329 days 23 hours 2 minutes 24 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0Atm
+Atmosphere Composition: None
+Albedo: 0.16
+Greenhouse: 1.05
+Base Surface Temperature: 47&deg;C
+Base Daytime temperature: 56&deg;C
+Base Nighttime temperature: -140&deg;C
+Summer temperature increase: 4&deg;C
+Winter temperature decrease: 6&deg;C
+Upper Temperature Limit: 79&deg;C
+Lower Temperature Limit: -209&deg;C
+Hydrographic Percentage: 1%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Transplants
+Seismic Stress: Stress factor is 9<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 5<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: C
+Port Facilities: The starport is type C - Routine. There is a downport, and a highport in orbit. The port has no shipyards and cannot build ships. Visiting ships can receive major repairs at this port. Fuels the port can supply include unrefined hydrogen.
+Size UWP Digit Explanation: Approximately 4,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is vacuum - a vacc suit is required.
+Population Digit Explanation: 10 - population is in the order of 10<sup>10</sup>.
+Population Multipler: 4
+Total Population Calculation: 40000000000 = 4 &times; 10<sup>10</sup>
+World Government Type: This world has government type 9 (Impersonal Bureaucracy). Rule by impersonal agencies isolated from the governed populations
+World Government Detail: The government is an impersonal bureaucracy. A crafty bureaucrat can accumulate so much political power than no politician will oppose him. He might become a media darling, for example, and use the press to discredit his critics. He could make friends in high places, who make sure his agency well-financed. Or he could track down incriminating documents and blackmail well-placed politicians. While the real power rests with an impersonal bureaucracy, the apparent political leadership is a Monarchy. Ultimate executive power rests in the hands of a hereditary monarch. There may also be a weak legislature of some sort, made up of hereditary peers, elected representatives or 'advisors' appointed directly by the monarch. Bureaucratized monarchies tend to be much more 'open' and meritocratic than the more aristocratic monarchies found under government type 3 (self-perpetuating oligarchy).
+Law Level Digit: 8
+Law Level explanation: The law level of 8 means that  open display of weapons is prohibited (high law).
+Technology Level Digit: 9
+Technology Level explanation: The overall Technology Level (TL) of this world is 9. In the Traveller Universe, this is equivalent to approximately 2050 CE. The latest energy in use might include early fusion. Society has evolved to include superpowers. Typical living environments include arcologies. The lastest communication devices used by the citizenry are 3D images and video. Transport has advanced to NAFAL. The latest thing in medicine is cryogenics and fast drug. Science is developing gravitics, and the latest local technology includes fluidics. The latest available computer is Model/3. The fastest speed is done by civil SST, equivalent to Speed 11 (2000 kph). Commonly used personal weapons include accelerator weapons. Heavier military grade weapons at this technology level include autocannon, multiple missile launchers, RAM grenades. Space travel is accomplished by G-drive-4, Power Plant-2, M-drive-1, NAFAL-1, Jump-1. The latest weapon in space is the slug thrower, and space defenses are sandcaster. Space sensors used at this technology level are scope, radar, while world sensors used by starships now include analyser / sniffer, deep radar. 
+World Name: 
+Orbit: dee
+Orbital Distance: 17550 km
+Diameter: 2608 km
+Jump Point distance: 684450 km
+Time to Jump Point at ...: 1G: 4h 36m 2s; 2G: 3h 15m 11s; 3G: 2h 39m 22s; 4G: 2h 18m 1s; 5G: 2h 3m 27s; 6G: 1h 52m 41s; 
+Density Type: Molten Core
+Density: 0.92 Earth
+Mass: 0.01438 Earth
+Surface Gravity (G): 0.23 G
+Rotation Period: 15 hours 26 minutes 59 seconds
+Orbital Period: 0 days 15 hours 27 minutes 21 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.5Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.23
+Greenhouse: 1.05
+Base Surface Temperature: 20&deg;C
+Base Daytime temperature: 25&deg;C
+Base Nighttime temperature: -3&deg;C
+Summer temperature increase: 22&deg;C
+Winter temperature decrease: 36&deg;C
+Upper Temperature Limit: 460&deg;C
+Lower Temperature Limit: -68&deg;C
+Hydrographic Percentage: 41%
+Surface Liquid Composition: Water
+Native Life: Yes
+Native Intelligent Life: Catastrophic Extinct Natives
+Seismic Stress: Stress factor is 25<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 21<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 2,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is thin - breathable without protection.
+Population Digit Explanation: 0 - population is in the order of 10<sup>0</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>0</sup>
+World Government Type: This world has government type 0 (No Government Structure). Family bonds predominate
+World Government Detail: No further detail available.
+Law Level Digit: 0
+Law Level explanation: The law level of 0 means that  there are no prohibitions (no law).
+Technology Level Digit: 8
+Technology Level explanation: The overall Technology Level (TL) of this world is 8. In the Traveller Universe, this is equivalent to approximately 2000 CE. The latest energy in use might include renewables. Society has evolved to include superpowers. Typical living environments include suburbs. The lastest communication devices used by the citizenry are personal comms. Transport has advanced to rockets to orbit. The latest thing in medicine is organ transplants and slow drug. Science is developing photonics, and the latest local technology includes photonics. The latest available computer is Model/2. The fastest speed is done by rockets to orbit, equivalent to Speed 10 (1000 kph). Commonly used personal weapons include grenade launcher, assault rifle. Heavier military grade weapons at this technology level include autocannon, multiple missile launchers, RAM grenades. Space travel is accomplished by rockets, ion engine. The latest weapon in space is the mining laser, commcaster, and space defenses are None. Space sensors used at this technology level are jammer, communicator, while world sensors used by starships now include mass sensor. 
+World Name: 
+Orbit: yu
+Orbital Distance: 1755000 km
+Diameter: 3610 km
+Jump Point distance: 361000 km
+Time to Jump Point at ...: 1G: 3h 20m 28s; 2G: 2h 21m 45s; 3G: 1h 55m 44s; 4G: 1h 40m 14s; 5G: 89m 39s; 6G: 81m 50s; 
+Density Type: Molten Core
+Density: 1 Earth
+Mass: 0.01563 Earth
+Surface Gravity (G): 0.25 G
+Rotation Period: 29 hours 1 minutes 11 seconds
+Orbital Period: 23 Lunar months 13 days 11 hours 54 minutes 14 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.23Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix with a taint caused by Sulfur Compounds
+Albedo: 0.26
+Greenhouse: 1
+Base Surface Temperature: -4&deg;C
+Base Daytime temperature: 8&deg;C
+Base Nighttime temperature: -120&deg;C
+Summer temperature increase: 24&deg;C
+Winter temperature decrease: 40&deg;C
+Upper Temperature Limit: 211&deg;C
+Lower Temperature Limit: -138&deg;C
+Hydrographic Percentage: 3%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Catastrophic Extinct Natives
+Seismic Stress: Stress factor is 1<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < -3<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 2,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is very thin - a respirator is required.
+Population Digit Explanation: 0 - population is in the order of 10<sup>0</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>0</sup>
+World Government Type: This world has government type 0 (No Government Structure). Family bonds predominate
+World Government Detail: No further detail available.
+Law Level Digit: 0
+Law Level explanation: The law level of 0 means that  there are no prohibitions (no law).
+Technology Level Digit: 4
+Technology Level explanation: The overall Technology Level (TL) of this world is 4. In the Traveller Universe, this is equivalent to approximately Mechanization 1900 CE. The latest energy in use might include Electricity. Society has evolved to include democracies. Typical living environments include skyscrapers. The lastest communication devices used by the citizenry are sound by wire, image capture. Transport has advanced to railroads. The latest thing in medicine is antiseptics and anesthetics. Science is developing medical, and the latest local technology includes mechanical. The latest available computer is analog computers. The fastest speed is done by railroads, equivalent to Speed 6 (100 kph). Commonly used personal weapons include cartridges. Heavier military grade weapons at this technology level include mortars. Space travel is accomplished by Stargazing. The latest weapon in space is the None, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include None. 
+
+
+World Name: 
+Orbit: 4.2
+Orbital Distance: 1.84 AU
+Diameter: 27676 km
+Jump Point distance: 2767600 km
+Time to Jump Point at ...: 1G: 9h 15m 5s; 2G: 6h 32m 30s; 3G: 5h 20m 28s; 4G: 4h 37m 32s; 5G: 4h 8m 14s; 6G: 3h 46m 36s; 
+Density Type: Molten Core
+Density: 1.02 Earth
+Mass: 9.788 Earth
+Surface Gravity (G): 2.17 G
+Rotation Period: 17 hours 39 minutes 36 seconds
+Orbital Period: 2 years 93 days 10 hours 33 minutes 35 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.55Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.8
+Greenhouse: 1
+Base Surface Temperature: -219&deg;C
+Base Daytime temperature: -214&deg;C
+Base Nighttime temperature: -235&deg;C
+Summer temperature increase: 16&deg;C
+Winter temperature decrease: 26&deg;C
+Upper Temperature Limit: -138&deg;C
+Lower Temperature Limit: -235&deg;C
+Hydrographic Percentage: 100%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Settlers
+Seismic Stress: Stress factor is 7<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 3<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: G
+Port Facilities: The spaceport is type G - Poor. There is a downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive slight repairs at this port. Fuels the port can supply include unrefined hydrogen.
+Size UWP Digit Explanation: Approximately 17,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is unusual conditions but breathable.
+Population Digit Explanation: 5 - population is in the order of 10<sup>5</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>5</sup>
+World Government Type: This world has government type 4 (Representative Democracy). Government by proxy
+World Government Detail: The government is characterised as a representative democracy. Leadership institutions include: Large group (assembly), 10 or more people which is Appointed by another institution, but given significant job security. Large group (assembly), 10 or more people which is Elected directly. Small group (council), 4 to 9 people which is Elected indirectly. Large group (assembly), 10 or more people which is A hereditary position. When major laws need to be changed, there is a is a world meeting. All citizens gather at a central meeting place when summoned to vote on legislation.. The following restrictions on suffrage apply: Must be an adult; Must meet property qualifications. There are multiple competing political parties.Democratic Movement with a median social standing of 7. Green Movement with a median social standing of 8. Around 90% of the eligible electorate participate. 
+Law Level Digit: 5
+Law Level explanation: The law level of 5 means that  shock, EMP, radiation, magnetic and mag-lev and gravitic weapons are prohibited (moderate law).
+Technology Level Digit: 5
+Technology Level explanation: The overall Technology Level (TL) of this world is 5. In the Traveller Universe, this is equivalent to approximately Rise of Petrochemicals 1930 CE. The latest energy in use might include Oil, petrochemicals. Society has evolved to include dictators. Typical living environments include skyscrapers. The lastest communication devices used by the citizenry are broadcast sound, sound recording. Transport has advanced to groundcars. The latest thing in medicine is internal imaging. Science is developing polymers, and the latest local technology includes electronics. The latest available computer is electric calculators. The fastest speed is done by ground cars, propellor aircraft, equivalent to Speed 7 (300 kph). Commonly used personal weapons include rifle, machinegun. Heavier military grade weapons at this technology level include artillery. Space travel is accomplished by rockets. The latest weapon in space is the None, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include None. 
+World Name: 
+Orbit: kay
+Orbital Distance: 691900 km
+Diameter: 12384 km
+Jump Point distance: 2075700 km
+Time to Jump Point at ...: 1G: 8h 0m 43s; 2G: 5h 39m 55s; 3G: 4h 37m 32s; 4G: 4h 0m 21s; 5G: 3h 34m 59s; 6G: 3h 16m 15s; 
+Density Type: Heavy Core
+Density: 1.55 Earth
+Mass: 1.55 Earth
+Surface Gravity (G): 1.55 G
+Rotation Period: 356 hours 49 minutes 47 seconds
+Orbital Period: 14 days 20 hours 49 minutes 55 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 1Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix with a taint caused by Sulfur Compounds
+Albedo: 0.24
+Greenhouse: 1.1
+Base Surface Temperature: -49&deg;C
+Base Daytime temperature: 40&deg;C
+Base Nighttime temperature: -83&deg;C
+Summer temperature increase: 8&deg;C
+Winter temperature decrease: 14&deg;C
+Upper Temperature Limit: 511&deg;C
+Lower Temperature Limit: -83&deg;C
+Hydrographic Percentage: 41%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Extinct Natives
+Seismic Stress: Stress factor is 11<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 7<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 8,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is standard but tainted - breathable with a filter mask.
+Population Digit Explanation: 0 - population is in the order of 10<sup>0</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>0</sup>
+World Government Type: This world has government type 0 (No Government Structure). Family bonds predominate
+World Government Detail: No further detail available.
+Law Level Digit: 0
+Law Level explanation: The law level of 0 means that  there are no prohibitions (no law).
+Technology Level Digit: 0
+Technology Level explanation: The overall Technology Level (TL) of this world is 0. In the Traveller Universe, this is equivalent to approximately Primitive, Stone Age. The latest energy in use might include Personal Effort, Fire. Society has evolved to include Tribe, clan. Typical living environments include Natural  Crude Shelters. The lastest communication devices used by the citizenry are Personal Senses  Messengers. Transport has advanced to Walking. The latest thing in medicine is Herbal Medicine, Mystical Therapy. Science is developing None, and the latest local technology includes None. The latest available computer is Counting. The fastest speed is done by Walking, equivalent to Speed 1 (5 kph). Commonly used personal weapons include Clubs, rocks. Heavier military grade weapons at this technology level include None. Space travel is accomplished by Stargazing. The latest weapon in space is the None, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include None. 
+World Name: 
+Orbit: ess
+Orbital Distance: 4324375 km
+Diameter: 24156 km
+Jump Point distance: 2415600 km
+Time to Jump Point at ...: 1G: 8h 38m 35s; 2G: 6h 6m 42s; 3G: 4h 59m 24s; 4G: 4h 19m 17s; 5G: 3h 51m 55s; 6G: 3h 31m 42s; 
+Density Type: Molten Core
+Density: 1.1 Earth
+Mass: 7.251 Earth
+Surface Gravity (G): 2.06 G
+Rotation Period: 25 hours 53 minutes 59 seconds
+Orbital Period: 8 Lunar months 8 days 5 hours 34 minutes 4 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.16Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.5
+Greenhouse: 1
+Base Surface Temperature: -139&deg;C
+Base Daytime temperature: -129&deg;C
+Base Nighttime temperature: -206&deg;C
+Summer temperature increase: 17&deg;C
+Winter temperature decrease: 29&deg;C
+Upper Temperature Limit: -32&deg;C
+Lower Temperature Limit: -206&deg;C
+Hydrographic Percentage: 100%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Transients
+Seismic Stress: Stress factor is 7<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 3<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: H
+Port Facilities: The spaceport is type H - Basic. There is a downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 15,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is unusual conditions but breathable.
+Population Digit Explanation: 3 - population is in the order of 10<sup>3</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>3</sup>
+World Government Type: This world has government type 3 (Self-Perpetuating Oligarchy). Rule by an isolated minority
+World Government Detail: No further detail available.
+Law Level Digit: 7
+Law Level explanation: The law level of 7 means that  pistols are prohibited (moderate law).
+Technology Level Digit: 10
+Technology Level explanation: The overall Technology Level (TL) of this world is 10. In the Traveller Universe, this is equivalent to approximately 2100 CE. The latest energy in use might include practical fusion. Society has evolved to include non-geographic communities. Typical living environments include arcologies. The lastest communication devices used by the citizenry are 3D images and video. Transport has advanced to gravity manipulation, lifters to orbit. The latest thing in medicine is anti-virals. Science is developing fluidics, and the latest local technology includes gravitics. The latest available computer is Model/4. The fastest speed is done by civil space transport, equivalent to Speed 12 (3000 kph). Commonly used personal weapons include laser weapons. Heavier military grade weapons at this technology level include autocannon, multiple missile launchers, RAM grenades. Space travel is accomplished by G-drive-7, Power Plant-3, M-drive-3, NAFAL-4, Jump-1. The latest weapon in space is the KK missile, datacaster, and space defenses are sandcaster. Space sensors used at this technology level are neutrino detector, while world sensors used by starships now include proximeter, life detector. 
+
+
+World Name: 
+Orbit: 4.8
+Orbital Distance: 2.56 AU
+Diameter: 22458 km
+Jump Point distance: 2245800 km
+Time to Jump Point at ...: 1G: 8h 20m 2s; 2G: 5h 53m 34s; 3G: 4h 48m 41s; 4G: 4h 10m 1s; 5G: 3h 43m 37s; 6G: 3h 24m 8s; 
+Density Type: Molten Core
+Density: 1.04 Earth
+Mass: 5.574 Earth
+Surface Gravity (G): 1.82 G
+Rotation Period: 21 hours 28 minutes 11 seconds
+Orbital Period: 3 years 256 days 5 hours 31 minutes 11 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.14Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.3
+Greenhouse: 1.1
+Base Surface Temperature: -98&deg;C
+Base Daytime temperature: -89&deg;C
+Base Nighttime temperature: -184&deg;C
+Summer temperature increase: 22&deg;C
+Winter temperature decrease: 37&deg;C
+Upper Temperature Limit: 42&deg;C
+Lower Temperature Limit: -185&deg;C
+Hydrographic Percentage: 100%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Established Transplants
+Seismic Stress: Stress factor is 2<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < -2<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: F
+Port Facilities: The spaceport is type F - Good. There is a downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive minor repairs at this port. Fuels the port can supply include unrefined hydrogen.
+Size UWP Digit Explanation: Approximately 14,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is thin but low - breathable only at very low (below sea level) altitudes.
+Population Digit Explanation: 7 - population is in the order of 10<sup>7</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>7</sup>
+World Government Type: This world has government type 8 (Civil Service Bureaucracy). Rule by agencies employing individuals selected by merit
+World Government Detail: Under a civil service bureaucracy, the government's non-bureaucratic leaders really do rule, at least when they're united, although administrators still shape policy through discreet and indirect means. While the real power rests with a civil service bureauracy, the apparent political leadership is a Representative Democracy. Citizens elect the world's leaders. These leaders tend to be lawyers or other well to do citizens, and most are members of large bureaucratized political parties. Citizens have little direct contact with their leaders in bureaucratic representative regimes, and what little they know about them, they learn from political advertising or the news media.
+Law Level Digit: 5
+Law Level explanation: The law level of 5 means that  shock, EMP, radiation, magnetic and mag-lev and gravitic weapons are prohibited (moderate law).
+Technology Level Digit: 9
+Technology Level explanation: The overall Technology Level (TL) of this world is 9. In the Traveller Universe, this is equivalent to approximately 2050 CE. The latest energy in use might include early fusion. Society has evolved to include superpowers. Typical living environments include arcologies. The lastest communication devices used by the citizenry are 3D images and video. Transport has advanced to NAFAL. The latest thing in medicine is cryogenics and fast drug. Science is developing gravitics, and the latest local technology includes fluidics. The latest available computer is Model/3. The fastest speed is done by civil SST, equivalent to Speed 11 (2000 kph). Commonly used personal weapons include accelerator weapons. Heavier military grade weapons at this technology level include autocannon, multiple missile launchers, RAM grenades. Space travel is accomplished by G-drive-4, Power Plant-2, M-drive-1, NAFAL-1, Jump-1. The latest weapon in space is the slug thrower, and space defenses are sandcaster. Space sensors used at this technology level are scope, radar, while world sensors used by starships now include analyser / sniffer, deep radar. 
+
+
+World Name: 
+Orbit: 6.2
+Orbital Distance: 6 AU
+Diameter: 5165 km
+Jump Point distance: 516500 km
+Time to Jump Point at ...: 1G: 3h 59m 47s; 2G: 2h 49m 33s; 3G: 2h 18m 26s; 4G: 1h 59m 53s; 5G: 1h 47m 14s; 6G: 1h 37m 53s; 
+Density Type: Icy Body
+Density: 0.38 Earth
+Mass: 0.02004 Earth
+Surface Gravity (G): 0.14 G
+Rotation Period: 33 hours 12 minutes 0 seconds
+Orbital Period: 13 years 103 days 15 hours 50 minutes 24 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0Atm
+Atmosphere Composition: None
+Albedo: 0.3
+Greenhouse: 1
+Base Surface Temperature: -169&deg;C
+Base Daytime temperature: -159&deg;C
+Base Nighttime temperature: -252&deg;C
+Summer temperature increase: 12&deg;C
+Winter temperature decrease: 20&deg;C
+Upper Temperature Limit: -159&deg;C
+Lower Temperature Limit: -252&deg;C
+Hydrographic Percentage: 1%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Transients
+Seismic Stress: Stress factor is 7<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 3<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 3,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is vacuum - a vacc suit is required.
+Population Digit Explanation: 2 - population is in the order of 10<sup>2</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>2</sup>
+World Government Type: This world has government type 4 (Representative Democracy). Government by proxy
+World Government Detail: The government is characterised as a representative democracy. Leadership institutions include: Large group (assembly), 10 or more people which is Elected directly. Large group (assembly), 10 or more people which is Appointed by another institution, but given significant job security. Small group (council), 4 to 9 people which is Elected directly. When major laws need to be changed, there is a is a world meeting. All citizens gather at a central meeting place when summoned to vote on legislation.. The following restrictions on suffrage apply: Must be an adult. Political Parties are banned.  Candidates run as individuals, without clear ideological position.Around 80% of the eligible electorate participate. 
+Law Level Digit: 2
+Law Level explanation: The law level of 2 means that  portable heavy weapons are prohibited (low law).
+Technology Level Digit: 7
+Technology Level explanation: The overall Technology Level (TL) of this world is 7. In the Traveller Universe, this is equivalent to approximately 1975 CE. The latest energy in use might include geothermal, solar. Society has evolved to include superpowers. Typical living environments include suburbs. The lastest communication devices used by the citizenry are broadcast images, video recording. Transport has advanced to rockets to orbit. The latest thing in medicine is organ transplants and slow drug. Science is developing programmer, and the latest local technology includes programming. The latest available computer is Model/2. The fastest speed is done by rockets to orbit, equivalent to Speed 9 (700 kph). Commonly used personal weapons include grenade launcher, assault rifle. Heavier military grade weapons at this technology level include gatling gun, missile launcher. Space travel is accomplished by rockets. The latest weapon in space is the missile, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include sound sensor, densitometer. 
+World Name: 
+Orbit: ee
+Orbital Distance: 16141 km
+Diameter: 588 km
+Jump Point distance: 500359 km
+Time to Jump Point at ...: 1G: 3h 56m 1s; 2G: 2h 46m 53s; 3G: 2h 16m 16s; 4G: 1h 58m 0s; 5G: 1h 45m 33s; 6G: 1h 36m 21s; 
+Density Type: Icy Body
+Density: 0.32 Earth
+Mass: 0.00003 Earth
+Surface Gravity (G): 0.0141 G
+Rotation Period: 34 hours 16 minutes 12 seconds
+Orbital Period: 1 days 10 hours 16 minutes 19 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0Atm
+Atmosphere Composition: None
+Albedo: 0.32
+Greenhouse: 1
+Base Surface Temperature: -172&deg;C
+Base Daytime temperature: -162&deg;C
+Base Nighttime temperature: -253&deg;C
+Summer temperature increase: 9&deg;C
+Winter temperature decrease: 15&deg;C
+Upper Temperature Limit: -162&deg;C
+Lower Temperature Limit: -253&deg;C
+Hydrographic Percentage: 5%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Vanished Transplants
+Seismic Stress: Stress factor is 15<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 11<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Planetoids, Asteroids or an object less than 1,000 miles in diameter
+Atmosphere UWP Digit Explanation: The atmosphere is vacuum - a vacc suit is required.
+Population Digit Explanation: 0 - population is in the order of 10<sup>0</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>0</sup>
+World Government Type: This world has government type 0 (No Government Structure). Family bonds predominate
+World Government Detail: No further detail available.
+Law Level Digit: 0
+Law Level explanation: The law level of 0 means that  there are no prohibitions (no law).
+Technology Level Digit: 10
+Technology Level explanation: The overall Technology Level (TL) of this world is 10. In the Traveller Universe, this is equivalent to approximately 2100 CE. The latest energy in use might include practical fusion. Society has evolved to include non-geographic communities. Typical living environments include arcologies. The lastest communication devices used by the citizenry are 3D images and video. Transport has advanced to gravity manipulation, lifters to orbit. The latest thing in medicine is anti-virals. Science is developing fluidics, and the latest local technology includes gravitics. The latest available computer is Model/4. The fastest speed is done by civil space transport, equivalent to Speed 12 (3000 kph). Commonly used personal weapons include laser weapons. Heavier military grade weapons at this technology level include autocannon, multiple missile launchers, RAM grenades. Space travel is accomplished by G-drive-7, Power Plant-3, M-drive-3, NAFAL-4, Jump-1. The latest weapon in space is the KK missile, datacaster, and space defenses are sandcaster. Space sensors used at this technology level are neutrino detector, while world sensors used by starships now include proximeter, life detector. 
+World Name: 
+Orbit: aitch
+Orbital Distance: 32281 km
+Diameter: 3259 km
+Jump Point distance: 484219 km
+Time to Jump Point at ...: 1G: 3h 52m 11s; 2G: 2h 44m 10s; 3G: 2h 14m 3s; 4G: 1h 56m 5s; 5G: 1h 43m 50s; 6G: 1h 34m 47s; 
+Density Type: Icy Body
+Density: 0.34 Earth
+Mass: 0.00531 Earth
+Surface Gravity (G): 0.085 G
+Rotation Period: 97 hours 26 minutes 23 seconds
+Orbital Period: 4 days 1 hours 26 minutes 23 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.25Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix with a taint caused by Sulfur Compounds
+Albedo: 0.24
+Greenhouse: 1
+Base Surface Temperature: -160&deg;C
+Base Daytime temperature: -121&deg;C
+Base Nighttime temperature: -216&deg;C
+Summer temperature increase: 28&deg;C
+Winter temperature decrease: 47&deg;C
+Upper Temperature Limit: -70&deg;C
+Lower Temperature Limit: -216&deg;C
+Hydrographic Percentage: 2%
+Surface Liquid Composition: Water
+Native Life: No
+Native Intelligent Life: Transients
+Seismic Stress: Stress factor is 9<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 5<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 2,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is very thin - a respirator is required.
+Population Digit Explanation: 3 - population is in the order of 10<sup>3</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>3</sup>
+World Government Type: This world has government type 7 (Balkanization). Rival governments compete for control
+World Government Detail: This world used to have a unified federal government. Then at one point the federal government made a huge mess of things -- the exact details are left up to the referee. The provincial governors got together and dissolved the federal government, just to get rid of the screw-ups. Since that point, however, the provincial governments haven't been able to re-unify their world: so it remains permanently Balkanized.  There are 20 states on this world. The conflict level is High. The world is in the grip of a cold war between rival powers. Military spending is high, and there is a sense that a hot war between the major powers could break out at any time. For the moment, though, competition is channeled into low-intensity conflicts (largely revolutions and civil wars) within smaller, less powerful states, and direct superpower confrontation is avoided.These are the characteristics each state: Nation 1: This nation has government type 1 (Company / Corporation: Rule by a managerial elite). The local law level is 1. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Creole mix of Anglic and some other language (roll a second time to determine) Nation 2: This nation has government type 6 (Captive Government / Colony: Rule by an externally imposed leadership). The local law level is 5. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Artificial language. An invented language such as Esperanto or Basic English. Nation 3: This nation has government type 7 (Balkanization: Rival governments compete for control). The local law level is 3. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Obscure dialect of Anglic. Derived from Anglic but only barely intelligible to the Anglic speakers of the Imperium. Nation 4: This nation has government type 4 (Representative Democracy: Government by proxy). The local law level is 3. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Creole mix of Anglic and some other language (roll a second time to determine) Nation 5: This nation has government type 3 (Self-Perpetuating Oligarchy: Rule by an isolated minority). The local law level is 2. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Artificial language. An invented language such as Esperanto or Basic English. Nation 6: This nation has government type 1 (Company / Corporation: Rule by a managerial elite). The local law level is 3. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Language of a minor human race, such as the Dynchia of the Old Expanses or the Ilthara of Reaver's Deep. Nation 7: This nation has government type 2 (Participating Democracy: Rule by popular vote). The local law level is 2. There is a local starport of class undefined. The local technology level is NaN. The vast majority of citizens speak Anglic as their first language.  Nation 8: This nation has government type 2 (Participating Democracy: Rule by popular vote). The local law level is 0. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Alien language. The language of a non-Human race, such as Aslan or a Vargr society. Nation 9: This nation has government type 5 (Feudal Technocracy: Governmental relationships based on mutually beneficial technical activities). The local law level is 6. There is a local starport of class Y. The local technology level is 4. The vast majority of citizens speak Anglic as their first language.  Nation 10: This nation has government type 1 (Company / Corporation: Rule by a managerial elite). The local law level is 0. There is a local starport of class undefined. The local technology level is NaN. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Creole mix of Anglic and some other language (roll a second time to determine) Nation 11: This nation has government type 2 (Participating Democracy: Rule by popular vote). The local law level is 4. There is a local starport of class Y. The local technology level is 4. The vast majority of citizens speak Anglic as their first language.  Nation 12: This nation has government type 7 (Balkanization: Rival governments compete for control). The local law level is 7. There is a local starport of class undefined. The local technology level is NaN. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is High Vilani, the official language of the First Imperium. Nation 13: This nation has government type 2 (Participating Democracy: Rule by popular vote). The local law level is 0. There is a local starport of class Y. The local technology level is 4. The world's elite speak Anglic, perhaps as their first language, but the majority speaks something else. The local language spoken is Language of a minor human race, such as the Darrians or the Syleans. Nation 14: This nation has government type 1 (Company / Corporation: Rule by a managerial elite). The local law level is 1. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Old Terran language. Spanish, Hindi, Arabic and Mandarin are common. Nation 15: This nation has government type 5 (Feudal Technocracy: Governmental relationships based on mutually beneficial technical activities). The local law level is 5. There is a local starport of class Y. The local technology level is 4. The world's elite speak Anglic, perhaps as their first language, but the majority speaks something else. The local language spoken is Language of a minor human race, such as the Dynchia of the Old Expanses or the Ilthara of Reaver's Deep. Nation 16: This nation has government type 2 (Participating Democracy: Rule by popular vote). The local law level is 3. There is a local starport of class Y. The local technology level is 4. The world's elite speak Anglic, perhaps as their first language, but the majority speaks something else. The local language spoken is Old Terran language. Spanish, Hindi, Arabic and Mandarin are common. Nation 17: This nation has government type 4 (Representative Democracy: Government by proxy). The local law level is 0. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is High Vilani, the official language of the First Imperium. Nation 18: This nation has government type 2 (Participating Democracy: Rule by popular vote). The local law level is 2. There is a local starport of class undefined. The local technology level is NaN. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Language of a minor human race, such as the Dynchia of the Old Expanses or the Ilthara of Reaver's Deep. Nation 19: This nation has government type 6 (Captive Government / Colony: Rule by an externally imposed leadership). The local law level is 4. There is a local starport of class undefined. The local technology level is NaN. The world's elite speak Anglic, perhaps as their first language, but the majority speaks something else. The local language spoken is Language of a minor human race, such as the Darrians or the Syleans. Nation 20: This nation has government type 5 (Feudal Technocracy: Governmental relationships based on mutually beneficial technical activities). The local law level is 5. There is a local starport of class Y. The local technology level is 4. No one speaks Anglic as their first language, and very few (if any) speak it at all. The local language spoken is Obscure dialect of Anglic. Derived from Anglic but only barely intelligible to the Anglic speakers of the Imperium. 
+Law Level Digit: 9
+Law Level explanation: The law level of 9 means that  no weapons are allowed outside the home (high law).
+Technology Level Digit: 4
+Technology Level explanation: The overall Technology Level (TL) of this world is 4. In the Traveller Universe, this is equivalent to approximately Mechanization 1900 CE. The latest energy in use might include Electricity. Society has evolved to include democracies. Typical living environments include skyscrapers. The lastest communication devices used by the citizenry are sound by wire, image capture. Transport has advanced to railroads. The latest thing in medicine is antiseptics and anesthetics. Science is developing medical, and the latest local technology includes mechanical. The latest available computer is analog computers. The fastest speed is done by railroads, equivalent to Speed 6 (100 kph). Commonly used personal weapons include cartridges. Heavier military grade weapons at this technology level include mortars. Space travel is accomplished by Stargazing. The latest weapon in space is the None, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include None. 
+
+
+World Name: 
+Orbit: 17.2
+Orbital Distance: 11734 AU
+Diameter: 15177 km
+Jump Point distance: 1517700 km
+Time to Jump Point at ...: 1G: 6h 51m 3s; 2G: 4h 50m 39s; 3G: 3h 57m 19s; 4G: 3h 25m 31s; 5G: 3h 3m 49s; 6G: 2h 47m 48s; 
+Density Type: Molten Core
+Density: 1 Earth
+Mass: 1.424 Earth
+Surface Gravity (G): 1.13 G
+Rotation Period: 29 hours 0 minutes 0 seconds
+Orbital Period: 1148889 years 333 days 14 hours 38 minutes 24 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 2.4Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.44
+Greenhouse: 1.15
+Base Surface Temperature: -271&deg;C
+Base Daytime temperature: -265&deg;C
+Base Nighttime temperature: -271&deg;C
+Summer temperature increase: 13&deg;C
+Winter temperature decrease: 22&deg;C
+Upper Temperature Limit: -263&deg;C
+Lower Temperature Limit: -271&deg;C
+Hydrographic Percentage: 78%
+Surface Liquid Composition: Water
+Native Life: Yes
+Native Intelligent Life: Extinct Natives
+Seismic Stress: Stress factor is 9<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 5<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 9,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is dense - breathable without protection
+Population Digit Explanation: 0 - population is in the order of 10<sup>0</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>0</sup>
+World Government Type: This world has government type 0 (No Government Structure). Family bonds predominate
+World Government Detail: No further detail available.
+Law Level Digit: 0
+Law Level explanation: The law level of 0 means that  there are no prohibitions (no law).
+Technology Level Digit: 0
+Technology Level explanation: The overall Technology Level (TL) of this world is 0. In the Traveller Universe, this is equivalent to approximately Primitive, Stone Age. The latest energy in use might include Personal Effort, Fire. Society has evolved to include Tribe, clan. Typical living environments include Natural  Crude Shelters. The lastest communication devices used by the citizenry are Personal Senses  Messengers. Transport has advanced to Walking. The latest thing in medicine is Herbal Medicine, Mystical Therapy. Science is developing None, and the latest local technology includes None. The latest available computer is Counting. The fastest speed is done by Walking, equivalent to Speed 1 (5 kph). Commonly used personal weapons include Clubs, rocks. Heavier military grade weapons at this technology level include None. Space travel is accomplished by Stargazing. The latest weapon in space is the None, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include None. 
+World Name: 
+Orbit: gee
+Orbital Distance: 75885 km
+Diameter: 6841 km
+Jump Point distance: 1441815 km
+Time to Jump Point at ...: 1G: 6h 40m 39s; 2G: 4h 43m 18s; 3G: 3h 51m 19s; 4G: 3h 20m 19s; 5G: 2h 59m 10s; 6G: 2h 43m 33s; 
+Density Type: Molten Core
+Density: 0.88 Earth
+Mass: 0.11 Earth
+Surface Gravity (G): 0.44 G
+Rotation Period: 45 hours 1 minutes 12 seconds
+Orbital Period: 1 days 21 hours 1 minutes 26 seconds
+Axial Tilt: 0
+Surface Atmospheric Pressure: 0.9Atm
+Atmosphere Composition: Standard Oxygen / Nitrogen Mix
+Albedo: 0.25
+Greenhouse: 1.1
+Base Surface Temperature: -270&deg;C
+Base Daytime temperature: -262&deg;C
+Base Nighttime temperature: -270&deg;C
+Summer temperature increase: 10&deg;C
+Winter temperature decrease: 16&deg;C
+Upper Temperature Limit: -262&deg;C
+Lower Temperature Limit: -270&deg;C
+Hydrographic Percentage: 69%
+Surface Liquid Composition: Water
+Native Life: Yes
+Native Intelligent Life: Extinct Natives
+Seismic Stress: Stress factor is 31<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 27<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.
+Port Class: Y
+Port Facilities: The spaceport is type Y - None. There is no downport, and no highport in orbit. The port has shipyards capable of building No. Visiting ships can receive no repairs at this port. No fuel is available.
+Size UWP Digit Explanation: Approximately 4,000 miles diameter
+Atmosphere UWP Digit Explanation: The atmosphere is standard - breathable without protection
+Population Digit Explanation: 0 - population is in the order of 10<sup>0</sup>.
+Population Multipler: 0
+Total Population Calculation: 0 = 0 &times; 10<sup>0</sup>
+World Government Type: This world has government type 0 (No Government Structure). Family bonds predominate
+World Government Detail: No further detail available.
+Law Level Digit: 0
+Law Level explanation: The law level of 0 means that  there are no prohibitions (no law).
+Technology Level Digit: 0
+Technology Level explanation: The overall Technology Level (TL) of this world is 0. In the Traveller Universe, this is equivalent to approximately Primitive, Stone Age. The latest energy in use might include Personal Effort, Fire. Society has evolved to include Tribe, clan. Typical living environments include Natural  Crude Shelters. The lastest communication devices used by the citizenry are Personal Senses  Messengers. Transport has advanced to Walking. The latest thing in medicine is Herbal Medicine, Mystical Therapy. Science is developing None, and the latest local technology includes None. The latest available computer is Counting. The fastest speed is done by Walking, equivalent to Speed 1 (5 kph). Commonly used personal weapons include Clubs, rocks. Heavier military grade weapons at this technology level include None. Space travel is accomplished by Stargazing. The latest weapon in space is the None, and space defenses are None. Space sensors used at this technology level are None, while world sensors used by starships now include None. 
+
+
+

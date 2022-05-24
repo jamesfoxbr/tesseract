@@ -1,0 +1,594 @@
+﻿<html><head><style>@font-face {
+	font-family:Optima;
+	src:url(OPTIMA.TTF);
+}
+
+.helpIcon {
+	float:right;
+	height: 40px;
+	width: 40px;
+}
+
+td { 
+	background-color: white;
+}
+
+div {
+	margin: 1.5em;
+	padding: 0.5em;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #555555;
+	background-color: #F3F3F3;
+	font-family: Arial, sans-serif;
+}
+
+div.transparent {
+	background-color: transparent;
+	border-style: none;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	font-family: Arial, sans-serif;
+}
+
+div.worldDetailDiv {
+	position:fixed;
+	left:0.5%;
+	top:1%;
+	padding: 0.2em 0.2em 0.2em 0.2em;
+	margin: 0 0 0 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width:96%;
+	height:93%;
+}
+
+ul {
+	list-style-type: none;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top:0.1em;
+	margin-bottom:0.1em;
+	padding: 0;
+	background-color: #000000;
+	overflow: hidden;
+}
+
+li {
+	float:left;
+}
+
+li a {
+	display: block;
+	color: #F3F3F3;
+	text-align:center;
+	text-decoration:none;
+	padding:14px 16px;
+	font-size:0.7em;
+}
+
+li a:hover:not(.active)	{
+	background-color:red;
+	color:white;
+}
+
+.active	{
+	color:white;
+	font-weight:bold;
+}
+
+ul.normal {
+	list-style-type: disc;
+	margin: 0.2em 0em 0.2em 0em;
+	background-color:transparent;
+	overflow: visible;
+}
+
+li.normal {
+	clear:both;
+}
+
+div.container {
+	margin-left:0.5em;
+	margin-right:0.5em;
+	margin-top:0.2em;
+	margin-bottom:0.5em;
+	clear:both;
+	border-style: none;
+	background-color: black;
+	font-family: Arial, sans-serif;
+}
+
+div.subcontainer {
+	margin:0;
+	border-width: 0em;
+	border-style: none;
+	background-color: black;
+	font-family: Arial, sans-serif;
+	width:33%;	
+	padding-left:0;
+	padding-right:5px;
+	float:left;
+	box-sizing:border-box;
+}
+
+div.contained {
+	margin-left:0em;
+	margin-right:0.2em;
+	margin-top:0;
+	margin-bottom:0;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #555555;
+	background-color: #F3F3F3;
+	font-family: Arial, sans-serif;
+	width: 100%;
+	min-height: 11.5em;
+	box-sizing:border-box;
+}
+
+div.contained_head {
+	margin-left:0em;
+	margin-right:0.2em;
+	margin-top:0;
+	margin-bottom:0.2em;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #fafafa;
+	background-color: #404040;
+	font-family: Arial, sans-serif;
+	width: 100%;
+	box-sizing:border-box;
+}
+
+div.contained-flex {
+    display: -webkit-flex;
+    display: flex;
+	flex-wrap: wrap;
+	padding:0;
+	margin:0;
+	border-style: none;
+	font-family: Arial, sans-serif;
+	width: 100%;
+	box-sizing:border-box;
+	background-color:transparent;
+}
+
+.formItem {
+    position: relative;
+    display: inline-block;
+	margin-top:0.1em;
+	margin-bottom:0.1em;
+	margin-left:0;
+	margin-right:0.3em;
+	border-style:none;
+	padding:0;
+}
+
+.contained-flex-vertical {
+    display: -webkit-flex;
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding:0;
+	margin: 0 0.5em 0 0;
+	border-style: none;
+	font-family: Arial, sans-serif;
+	box-sizing:border-box;
+}
+
+p {
+	margin-bottom: 6pt;
+	margin-top: 0px;
+	font-family: Arial, sans-serif;
+	font-size: 0.85em;
+}
+
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	background-color: black;
+}
+
+h1 {
+	margin-top: 0px;
+	font-family: "Optima", Arial, sans-serif;
+	font-size: 1.5em;
+}
+
+.titleStrap	{
+	margin: 0;
+	font-family: Optima, Arial, sans-serif;
+	font-style: italic;
+	font-size: 3em;
+	font-weight: normal;
+	color: red;
+	text-align: right;
+	border-top: 6px solid red;
+}
+
+.title {
+	margin-top: 0.1em;
+	margin-right: 0em;
+	margin-left: 0em;
+	margin-bottom: 0em;
+	font-family: Optima, Arial, sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 2em;
+	color: white;
+	text-align: left;
+}
+
+.subtitle {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-right: 1em;
+	margin-left: 1em;
+	font-family: Optima, Arial, sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 1.2em;
+	color: white;
+	text-align: right;
+}
+
+.white {
+	color: white;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	margin-left:1.5em;
+	padding-left:0.5em;
+	text-align: left;
+}
+
+.headerWhite {
+	color: white;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	text-align: center;
+}
+
+h2 {
+	margin-top: 1em;
+	margin-bottom: 0em;
+	font-family: Optima, Arial, sans-serif;
+	font-weight: bold;
+}
+
+h3 {
+	margin: 0 0 0.2em 0;
+	font-size: 0.85em;
+	font-family: Optima, Arial, sans-serif;
+	font-weight: bold;
+}
+
+h4 {
+	margin-top: 0px;
+	font-family: Arial, sans-serif;
+}
+
+h5 {
+	margin-top: 0px;
+	font-family: Arial, sans-serif;
+}
+
+h6 {
+	margin-top: 0px;
+	font-family: Arial, sans-serif;
+}
+
+.guidelines	{
+	font-size:0.8em;
+	margin-bottom:0em;
+}
+
+.noBullet {
+	list-style-type:none;
+	margin-bottom: 6pt;
+}
+
+.worldDetails {
+	margin-bottom: 0.5em;
+	border: 0.5px 0.5px 0.5px 0.5px;
+	border-style: solid;
+	border-color: #555555;
+}
+
+.btn1 {
+  background: #fa4141;
+  background-image: -webkit-linear-gradient(top, #fa4141, #7a1212);
+  background-image: -moz-linear-gradient(top, #fa4141, #7a1212);
+  background-image: -ms-linear-gradient(top, #fa4141, #7a1212);
+  background-image: -o-linear-gradient(top, #fa4141, #7a1212);
+  background-image: linear-gradient(to bottom, #fa4141, #7a1212);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: "Optima", Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 2px 4px 2px 4px;
+  text-decoration: none;
+  margin: auto;
+  min-height: 2.6em;
+}
+
+.btn1:hover {
+  background: #fc3c3c;
+  background-image: -webkit-linear-gradient(top, #fc3c3c, #9e1111);
+  background-image: -moz-linear-gradient(top, #fc3c3c, #9e1111);
+  background-image: -ms-linear-gradient(top, #fc3c3c, #9e1111);
+  background-image: -o-linear-gradient(top, #fc3c3c, #9e1111);
+  background-image: linear-gradient(to bottom, #fc3c3c, #9e1111);
+  text-decoration: none;
+}
+
+.btn2 {
+  background: #b0b0b0;
+  background-image: -webkit-linear-gradient(top, #b0b0b0, #555555);
+  background-image: -moz-linear-gradient(top, #b0b0b0, #555555);
+  background-image: -ms-linear-gradient(top, #b0b0b0, #555555);
+  background-image: -o-linear-gradient(top, #b0b0b0, #555555);
+  background-image: linear-gradient(to bottom, #b0b0b0, #555555);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #e0e0e0;
+  background-image: -webkit-linear-gradient(top, #e0e0e0, #7f7f7f);
+  background-image: -moz-linear-gradient(top, #e0e0e0, #7f7f7f);
+  background-image: -ms-linear-gradient(top, #e0e0e0, #7f7f7f);
+  background-image: -o-linear-gradient(top, #e0e0e0, #7f7f7f);
+  background-image: linear-gradient(to bottom, #e0e0e0, #7f7f7f);
+  text-decoration: none;
+}
+
+.adjBtn
+{
+	font-family: Arial;
+	padding:0;
+	margin:0;
+	width:16pt;
+	height:16pt;
+	text-align:center;
+	vertical-align:center;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+/*    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.formItem {
+	background-color: transparent;
+}
+
+.formItem .tooltiptext {
+    visibility: hidden;
+    width: 360px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+	font-size:0.85em;
+    position: absolute;
+    z-index: 1;
+	top: 100%;
+	left: 50%;
+	margin-left:-180px;
+}
+
+
+.formItem:hover .tooltiptext {
+	visibility: visible;
+}
+
+.zoneInner {
+	/*background-color:#FFBDA2;*/
+}
+
+.zoneWarm {
+	/*background-color:#FEFBAA;*/
+}
+
+.zoneGoldilocks {
+	/*background-color:#B3EFBC;*/
+	border-width: 2px;
+	border-color: #B3EFBC;
+	border-style: solid;
+}
+
+.zoneCold {
+	/*background-color:#A6A8E5;*/
+}
+
+.zoneOuter {
+	/*background-color:#9EC7E5;*/
+}
+
+.satellite {
+	/*border-left-color:black;
+	border-left-width:5pt;
+	border-left-style:solid; */
+	text-align:right;
+	font-style:italic;
+}
+
+.orbitSetHeader {
+	background-color: white;
+	font: black;
+	font-weight: bold;
+	border: 3px black;
+	text-align: left;
+}
+
+.sys {
+	margin: 0pt 0pt 5pt 0pt;
+	padding: 0;
+	border-style: none;
+	background-color: white;
+	font-family: Arial, sans-serif;	
+}
+
+.sys_cell {
+	border-style: none;
+	margin: 0pt;
+	padding:0pt 5pt 5pt 3pt;
+	text-align: center;
+	min-width: 50pt;
+}
+
+.sys_cell_h {
+	border-style: none;
+	margin: 0pt;
+	padding:0pt 5pt 5pt 3pt;
+	text-align: center;
+	vertical-align: top;
+	min-width: 50pt;
+}
+
+.sys_symbol_LGG {
+	max-width: 10pt;
+	max-height: 10pt;
+	margin: 0pt 0pt 5pt 20pt;
+	text-align: center;
+	display: block;
+	-webkit-transform: rotate(-90deg) scale(4,4);
+	-moz-transform: rotate(-90deg) scale(4,4);
+	-ms-transform: rotate(-90deg) scale(4,4);
+	-o-transform: rotate(-90deg) scale(4,4);
+	transform: rotate(-90deg) scale(4,4);
+}
+
+.sys_symbol_SGG {
+	max-width: 10pt;
+	max-height: 10pt;
+	text-align: center;
+	margin: 0pt 0pt 5pt 20pt;
+	display: block;
+	-webkit-transform: rotate(-90deg) scale(2.5,2.5);
+	-moz-transform: rotate(-90deg) scale(2.5,2.5);
+	-ms-transform: rotate(-90deg) scale(2.5,2.5);
+	-o-transform: rotate(-90deg) scale(2.5,2.5);
+	transform: rotate(-90deg) scale(2.5,2.5);
+}
+
+.sys_symbol_orbitSet {
+	max-width: 10pt;
+	max-height: 10pt;
+	margin: 0pt 0pt 5pt 15pt;
+	text-align: center;
+	display: block;
+	-webkit-transform: rotate(-90deg) scale(5,5);
+	-moz-transform: rotate(-90deg) scale(5,5);
+	-ms-transform: rotate(-90deg) scale(5,5);
+	-o-transform: rotate(-90deg) scale(5,5);
+	transform: rotate(-90deg) scale(5,5);
+	
+}
+
+.sys_symbol_minor_world {
+	display: block;
+	text-align:center;
+	font-size: 200%;
+}
+
+.sys_symbol_belt {
+	display: block;
+	text-align:center;
+	font-size: 300%;
+}
+
+.sys_symbol_main_world {
+	display: block;
+	text-align:center;
+	font-size: 200%;
+}
+
+.sys_symbol_star {
+	font-family: sans-serif;
+	font-size:400%
+}
+
+.sys_companion {
+	font-size:250%;
+	vertical-align: bottom;
+	float:left;
+}
+
+.sys_satellite_name {
+	font-size:80%;
+	margin: 0px 0px 0px 5px;
+	display:inline;
+}
+
+.sys_satellite_uwp {
+	font-size:80%;
+	margin: 0px 0px 1px 16px;
+	display:block;
+}
+
+.sys_details {
+	text-align: left;
+	font-size:0.8em;
+	clear:both;
+	margin:0;
+	padding:0;
+}
+
+.sys_orbit {
+	text-align: center;
+	font-size:1em;
+	clear:both;
+	margin:0;
+	padding:0;
+}
+
+.sys_sat_table {
+	max-width: 50pt;
+}
+
+.sys_symbol_LGG::before { content: '\25CD';}
+.sys_symbol_SGG::before { content: '\25CD';}
+.sys_symbol_orbitSet::before { content: '\25CE'; }
+.sys_symbol_main_world::before { content: '\25CF';}
+.sys_symbol_minor_world::before { content: '\25CB';}
+.sys_symbol_belt::before { content: '\2591';}
+.sys_symbol_star::before { content: ')'; }
+
+.cX_adjective {
+	text-transform:capitalize;
+	float:left;
+	font-size:1em;
+	padding:0.1em 0.2em 0.1em 0.2em;
+}</style></head><body style='background-color:white'><div class='transparent'><h1>The TIVIDIR System (1416 )</h1><table class="sys sys_table"><tr><td class="sys_cell"><p class="sys_orbit">Primary</p></td><td class="sys_cell"><p class="sys_orbit">0</p></td><td class="sys_cell"><p class="sys_orbit">1</p></td><td class="sys_cell"><p class="sys_orbit">2</p></td><td class="sys_cell"><p class="sys_orbit">3</p></td><td class="sys_cell"><p class="sys_orbit">5</p></td><td class="sys_cell"><p class="sys_orbit">6</p></td><td class="sys_cell"><p class="sys_orbit">10</p></td></tr><tr><td class="sys_cell"><p class="sys_orbit"></p></td><td class="sys_cell"><p class="sys_orbit">0.22 AU</p></td><td class="sys_cell"><p class="sys_orbit">0.3 AU</p></td><td class="sys_cell"><p class="sys_orbit">0.58 AU</p></td><td class="sys_cell"><p class="sys_orbit">1 AU</p></td><td class="sys_cell"><p class="sys_orbit">3.28 AU</p></td><td class="sys_cell"><p class="sys_orbit">6.4 AU</p></td><td class="sys_cell"><p class="sys_orbit">77 AU</p></td></tr><tr><td class="sys_cell"><div class="sys_symbol_star sys"></div></td><td class="sys_cell"><div class="sys sys_symbol_main_world"></div></td><td class="sys_cell"><div class="sys sys_symbol_LGG"></div></td><td class="sys_cell"><div class="sys sys_symbol_LGG"></div></td><td class="sys_cell"><div class="sys sys_symbol_minor_world"></div></td><td class="sys_cell"><div class="sys sys_symbol_LGG"></div></td><td class="sys_cell"><div class="sys sys_symbol_LGG"></div></td><td class="sys_cell"><div class="sys sys_symbol_minor_world"></div></td></tr><tr><td class="sys_cell"><p class="sys_orbit">An unnamed star</p></td><td class="sys_cell"><p class="sys_details">TIVIDIR</p></td><td class="sys_cell"><p class="sys_details">Large Gas Giant</p></td><td class="sys_cell"><p class="sys_details">Large Gas Giant</p></td><td class="sys_cell"><p class="sys_details">Big world</p></td><td class="sys_cell"><p class="sys_details">Large Gas Giant</p></td><td class="sys_cell"><p class="sys_details">Large Gas Giant</p></td><td class="sys_cell"><p class="sys_details">Ice world</p></td></tr><tr><td class="sys_cell"><p class="sys_details">K6 V</p></td><td class="sys_cell"><p class="sys_details">C400A9B-9</p></td><td class="sys_cell"><p class="sys_details">Size: Q</p></td><td class="sys_cell"><p class="sys_details">Size: T</p></td><td class="sys_cell"><p class="sys_details">FB779BD-5</p></td><td class="sys_cell"><p class="sys_details">Size: Q</p></td><td class="sys_cell"><p class="sys_details">Size: V</p></td><td class="sys_cell"><p class="sys_details">Y544001-4</p></td></tr><tr><td class="sys_cell"><p class="sys_orbit"></p></td><td class="sys_cell" style="text-align: left; vertical-align: top;"></td><td class="sys_cell" style="text-align: left; vertical-align: top;"><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Inferno</span><span class="sys_satellite_uwp">YCB0000-0</span></div><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Hospitable</span><span class="sys_satellite_uwp">H779212-5</span></div><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Inferno</span><span class="sys_satellite_uwp">Y9B0000-0</span></div><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Big world</span><span class="sys_satellite_uwp">YBC5000-6</span></div></td><td class="sys_cell" style="text-align: left; vertical-align: top;"><div class="sys sys_symbol_belt" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Ring system</span><span class="sys_satellite_uwp"></span></div><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Ice world</span><span class="sys_satellite_uwp">Y8D7044-5</span></div><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Ice world</span><span class="sys_satellite_uwp">Y687002-3</span></div><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Big world</span><span class="sys_satellite_uwp">HEFA310-5</span></div></td><td class="sys_cell" style="text-align: left; vertical-align: top;"></td><td class="sys_cell" style="text-align: left; vertical-align: top;"><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Ice world</span><span class="sys_satellite_uwp">Y779230-4</span></div><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Ice world</span><span class="sys_satellite_uwp">Y8A6003-3</span></div><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Big world</span><span class="sys_satellite_uwp">YDB3100-7</span></div></td><td class="sys_cell" style="text-align: left; vertical-align: top;"><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Ice world</span><span class="sys_satellite_uwp">Y258000-6</span></div><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Big world</span><span class="sys_satellite_uwp">GAB3456-4</span></div><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Big world</span><span class="sys_satellite_uwp">YEDA353-9</span></div><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Ice world</span><span class="sys_satellite_uwp">Y843041-5</span></div><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Ice world</span><span class="sys_satellite_uwp">Y476002-7</span></div></td><td class="sys_cell" style="text-align: left; vertical-align: top;"><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Rad world</span><span class="sys_satellite_uwp">Y49A000-0</span></div><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Big world</span><span class="sys_satellite_uwp">H210524-5</span></div><div class="sys sys_symbol_minor_world" style="font-size: 1em; text-align: left; margin-bottom: 0px;"><span class="sys_satellite_name">Worldlet</span><span class="sys_satellite_uwp">F00068C-5</span></div></td></tr></table></div><table><tr><th>Base Orbit</th><th>Decimal Orbit</th><th>Orbital Distance</th><th>Name</th><th>Content Type</th><th>UWP</th><th>TCs and Remarks</th><th>Albedo</th><th>Greenhouse Multiplier</th><th>Average Temperature</th></tr><tr><td>Primary</td><td></td><td></td><td></td><td>Star</td><td>K6 V</td><td>Radii (Sol): 0.5618 Mass (Sol): 0.5538 Luminosity (Sol): 0.072</td></tr><tr><td>0</td><td>0.1</td><td>0.22 AU</td><td>TIVIDIR</td><td>Hospitable</td><td>C400A9B-9</td><td>Va Hi Na In Tz</td><td>0.32</td><td>1</td><td>8</td></tr><tr><td>1</td><td>0.5</td><td>0.3 AU</td><td></td><td>Large Gas Giant</td><td>Size: Q</td><td>Size: Q</td><td></td><td></td><td></td></tr><tr><td></td><td style='font-style:italic;text-align:right'>bee</td><td style='font-style:italic;text-align:right'>205990 km</td><td></td><td>Inferno</td><td>YCB0000-0</td><td>He Ba Co Sa Lk</td><td>0.4</td><td>1.7</td><td>88</td></tr><tr><td></td><td style='font-style:italic;text-align:right'>eff</td><td style='font-style:italic;text-align:right'>617970 km</td><td></td><td>Hospitable</td><td>H779212-5</td><td>Lo Co Mi Sa Lk</td><td>0.58</td><td>1.1</td><td>-110</td></tr><tr><td></td><td style='font-style:italic;text-align:right'>gee</td><td style='font-style:italic;text-align:right'>823959 km</td><td></td><td>Inferno</td><td>Y9B0000-0</td><td>He Ba Co Sa Lk</td><td>0.36</td><td>1.6</td><td>89</td></tr><tr><td></td><td style='font-style:italic;text-align:right'>ex</td><td style='font-style:italic;text-align:right'>72096444 km</td><td></td><td>Big world</td><td>YBC5000-6</td><td>Fl Di Co Sa</td><td>0.59</td><td>2</td><td>17</td></tr><tr><td>2</td><td>1.6</td><td>0.58 AU</td><td></td><td>Large Gas Giant</td><td>Size: T</td><td>Size: T</td><td></td><td></td><td></td></tr><tr><td></td><td style='font-style:italic;text-align:right'>bee</td><td style='font-style:italic;text-align:right'>291735 km</td><td></td><td>Ring System</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td style='font-style:italic;text-align:right'>dee</td><td style='font-style:italic;text-align:right'>583470 km</td><td></td><td>Ice world</td><td>Y8D7044-5</td><td>Fr Sa Lk</td><td>0.73</td><td>1.15</td><td>-194</td></tr><tr><td></td><td style='font-style:italic;text-align:right'>eff</td><td style='font-style:italic;text-align:right'>875206 km</td><td></td><td>Ice world</td><td>Y687002-3</td><td>Ga Fr Sa Lk</td><td>0.34</td><td>1.15</td><td>-80</td></tr><tr><td></td><td style='font-style:italic;text-align:right'>kay</td><td style='font-style:italic;text-align:right'>5834704 km</td><td></td><td>Big world</td><td>HEFA310-5</td><td>Oc Lo Mi Sa Lk</td><td>0.6</td><td>1</td><td>-171</td></tr><tr><td>3</td><td>3</td><td>1 AU</td><td></td><td>Big world</td><td>FB779BD-5</td><td>Hi In</td><td>0.43</td><td>1.1</td><td>-152</td></tr><tr><td>5</td><td>5.2</td><td>3.28 AU</td><td></td><td>Large Gas Giant</td><td>Size: Q</td><td>Size: Q</td><td></td><td></td><td></td></tr><tr><td></td><td style='font-style:italic;text-align:right'>aitch</td><td style='font-style:italic;text-align:right'>936199 km</td><td></td><td>Ice world</td><td>Y779230-4</td><td>Lo Fr Mi Sa Lk</td><td>0.58</td><td>1.1</td><td>-224</td></tr><tr><td></td><td style='font-style:italic;text-align:right'>ell</td><td style='font-style:italic;text-align:right'>4680995 km</td><td></td><td>Ice world</td><td>Y8A6003-3</td><td>Fl Fr Sa Lk</td><td>0.58</td><td>1.4</td><td>-210</td></tr><tr><td></td><td style='font-style:italic;text-align:right'>ess</td><td style='font-style:italic;text-align:right'>23404973 km</td><td></td><td>Big world</td><td>YDB3100-7</td><td>Fl Lo Sa</td><td>0.26</td><td>1.6</td><td>-146</td></tr><tr><td>6</td><td>6.3</td><td>6.4 AU</td><td></td><td>Large Gas Giant</td><td>Size: V</td><td>Size: V</td><td></td><td></td><td></td></tr><tr><td></td><td style='font-style:italic;text-align:right'>ee</td><td style='font-style:italic;text-align:right'>1416647 km</td><td></td><td>Ice world</td><td>Y258000-6</td><td>Di Fr Sa Lk</td><td>0.63</td><td>1.05</td><td>-243</td></tr><tr><td></td><td style='font-style:italic;text-align:right'>gee</td><td style='font-style:italic;text-align:right'>2266635 km</td><td></td><td>Big world</td><td>GAB3456-4</td><td>Fl Ni Mi Sa Lk</td><td>0.31</td><td>1.9</td><td>-173</td></tr><tr><td></td><td style='font-style:italic;text-align:right'>eye</td><td style='font-style:italic;text-align:right'>5666588 km</td><td></td><td>Big world</td><td>YEDA353-9</td><td>Oc Lo Mi Sa Lk</td><td>0.4</td><td>1.15</td><td>-220</td></tr><tr><td></td><td style='font-style:italic;text-align:right'>ell</td><td style='font-style:italic;text-align:right'>14166471 km</td><td></td><td>Ice world</td><td>Y843041-5</td><td>Po Fr Sa Lk</td><td>0.15</td><td>1.05</td><td>-205</td></tr><tr><td></td><td style='font-style:italic;text-align:right'>pee</td><td style='font-style:italic;text-align:right'>28332941 km</td><td></td><td>Ice world</td><td>Y476002-7</td><td>Fr Sa</td><td>0.35</td><td>1.1</td><td>-218</td></tr><tr><td>10</td><td>10</td><td>77 AU</td><td></td><td>Ice world</td><td>Y544001-4</td><td>Fr</td><td>0.17</td><td>1.05</td><td>-254</td></tr><tr><td></td><td style='font-style:italic;text-align:right'>gee</td><td style='font-style:italic;text-align:right'>69048 km</td><td></td><td>Rad world</td><td>Y49A000-0</td><td>Wa Ba Fr Sa Lk</td><td>0.41</td><td>1.15</td><td>-258</td></tr><tr><td></td><td style='font-style:italic;text-align:right'>aitch</td><td style='font-style:italic;text-align:right'>86310 km</td><td></td><td>Big world</td><td>H210524-5</td><td>Ni Mi Sa Lk</td><td>0.24</td><td>1</td><td>-256</td></tr><tr><td></td><td style='font-style:italic;text-align:right'>ess</td><td style='font-style:italic;text-align:right'>2157750 km</td><td></td><td>Worldlet</td><td>F00068C-5</td><td>As Ni Na Mi Sa</td><td>0.28</td><td>1</td><td>-257</td></tr></table><table><tr><td>World Name</td><td>TIVIDIR</td></tr><tr><td>Orbit</td><td>0.1</td></tr><tr><td>Orbital Distance</td><td>0.22 AU</td></tr><tr><td>Diameter</td><td>6437 km</td></tr><tr><td>Jump Point distance</td><td>45257320 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 3h 44m 14s; 2G: 2h 38m 33s; 3G: 2h 9m 28s; 4G: 1h 52m 7s; 5G: 1h 40m 17s; 6G: 1h 31m 32s; </td></tr><tr><td>Density Type</td><td>Rocky Body</td></tr><tr><td>Density</td><td>0.7 Earth</td></tr><tr><td>Mass</td><td>0.0875 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.35 G</td></tr><tr><td>Rotation Period</td><td>1217 hours 38 minutes 24 seconds</td></tr><tr><td>Orbital Period</td><td>50 days 17 hours 38 minutes 24 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0Atm</td></tr><tr><td>Atmosphere Composition</td><td>None</td></tr><tr><td>Albedo</td><td>0.32</td></tr><tr><td>Greenhouse</td><td>1</td></tr><tr><td>Base Surface Temperature</td><td>8&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>36&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-217&deg;C</td></tr><tr><td>Summer temperature increase</td><td>0&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>0&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>36&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-217&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>2%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Transplants</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 4<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 0<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr></tr><tr></tr><table><tr></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>bee</td></tr><tr><td>Orbital Distance</td><td>205990 km</td></tr><tr><td>Diameter</td><td>19146 km</td></tr><tr><td>Jump Point distance</td><td>33289491 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 3h 12m 19s; 2G: 2h 15m 59s; 3G: 1h 51m 2s; 4G: 1h 36m 9s; 5G: 86m 0s; 6G: 78m 30s; </td></tr><tr><td>Density Type</td><td>Molten Core</td></tr><tr><td>Density</td><td>1.08 Earth</td></tr><tr><td>Mass</td><td>3.645 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>1.62 G</td></tr><tr><td>Rotation Period</td><td>11 hours 25 minutes 11 seconds</td></tr><tr><td>Orbital Period</td><td>0 days 11 hours 25 minutes 26 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.2Atm</td></tr><tr><td>Atmosphere Composition</td><td>Corrosive gas mix at temperature 88&deg;C and at Very Thin pressure. The atmosphere is composed of Fluorine(0.0065%), Sulfur Dichloride(0.0964%), Sulfur Dioxide(0.062407500000000005%) and Hydrogen Sulfide(0.0727%). </td></tr><tr><td>Albedo</td><td>0.4</td></tr><tr><td>Greenhouse</td><td>1.7</td></tr><tr><td>Base Surface Temperature</td><td>88&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>93&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>42&deg;C</td></tr><tr><td>Summer temperature increase</td><td>7&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>11&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>377&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-92&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>1%</td></tr><tr><td>Surface Liquid Composition</td><td>Hydrofluoric Acid</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Extinct Exotic Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 807<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 803<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>eff</td></tr><tr><td>Orbital Distance</td><td>617970 km</td></tr><tr><td>Diameter</td><td>11254 km</td></tr><tr><td>Jump Point distance</td><td>33289491 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 3h 12m 19s; 2G: 2h 15m 59s; 3G: 1h 51m 2s; 4G: 1h 36m 9s; 5G: 86m 0s; 6G: 78m 30s; </td></tr><tr><td>Density Type</td><td>Molten Core</td></tr><tr><td>Density</td><td>0.96 Earth</td></tr><tr><td>Mass</td><td>0.643 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.84 G</td></tr><tr><td>Rotation Period</td><td>59 hours 7 minutes 48 seconds</td></tr><tr><td>Orbital Period</td><td>2 days 11 hours 8 minutes 9 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>1Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix with a taint caused by High Oxygen</td></tr><tr><td>Albedo</td><td>0.58</td></tr><tr><td>Greenhouse</td><td>1.1</td></tr><tr><td>Base Surface Temperature</td><td>-110&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-95&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-134&deg;C</td></tr><tr><td>Summer temperature increase</td><td>2&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>4&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>298&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-134&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>88%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Transients</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 271<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 267<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>gee</td></tr><tr><td>Orbital Distance</td><td>823959 km</td></tr><tr><td>Diameter</td><td>14791 km</td></tr><tr><td>Jump Point distance</td><td>33289491 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 3h 12m 19s; 2G: 2h 15m 59s; 3G: 1h 51m 2s; 4G: 1h 36m 9s; 5G: 86m 0s; 6G: 78m 30s; </td></tr><tr><td>Density Type</td><td>Molten Core</td></tr><tr><td>Density</td><td>1.02 Earth</td></tr><tr><td>Mass</td><td>1.452 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>1.15 G</td></tr><tr><td>Rotation Period</td><td>90 hours 43 minutes 11 seconds</td></tr><tr><td>Orbital Period</td><td>3 days 18 hours 43 minutes 12 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.85Atm</td></tr><tr><td>Atmosphere Composition</td><td>Corrosive gas mix at temperature 89&deg;C and at Standard pressure. The atmosphere is composed of Chlorine(0.0722%) and Nitrogen(99.9278%). </td></tr><tr><td>Albedo</td><td>0.36</td></tr><tr><td>Greenhouse</td><td>1.6</td></tr><tr><td>Base Surface Temperature</td><td>89&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>112&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>44&deg;C</td></tr><tr><td>Summer temperature increase</td><td>10&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>16&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>994&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>35&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>1%</td></tr><tr><td>Surface Liquid Composition</td><td>Hydrochloric Acid</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Extinct Exotic Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 200<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 196<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>ex</td></tr><tr><td>Orbital Distance</td><td>72096444 km</td></tr><tr><td>Diameter</td><td>17663 km</td></tr><tr><td>Jump Point distance</td><td>33289491 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 3h 12m 19s; 2G: 2h 15m 59s; 3G: 1h 51m 2s; 4G: 1h 36m 9s; 5G: 86m 0s; 6G: 78m 30s; </td></tr><tr><td>Density Type</td><td>Molten Core</td></tr><tr><td>Density</td><td>0.96 Earth</td></tr><tr><td>Mass</td><td>2.496 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>1.32 G</td></tr><tr><td>Rotation Period</td><td>19 hours 38 minutes 24 seconds</td></tr><tr><td>Orbital Period</td><td>110 Lunar months 13 days 19 hours 58 minutes 4 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>1.2Atm</td></tr><tr><td>Atmosphere Composition</td><td>Insidious atmosphere caused by Gas Mix at 1.2 pressure. The atmosphere is composed of Fluorine(0.04%) and Carbon Dioxide(99.96%). </td></tr><tr><td>Albedo</td><td>0.59</td></tr><tr><td>Greenhouse</td><td>2</td></tr><tr><td>Base Surface Temperature</td><td>17&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>22&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>7&deg;C</td></tr><tr><td>Summer temperature increase</td><td>17&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>29&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>742&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-26&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>49%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Catastrophic Extinct Exotic Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 3<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < -1<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr></tr><table><tr></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>dee</td></tr><tr><td>Orbital Distance</td><td>583470 km</td></tr><tr><td>Diameter</td><td>13281 km</td></tr><tr><td>Jump Point distance</td><td>14003291 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 2h 4m 44s; 2G: 88m 12s; 3G: 72m 1s; 4G: 62m 22s; 5G: 55m 47s; 6G: 50m 55s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.34 Earth</td></tr><tr><td>Mass</td><td>0.34 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.34 G</td></tr><tr><td>Rotation Period</td><td>44 hours 21 minutes 0 seconds</td></tr><tr><td>Orbital Period</td><td>1 days 20 hours 21 minutes 7 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>10Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix</td></tr><tr><td>Albedo</td><td>0.73</td></tr><tr><td>Greenhouse</td><td>1.15</td></tr><tr><td>Base Surface Temperature</td><td>-194&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-190&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-198&deg;C</td></tr><tr><td>Summer temperature increase</td><td>19&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>32&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>201&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-198&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>69%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Catastrophic Extinct Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 568<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 564<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>eff</td></tr><tr><td>Orbital Distance</td><td>875206 km</td></tr><tr><td>Diameter</td><td>9676 km</td></tr><tr><td>Jump Point distance</td><td>13711555 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 2h 3m 25s; 2G: 87m 16s; 3G: 71m 15s; 4G: 61m 42s; 5G: 55m 11s; 6G: 50m 23s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.32 Earth</td></tr><tr><td>Mass</td><td>0.135 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.24 G</td></tr><tr><td>Rotation Period</td><td>81 hours 18 minutes 36 seconds</td></tr><tr><td>Orbital Period</td><td>3 days 9 hours 18 minutes 43 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>2Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix</td></tr><tr><td>Albedo</td><td>0.34</td></tr><tr><td>Greenhouse</td><td>1.15</td></tr><tr><td>Base Surface Temperature</td><td>-80&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-64&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-99&deg;C</td></tr><tr><td>Summer temperature increase</td><td>12&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>20&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>692&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-99&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>70%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Catastrophic Extinct Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 381<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 377<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>kay</td></tr><tr><td>Orbital Distance</td><td>5834704 km</td></tr><tr><td>Diameter</td><td>22685 km</td></tr><tr><td>Jump Point distance</td><td>8752057 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 1h 38m 36s; 2G: 69m 43s; 3G: 56m 56s; 4G: 49m 18s; 5G: 44m 6s; 6G: 40m 15s; </td></tr><tr><td>Density Type</td><td>Rocky Body</td></tr><tr><td>Density</td><td>0.54 Earth</td></tr><tr><td>Mass</td><td>2.894 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.94 G</td></tr><tr><td>Rotation Period</td><td>1404 hours 28 minutes 48 seconds</td></tr><tr><td>Orbital Period</td><td>2 Lunar months 2 days 12 hours 28 minutes 47 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.3Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix</td></tr><tr><td>Albedo</td><td>0.6</td></tr><tr><td>Greenhouse</td><td>1</td></tr><tr><td>Base Surface Temperature</td><td>-171&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-89&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-222&deg;C</td></tr><tr><td>Summer temperature increase</td><td>16&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>27&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-89&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-222&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>97%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Transients</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 60<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 56<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr></tr><table><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>3</td></tr><tr><td>Orbital Distance</td><td>1 AU</td></tr><tr><td>Diameter</td><td>17662 km</td></tr><tr><td>Jump Point distance</td><td>1766200 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 44m 17s; 2G: 31m 19s; 3G: 25m 34s; 4G: 22m 8s; 5G: 19m 48s; 6G: 18m 5s; </td></tr><tr><td>Density Type</td><td>Molten Core</td></tr><tr><td>Density</td><td>0.94 Earth</td></tr><tr><td>Mass</td><td>2.444 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>1.29 G</td></tr><tr><td>Rotation Period</td><td>13 hours 33 minutes 0 seconds</td></tr><tr><td>Orbital Period</td><td>490 days 13 hours 26 minutes 24 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>1Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix with a taint caused by Pollutants</td></tr><tr><td>Albedo</td><td>0.43</td></tr><tr><td>Greenhouse</td><td>1.1</td></tr><tr><td>Base Surface Temperature</td><td>-152&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-149&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-159&deg;C</td></tr><tr><td>Summer temperature increase</td><td>9&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>15&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>151&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-170&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>70%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Established Transplants</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 4<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 0<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr></tr><tr></tr><table><tr></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>aitch</td></tr><tr><td>Orbital Distance</td><td>936199 km</td></tr><tr><td>Diameter</td><td>10785 km</td></tr><tr><td>Jump Point distance</td><td>8425790 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 1h 36m 45s; 2G: 68m 25s; 3G: 55m 51s; 4G: 48m 22s; 5G: 43m 16s; 6G: 39m 30s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.38 Earth</td></tr><tr><td>Mass</td><td>0.255 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.33 G</td></tr><tr><td>Rotation Period</td><td>134 hours 24 minutes 0 seconds</td></tr><tr><td>Orbital Period</td><td>5 days 14 hours 24 minutes 0 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.95Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix with a taint caused by Pollutants</td></tr><tr><td>Albedo</td><td>0.58</td></tr><tr><td>Greenhouse</td><td>1.1</td></tr><tr><td>Base Surface Temperature</td><td>-224&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-190&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-231&deg;C</td></tr><tr><td>Summer temperature increase</td><td>10&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>17&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-101&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-231&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>91%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>Yes</td></tr><tr><td>Native Intelligent Life</td><td>Transients</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 149<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 145<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>ell</td></tr><tr><td>Orbital Distance</td><td>4680995 km</td></tr><tr><td>Diameter</td><td>12544 km</td></tr><tr><td>Jump Point distance</td><td>4680994 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 72m 7s; 2G: 50m 59s; 3G: 41m 38s; 4G: 36m 3s; 5G: 32m 15s; 6G: 29m 26s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.3 Earth</td></tr><tr><td>Mass</td><td>0.3 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.3 G</td></tr><tr><td>Rotation Period</td><td>1506 hours 37 minutes 11 seconds</td></tr><tr><td>Orbital Period</td><td>2 Lunar months 6 days 18 hours 37 minutes 26 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>[object Object]Atm</td></tr><tr><td>Atmosphere Composition</td><td>Occasional CorrosiveThe atmosphere is composed of Chlorine(0.0019%) and Nitrogen(99.9981%). </td></tr><tr><td>Albedo</td><td>0.58</td></tr><tr><td>Greenhouse</td><td>1.4</td></tr><tr><td>Base Surface Temperature</td><td>-210&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-160&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-241&deg;C</td></tr><tr><td>Summer temperature increase</td><td>17&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>28&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-160&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-241&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>58%</td></tr><tr><td>Surface Liquid Composition</td><td>Hydrochloric Acid</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Catastrophic Extinct Exotic Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 29<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 25<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>ess</td></tr><tr><td>Orbital Distance</td><td>23404973 km</td></tr><tr><td>Diameter</td><td>21059 km</td></tr><tr><td>Jump Point distance</td><td>2105900 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 48m 22s; 2G: 34m 12s; 3G: 27m 55s; 4G: 24m 11s; 5G: 21m 37s; 6G: 19m 44s; </td></tr><tr><td>Density Type</td><td>Molten Core</td></tr><tr><td>Density</td><td>0.96 Earth</td></tr><tr><td>Mass</td><td>4.119 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>1.56 G</td></tr><tr><td>Rotation Period</td><td>46 hours 25 minutes 47 seconds</td></tr><tr><td>Orbital Period</td><td>25 Lunar months 1 days 17 hours 39 minutes 50 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.12Atm</td></tr><tr><td>Atmosphere Composition</td><td>Corrosive gas mix at temperature -146&deg;C and at Very Thin pressure. The atmosphere is composed of Chlorine(0.0204%) and Carbon Dioxide(99.9796%). </td></tr><tr><td>Albedo</td><td>0.26</td></tr><tr><td>Greenhouse</td><td>1.6</td></tr><tr><td>Base Surface Temperature</td><td>-146&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-127&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-209&deg;C</td></tr><tr><td>Summer temperature increase</td><td>8&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>13&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-44&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-209&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>33%</td></tr><tr><td>Surface Liquid Composition</td><td>Hydrochloric Acid</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Transients</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 7<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 3<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr></tr><table><tr></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>ee</td></tr><tr><td>Orbital Distance</td><td>1416647 km</td></tr><tr><td>Diameter</td><td>2871 km</td></tr><tr><td>Jump Point distance</td><td>26916294 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 2h 52m 56s; 2G: 2h 2m 17s; 3G: 1h 39m 50s; 4G: 86m 28s; 5G: 77m 20s; 6G: 70m 36s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.3 Earth</td></tr><tr><td>Mass</td><td>0.00469 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.075 G</td></tr><tr><td>Rotation Period</td><td>42 hours 19 minutes 47 seconds</td></tr><tr><td>Orbital Period</td><td>1 days 18 hours 20 minutes 9 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.6Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix</td></tr><tr><td>Albedo</td><td>0.63</td></tr><tr><td>Greenhouse</td><td>1.05</td></tr><tr><td>Base Surface Temperature</td><td>-243&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-230&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-252&deg;C</td></tr><tr><td>Summer temperature increase</td><td>25&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>41&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-198&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-252&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>76%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Catastrophic Extinct Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 886<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 882<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>gee</td></tr><tr><td>Orbital Distance</td><td>2266635 km</td></tr><tr><td>Diameter</td><td>16145 km</td></tr><tr><td>Jump Point distance</td><td>26066306 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 2h 50m 11s; 2G: 2h 0m 20s; 3G: 1h 38m 15s; 4G: 85m 5s; 5G: 76m 6s; 6G: 69m 28s; </td></tr><tr><td>Density Type</td><td>Molten Core</td></tr><tr><td>Density</td><td>0.94 Earth</td></tr><tr><td>Mass</td><td>1.836 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>1.18 G</td></tr><tr><td>Rotation Period</td><td>85 hours 20 minutes 24 seconds</td></tr><tr><td>Orbital Period</td><td>3 days 13 hours 20 minutes 38 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>200Atm</td></tr><tr><td>Atmosphere Composition</td><td>Corrosive gas mix at temperature -173&deg;C and at Very Dense pressure. The atmosphere is composed of Fluorine(0.0021%), Sulfur Dichloride(0.0482%), Sulfur Dioxide(0.0379075%) and Hydrogen Sulfide(0.0324%). </td></tr><tr><td>Albedo</td><td>0.31</td></tr><tr><td>Greenhouse</td><td>1.9</td></tr><tr><td>Base Surface Temperature</td><td>-173&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-164&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-178&deg;C</td></tr><tr><td>Summer temperature increase</td><td>8&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>14&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>327&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-178&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>34%</td></tr><tr><td>Surface Liquid Composition</td><td>Sulfuric Acid</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Settlers</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 556<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 552<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>eye</td></tr><tr><td>Orbital Distance</td><td>5666588 km</td></tr><tr><td>Diameter</td><td>22371 km</td></tr><tr><td>Jump Point distance</td><td>22666353 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 2h 38m 41s; 2G: 1h 52m 12s; 3G: 1h 31m 37s; 4G: 79m 20s; 5G: 70m 58s; 6G: 64m 47s; </td></tr><tr><td>Density Type</td><td>Molten Core</td></tr><tr><td>Density</td><td>1 Earth</td></tr><tr><td>Mass</td><td>5.359 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>1.75 G</td></tr><tr><td>Rotation Period</td><td>336 hours 40 minutes 12 seconds</td></tr><tr><td>Orbital Period</td><td>14 days 0 hours 40 minutes 19 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>150Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix</td></tr><tr><td>Albedo</td><td>0.4</td></tr><tr><td>Greenhouse</td><td>1.15</td></tr><tr><td>Base Surface Temperature</td><td>-220&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-186&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-223&deg;C</td></tr><tr><td>Summer temperature increase</td><td>13&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>22&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>45&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-223&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>100%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Transients</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 223<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 219<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>ell</td></tr><tr><td>Orbital Distance</td><td>14166471 km</td></tr><tr><td>Diameter</td><td>13215 km</td></tr><tr><td>Jump Point distance</td><td>14166470 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 2h 5m 27s; 2G: 88m 42s; 3G: 72m 26s; 4G: 62m 43s; 5G: 56m 6s; 6G: 51m 13s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.3 Earth</td></tr><tr><td>Mass</td><td>0.3 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.3 G</td></tr><tr><td>Rotation Period</td><td>1331 hours 13 minutes 48 seconds</td></tr><tr><td>Orbital Period</td><td>55 days 11 hours 13 minutes 55 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.5Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix with a taint caused by Gas Mix</td></tr><tr><td>Albedo</td><td>0.15</td></tr><tr><td>Greenhouse</td><td>1.05</td></tr><tr><td>Base Surface Temperature</td><td>-205&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-103&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-225&deg;C</td></tr><tr><td>Summer temperature increase</td><td>6&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>10&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-103&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-225&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>33%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Catastrophic Extinct Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 91<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 87<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>pee</td></tr><tr><td>Orbital Distance</td><td>28332941 km</td></tr><tr><td>Diameter</td><td>7107 km</td></tr><tr><td>Jump Point distance</td><td>710700 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 28m 6s; 2G: 19m 52s; 3G: 16m 13s; 4G: 14m 3s; 5G: 12m 34s; 6G: 11m 28s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.34 Earth</td></tr><tr><td>Mass</td><td>0.0425 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.17 G</td></tr><tr><td>Rotation Period</td><td>186 hours 39 minutes 35 seconds</td></tr><tr><td>Orbital Period</td><td>5 Lunar months 16 days 20 hours 32 minutes 38 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>1Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix with a taint caused by Pollutants</td></tr><tr><td>Albedo</td><td>0.35</td></tr><tr><td>Greenhouse</td><td>1.1</td></tr><tr><td>Base Surface Temperature</td><td>-218&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-171&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-226&deg;C</td></tr><tr><td>Summer temperature increase</td><td>20&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>34&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-80&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-226&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>62%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>Yes</td></tr><tr><td>Native Intelligent Life</td><td>Catastrophic Extinct Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 46<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 42<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr></tr><table><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>10</td></tr><tr><td>Orbital Distance</td><td>77 AU</td></tr><tr><td>Diameter</td><td>8631 km</td></tr><tr><td>Jump Point distance</td><td>863100 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 30m 58s; 2G: 21m 53s; 3G: 17m 52s; 4G: 15m 29s; 5G: 13m 50s; 6G: 12m 38s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.36 Earth</td></tr><tr><td>Mass</td><td>0.08789 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.22 G</td></tr><tr><td>Rotation Period</td><td>33 hours 0 minutes 0 seconds</td></tr><tr><td>Orbital Period</td><td>907 years 344 days 22 hours 12 minutes 0 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.5Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix with a taint caused by Pollutants</td></tr><tr><td>Albedo</td><td>0.17</td></tr><tr><td>Greenhouse</td><td>1.05</td></tr><tr><td>Base Surface Temperature</td><td>-254&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-244&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-260&deg;C</td></tr><tr><td>Summer temperature increase</td><td>22&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>37&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-225&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-260&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>39%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>Yes</td></tr><tr><td>Native Intelligent Life</td><td>Catastrophic Extinct Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 16<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 12<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>gee</td></tr><tr><td>Orbital Distance</td><td>69048 km</td></tr><tr><td>Diameter</td><td>6263 km</td></tr><tr><td>Jump Point distance</td><td>794052 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 29m 42s; 2G: 21m 0s; 3G: 17m 8s; 4G: 14m 51s; 5G: 13m 17s; 6G: 12m 7s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.34 Earth</td></tr><tr><td>Mass</td><td>0.0425 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.17 G</td></tr><tr><td>Rotation Period</td><td>131 hours 2 minutes 23 seconds</td></tr><tr><td>Orbital Period</td><td>5 days 11 hours 2 minutes 23 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>1.9Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix with a taint caused by Pollutants</td></tr><tr><td>Albedo</td><td>0.41</td></tr><tr><td>Greenhouse</td><td>1.15</td></tr><tr><td>Base Surface Temperature</td><td>-258&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-232&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-259&deg;C</td></tr><tr><td>Summer temperature increase</td><td>13&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>22&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-198&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-259&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>100%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Extinct Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 15<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 11<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>aitch</td></tr><tr><td>Orbital Distance</td><td>86310 km</td></tr><tr><td>Diameter</td><td>3059 km</td></tr><tr><td>Jump Point distance</td><td>776790 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 29m 22s; 2G: 20m 46s; 3G: 16m 57s; 4G: 14m 41s; 5G: 13m 8s; 6G: 11m 59s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.44 Earth</td></tr><tr><td>Mass</td><td>0.00688 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.11 G</td></tr><tr><td>Rotation Period</td><td>182 hours 46 minutes 48 seconds</td></tr><tr><td>Orbital Period</td><td>7 days 14 hours 47 minutes 2 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.06Atm</td></tr><tr><td>Atmosphere Composition</td><td>Trace gases</td></tr><tr><td>Albedo</td><td>0.24</td></tr><tr><td>Greenhouse</td><td>1</td></tr><tr><td>Base Surface Temperature</td><td>-256&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-251&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-268&deg;C</td></tr><tr><td>Summer temperature increase</td><td>16&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>27&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-251&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-268&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>2%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Settlers</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 14<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 10<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>ess</td></tr><tr><td>Orbital Distance</td><td>2157750 km</td></tr><tr><td>Diameter</td><td>272 km</td></tr><tr><td>Jump Point distance</td><td>27200 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 5m 29s; 2G: 3m 53s; 3G: 3m 10s; 4G: 2m 44s; 5G: 2m 27s; 6G: 2m 14s; </td></tr><tr><td>Density Type</td><td>Rocky Body</td></tr><tr><td>Density</td><td>0.62 Earth</td></tr><tr><td>Mass</td><td>0.00001 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.0219 G</td></tr><tr><td>Rotation Period</td><td>33 hours 0 minutes 35 seconds</td></tr><tr><td>Orbital Period</td><td>34 Lunar months 0 days 11 hours 25 minutes 26 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0Atm</td></tr><tr><td>Atmosphere Composition</td><td>None</td></tr><tr><td>Albedo</td><td>0.28</td></tr><tr><td>Greenhouse</td><td>1</td></tr><tr><td>Base Surface Temperature</td><td>-257&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-255&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-270&deg;C</td></tr><tr><td>Summer temperature increase</td><td>17&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>28&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-255&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-270&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>4%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Settlers</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 4<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 0<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr></tr><table><tr><td>World Name</td><td>TIVIDIR</td></tr><tr><td>Orbit</td><td>0.1</td></tr><tr><td>Orbital Distance</td><td>0.22 AU</td></tr><tr><td>Diameter</td><td>6437 km</td></tr><tr><td>Jump Point distance</td><td>45257320 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 3h 44m 14s; 2G: 2h 38m 33s; 3G: 2h 9m 28s; 4G: 1h 52m 7s; 5G: 1h 40m 17s; 6G: 1h 31m 32s; </td></tr><tr><td>Density Type</td><td>Rocky Body</td></tr><tr><td>Density</td><td>0.7 Earth</td></tr><tr><td>Mass</td><td>0.0875 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.35 G</td></tr><tr><td>Rotation Period</td><td>1217 hours 38 minutes 24 seconds</td></tr><tr><td>Orbital Period</td><td>50 days 17 hours 38 minutes 24 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0Atm</td></tr><tr><td>Atmosphere Composition</td><td>None</td></tr><tr><td>Albedo</td><td>0.32</td></tr><tr><td>Greenhouse</td><td>1</td></tr><tr><td>Base Surface Temperature</td><td>8&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>36&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-217&deg;C</td></tr><tr><td>Summer temperature increase</td><td>0&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>0&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>36&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-217&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>2%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Transplants</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 4<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 0<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr></tr><tr></tr><table><tr></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>bee</td></tr><tr><td>Orbital Distance</td><td>205990 km</td></tr><tr><td>Diameter</td><td>19146 km</td></tr><tr><td>Jump Point distance</td><td>33289491 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 3h 12m 19s; 2G: 2h 15m 59s; 3G: 1h 51m 2s; 4G: 1h 36m 9s; 5G: 86m 0s; 6G: 78m 30s; </td></tr><tr><td>Density Type</td><td>Molten Core</td></tr><tr><td>Density</td><td>1.08 Earth</td></tr><tr><td>Mass</td><td>3.645 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>1.62 G</td></tr><tr><td>Rotation Period</td><td>11 hours 25 minutes 11 seconds</td></tr><tr><td>Orbital Period</td><td>0 days 11 hours 25 minutes 26 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.2Atm</td></tr><tr><td>Atmosphere Composition</td><td>Corrosive gas mix at temperature 88&deg;C and at Very Thin pressure. The atmosphere is composed of Fluorine(0.0065%), Sulfur Dichloride(0.0964%), Sulfur Dioxide(0.062407500000000005%) and Hydrogen Sulfide(0.0727%). </td></tr><tr><td>Albedo</td><td>0.4</td></tr><tr><td>Greenhouse</td><td>1.7</td></tr><tr><td>Base Surface Temperature</td><td>88&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>93&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>42&deg;C</td></tr><tr><td>Summer temperature increase</td><td>7&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>11&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>377&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-92&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>1%</td></tr><tr><td>Surface Liquid Composition</td><td>Hydrofluoric Acid</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Extinct Exotic Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 807<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 803<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>eff</td></tr><tr><td>Orbital Distance</td><td>617970 km</td></tr><tr><td>Diameter</td><td>11254 km</td></tr><tr><td>Jump Point distance</td><td>33289491 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 3h 12m 19s; 2G: 2h 15m 59s; 3G: 1h 51m 2s; 4G: 1h 36m 9s; 5G: 86m 0s; 6G: 78m 30s; </td></tr><tr><td>Density Type</td><td>Molten Core</td></tr><tr><td>Density</td><td>0.96 Earth</td></tr><tr><td>Mass</td><td>0.643 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.84 G</td></tr><tr><td>Rotation Period</td><td>59 hours 7 minutes 48 seconds</td></tr><tr><td>Orbital Period</td><td>2 days 11 hours 8 minutes 9 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>1Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix with a taint caused by High Oxygen</td></tr><tr><td>Albedo</td><td>0.58</td></tr><tr><td>Greenhouse</td><td>1.1</td></tr><tr><td>Base Surface Temperature</td><td>-110&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-95&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-134&deg;C</td></tr><tr><td>Summer temperature increase</td><td>2&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>4&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>298&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-134&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>88%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Transients</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 271<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 267<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>gee</td></tr><tr><td>Orbital Distance</td><td>823959 km</td></tr><tr><td>Diameter</td><td>14791 km</td></tr><tr><td>Jump Point distance</td><td>33289491 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 3h 12m 19s; 2G: 2h 15m 59s; 3G: 1h 51m 2s; 4G: 1h 36m 9s; 5G: 86m 0s; 6G: 78m 30s; </td></tr><tr><td>Density Type</td><td>Molten Core</td></tr><tr><td>Density</td><td>1.02 Earth</td></tr><tr><td>Mass</td><td>1.452 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>1.15 G</td></tr><tr><td>Rotation Period</td><td>90 hours 43 minutes 11 seconds</td></tr><tr><td>Orbital Period</td><td>3 days 18 hours 43 minutes 12 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.85Atm</td></tr><tr><td>Atmosphere Composition</td><td>Corrosive gas mix at temperature 89&deg;C and at Standard pressure. The atmosphere is composed of Chlorine(0.0722%) and Nitrogen(99.9278%). </td></tr><tr><td>Albedo</td><td>0.36</td></tr><tr><td>Greenhouse</td><td>1.6</td></tr><tr><td>Base Surface Temperature</td><td>89&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>112&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>44&deg;C</td></tr><tr><td>Summer temperature increase</td><td>10&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>16&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>994&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>35&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>1%</td></tr><tr><td>Surface Liquid Composition</td><td>Hydrochloric Acid</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Extinct Exotic Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 200<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 196<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>ex</td></tr><tr><td>Orbital Distance</td><td>72096444 km</td></tr><tr><td>Diameter</td><td>17663 km</td></tr><tr><td>Jump Point distance</td><td>33289491 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 3h 12m 19s; 2G: 2h 15m 59s; 3G: 1h 51m 2s; 4G: 1h 36m 9s; 5G: 86m 0s; 6G: 78m 30s; </td></tr><tr><td>Density Type</td><td>Molten Core</td></tr><tr><td>Density</td><td>0.96 Earth</td></tr><tr><td>Mass</td><td>2.496 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>1.32 G</td></tr><tr><td>Rotation Period</td><td>19 hours 38 minutes 24 seconds</td></tr><tr><td>Orbital Period</td><td>110 Lunar months 13 days 19 hours 58 minutes 4 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>1.2Atm</td></tr><tr><td>Atmosphere Composition</td><td>Insidious atmosphere caused by Gas Mix at 1.2 pressure. The atmosphere is composed of Fluorine(0.04%) and Carbon Dioxide(99.96%). </td></tr><tr><td>Albedo</td><td>0.59</td></tr><tr><td>Greenhouse</td><td>2</td></tr><tr><td>Base Surface Temperature</td><td>17&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>22&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>7&deg;C</td></tr><tr><td>Summer temperature increase</td><td>17&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>29&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>742&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-26&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>49%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Catastrophic Extinct Exotic Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 3<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < -1<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr></tr><table><tr></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>dee</td></tr><tr><td>Orbital Distance</td><td>583470 km</td></tr><tr><td>Diameter</td><td>13281 km</td></tr><tr><td>Jump Point distance</td><td>14003291 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 2h 4m 44s; 2G: 88m 12s; 3G: 72m 1s; 4G: 62m 22s; 5G: 55m 47s; 6G: 50m 55s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.34 Earth</td></tr><tr><td>Mass</td><td>0.34 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.34 G</td></tr><tr><td>Rotation Period</td><td>44 hours 21 minutes 0 seconds</td></tr><tr><td>Orbital Period</td><td>1 days 20 hours 21 minutes 7 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>10Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix</td></tr><tr><td>Albedo</td><td>0.73</td></tr><tr><td>Greenhouse</td><td>1.15</td></tr><tr><td>Base Surface Temperature</td><td>-194&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-190&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-198&deg;C</td></tr><tr><td>Summer temperature increase</td><td>19&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>32&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>201&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-198&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>69%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Catastrophic Extinct Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 568<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 564<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>eff</td></tr><tr><td>Orbital Distance</td><td>875206 km</td></tr><tr><td>Diameter</td><td>9676 km</td></tr><tr><td>Jump Point distance</td><td>13711555 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 2h 3m 25s; 2G: 87m 16s; 3G: 71m 15s; 4G: 61m 42s; 5G: 55m 11s; 6G: 50m 23s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.32 Earth</td></tr><tr><td>Mass</td><td>0.135 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.24 G</td></tr><tr><td>Rotation Period</td><td>81 hours 18 minutes 36 seconds</td></tr><tr><td>Orbital Period</td><td>3 days 9 hours 18 minutes 43 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>2Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix</td></tr><tr><td>Albedo</td><td>0.34</td></tr><tr><td>Greenhouse</td><td>1.15</td></tr><tr><td>Base Surface Temperature</td><td>-80&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-64&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-99&deg;C</td></tr><tr><td>Summer temperature increase</td><td>12&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>20&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>692&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-99&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>70%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Catastrophic Extinct Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 381<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 377<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>kay</td></tr><tr><td>Orbital Distance</td><td>5834704 km</td></tr><tr><td>Diameter</td><td>22685 km</td></tr><tr><td>Jump Point distance</td><td>8752057 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 1h 38m 36s; 2G: 69m 43s; 3G: 56m 56s; 4G: 49m 18s; 5G: 44m 6s; 6G: 40m 15s; </td></tr><tr><td>Density Type</td><td>Rocky Body</td></tr><tr><td>Density</td><td>0.54 Earth</td></tr><tr><td>Mass</td><td>2.894 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.94 G</td></tr><tr><td>Rotation Period</td><td>1404 hours 28 minutes 48 seconds</td></tr><tr><td>Orbital Period</td><td>2 Lunar months 2 days 12 hours 28 minutes 47 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.3Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix</td></tr><tr><td>Albedo</td><td>0.6</td></tr><tr><td>Greenhouse</td><td>1</td></tr><tr><td>Base Surface Temperature</td><td>-171&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-89&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-222&deg;C</td></tr><tr><td>Summer temperature increase</td><td>16&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>27&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-89&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-222&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>97%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Transients</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 60<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 56<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr></tr><table><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>3</td></tr><tr><td>Orbital Distance</td><td>1 AU</td></tr><tr><td>Diameter</td><td>17662 km</td></tr><tr><td>Jump Point distance</td><td>1766200 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 44m 17s; 2G: 31m 19s; 3G: 25m 34s; 4G: 22m 8s; 5G: 19m 48s; 6G: 18m 5s; </td></tr><tr><td>Density Type</td><td>Molten Core</td></tr><tr><td>Density</td><td>0.94 Earth</td></tr><tr><td>Mass</td><td>2.444 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>1.29 G</td></tr><tr><td>Rotation Period</td><td>13 hours 33 minutes 0 seconds</td></tr><tr><td>Orbital Period</td><td>490 days 13 hours 26 minutes 24 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>1Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix with a taint caused by Pollutants</td></tr><tr><td>Albedo</td><td>0.43</td></tr><tr><td>Greenhouse</td><td>1.1</td></tr><tr><td>Base Surface Temperature</td><td>-152&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-149&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-159&deg;C</td></tr><tr><td>Summer temperature increase</td><td>9&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>15&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>151&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-170&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>70%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Established Transplants</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 4<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 0<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr></tr><tr></tr><table><tr></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>aitch</td></tr><tr><td>Orbital Distance</td><td>936199 km</td></tr><tr><td>Diameter</td><td>10785 km</td></tr><tr><td>Jump Point distance</td><td>8425790 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 1h 36m 45s; 2G: 68m 25s; 3G: 55m 51s; 4G: 48m 22s; 5G: 43m 16s; 6G: 39m 30s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.38 Earth</td></tr><tr><td>Mass</td><td>0.255 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.33 G</td></tr><tr><td>Rotation Period</td><td>134 hours 24 minutes 0 seconds</td></tr><tr><td>Orbital Period</td><td>5 days 14 hours 24 minutes 0 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.95Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix with a taint caused by Pollutants</td></tr><tr><td>Albedo</td><td>0.58</td></tr><tr><td>Greenhouse</td><td>1.1</td></tr><tr><td>Base Surface Temperature</td><td>-224&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-190&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-231&deg;C</td></tr><tr><td>Summer temperature increase</td><td>10&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>17&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-101&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-231&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>91%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>Yes</td></tr><tr><td>Native Intelligent Life</td><td>Transients</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 149<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 145<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>ell</td></tr><tr><td>Orbital Distance</td><td>4680995 km</td></tr><tr><td>Diameter</td><td>12544 km</td></tr><tr><td>Jump Point distance</td><td>4680994 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 72m 7s; 2G: 50m 59s; 3G: 41m 38s; 4G: 36m 3s; 5G: 32m 15s; 6G: 29m 26s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.3 Earth</td></tr><tr><td>Mass</td><td>0.3 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.3 G</td></tr><tr><td>Rotation Period</td><td>1506 hours 37 minutes 11 seconds</td></tr><tr><td>Orbital Period</td><td>2 Lunar months 6 days 18 hours 37 minutes 26 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>[object Object]Atm</td></tr><tr><td>Atmosphere Composition</td><td>Occasional CorrosiveThe atmosphere is composed of Chlorine(0.0019%) and Nitrogen(99.9981%). </td></tr><tr><td>Albedo</td><td>0.58</td></tr><tr><td>Greenhouse</td><td>1.4</td></tr><tr><td>Base Surface Temperature</td><td>-210&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-160&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-241&deg;C</td></tr><tr><td>Summer temperature increase</td><td>17&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>28&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-160&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-241&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>58%</td></tr><tr><td>Surface Liquid Composition</td><td>Hydrochloric Acid</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Catastrophic Extinct Exotic Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 29<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 25<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>ess</td></tr><tr><td>Orbital Distance</td><td>23404973 km</td></tr><tr><td>Diameter</td><td>21059 km</td></tr><tr><td>Jump Point distance</td><td>2105900 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 48m 22s; 2G: 34m 12s; 3G: 27m 55s; 4G: 24m 11s; 5G: 21m 37s; 6G: 19m 44s; </td></tr><tr><td>Density Type</td><td>Molten Core</td></tr><tr><td>Density</td><td>0.96 Earth</td></tr><tr><td>Mass</td><td>4.119 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>1.56 G</td></tr><tr><td>Rotation Period</td><td>46 hours 25 minutes 47 seconds</td></tr><tr><td>Orbital Period</td><td>25 Lunar months 1 days 17 hours 39 minutes 50 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.12Atm</td></tr><tr><td>Atmosphere Composition</td><td>Corrosive gas mix at temperature -146&deg;C and at Very Thin pressure. The atmosphere is composed of Chlorine(0.0204%) and Carbon Dioxide(99.9796%). </td></tr><tr><td>Albedo</td><td>0.26</td></tr><tr><td>Greenhouse</td><td>1.6</td></tr><tr><td>Base Surface Temperature</td><td>-146&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-127&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-209&deg;C</td></tr><tr><td>Summer temperature increase</td><td>8&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>13&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-44&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-209&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>33%</td></tr><tr><td>Surface Liquid Composition</td><td>Hydrochloric Acid</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Transients</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 7<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 3<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr></tr><table><tr></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>ee</td></tr><tr><td>Orbital Distance</td><td>1416647 km</td></tr><tr><td>Diameter</td><td>2871 km</td></tr><tr><td>Jump Point distance</td><td>26916294 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 2h 52m 56s; 2G: 2h 2m 17s; 3G: 1h 39m 50s; 4G: 86m 28s; 5G: 77m 20s; 6G: 70m 36s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.3 Earth</td></tr><tr><td>Mass</td><td>0.00469 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.075 G</td></tr><tr><td>Rotation Period</td><td>42 hours 19 minutes 47 seconds</td></tr><tr><td>Orbital Period</td><td>1 days 18 hours 20 minutes 9 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.6Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix</td></tr><tr><td>Albedo</td><td>0.63</td></tr><tr><td>Greenhouse</td><td>1.05</td></tr><tr><td>Base Surface Temperature</td><td>-243&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-230&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-252&deg;C</td></tr><tr><td>Summer temperature increase</td><td>25&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>41&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-198&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-252&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>76%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Catastrophic Extinct Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 886<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 882<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>gee</td></tr><tr><td>Orbital Distance</td><td>2266635 km</td></tr><tr><td>Diameter</td><td>16145 km</td></tr><tr><td>Jump Point distance</td><td>26066306 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 2h 50m 11s; 2G: 2h 0m 20s; 3G: 1h 38m 15s; 4G: 85m 5s; 5G: 76m 6s; 6G: 69m 28s; </td></tr><tr><td>Density Type</td><td>Molten Core</td></tr><tr><td>Density</td><td>0.94 Earth</td></tr><tr><td>Mass</td><td>1.836 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>1.18 G</td></tr><tr><td>Rotation Period</td><td>85 hours 20 minutes 24 seconds</td></tr><tr><td>Orbital Period</td><td>3 days 13 hours 20 minutes 38 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>200Atm</td></tr><tr><td>Atmosphere Composition</td><td>Corrosive gas mix at temperature -173&deg;C and at Very Dense pressure. The atmosphere is composed of Fluorine(0.0021%), Sulfur Dichloride(0.0482%), Sulfur Dioxide(0.0379075%) and Hydrogen Sulfide(0.0324%). </td></tr><tr><td>Albedo</td><td>0.31</td></tr><tr><td>Greenhouse</td><td>1.9</td></tr><tr><td>Base Surface Temperature</td><td>-173&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-164&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-178&deg;C</td></tr><tr><td>Summer temperature increase</td><td>8&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>14&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>327&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-178&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>34%</td></tr><tr><td>Surface Liquid Composition</td><td>Sulfuric Acid</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Settlers</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 556<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 552<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>eye</td></tr><tr><td>Orbital Distance</td><td>5666588 km</td></tr><tr><td>Diameter</td><td>22371 km</td></tr><tr><td>Jump Point distance</td><td>22666353 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 2h 38m 41s; 2G: 1h 52m 12s; 3G: 1h 31m 37s; 4G: 79m 20s; 5G: 70m 58s; 6G: 64m 47s; </td></tr><tr><td>Density Type</td><td>Molten Core</td></tr><tr><td>Density</td><td>1 Earth</td></tr><tr><td>Mass</td><td>5.359 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>1.75 G</td></tr><tr><td>Rotation Period</td><td>336 hours 40 minutes 12 seconds</td></tr><tr><td>Orbital Period</td><td>14 days 0 hours 40 minutes 19 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>150Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix</td></tr><tr><td>Albedo</td><td>0.4</td></tr><tr><td>Greenhouse</td><td>1.15</td></tr><tr><td>Base Surface Temperature</td><td>-220&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-186&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-223&deg;C</td></tr><tr><td>Summer temperature increase</td><td>13&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>22&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>45&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-223&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>100%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Transients</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 223<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 219<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>ell</td></tr><tr><td>Orbital Distance</td><td>14166471 km</td></tr><tr><td>Diameter</td><td>13215 km</td></tr><tr><td>Jump Point distance</td><td>14166470 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 2h 5m 27s; 2G: 88m 42s; 3G: 72m 26s; 4G: 62m 43s; 5G: 56m 6s; 6G: 51m 13s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.3 Earth</td></tr><tr><td>Mass</td><td>0.3 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.3 G</td></tr><tr><td>Rotation Period</td><td>1331 hours 13 minutes 48 seconds</td></tr><tr><td>Orbital Period</td><td>55 days 11 hours 13 minutes 55 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.5Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix with a taint caused by Gas Mix</td></tr><tr><td>Albedo</td><td>0.15</td></tr><tr><td>Greenhouse</td><td>1.05</td></tr><tr><td>Base Surface Temperature</td><td>-205&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-103&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-225&deg;C</td></tr><tr><td>Summer temperature increase</td><td>6&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>10&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-103&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-225&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>33%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Catastrophic Extinct Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 91<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 87<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>pee</td></tr><tr><td>Orbital Distance</td><td>28332941 km</td></tr><tr><td>Diameter</td><td>7107 km</td></tr><tr><td>Jump Point distance</td><td>710700 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 28m 6s; 2G: 19m 52s; 3G: 16m 13s; 4G: 14m 3s; 5G: 12m 34s; 6G: 11m 28s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.34 Earth</td></tr><tr><td>Mass</td><td>0.0425 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.17 G</td></tr><tr><td>Rotation Period</td><td>186 hours 39 minutes 35 seconds</td></tr><tr><td>Orbital Period</td><td>5 Lunar months 16 days 20 hours 32 minutes 38 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>1Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix with a taint caused by Pollutants</td></tr><tr><td>Albedo</td><td>0.35</td></tr><tr><td>Greenhouse</td><td>1.1</td></tr><tr><td>Base Surface Temperature</td><td>-218&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-171&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-226&deg;C</td></tr><tr><td>Summer temperature increase</td><td>20&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>34&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-80&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-226&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>62%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>Yes</td></tr><tr><td>Native Intelligent Life</td><td>Catastrophic Extinct Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 46<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 42<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr></tr><table><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>10</td></tr><tr><td>Orbital Distance</td><td>77 AU</td></tr><tr><td>Diameter</td><td>8631 km</td></tr><tr><td>Jump Point distance</td><td>863100 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 30m 58s; 2G: 21m 53s; 3G: 17m 52s; 4G: 15m 29s; 5G: 13m 50s; 6G: 12m 38s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.36 Earth</td></tr><tr><td>Mass</td><td>0.08789 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.22 G</td></tr><tr><td>Rotation Period</td><td>33 hours 0 minutes 0 seconds</td></tr><tr><td>Orbital Period</td><td>907 years 344 days 22 hours 12 minutes 0 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.5Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix with a taint caused by Pollutants</td></tr><tr><td>Albedo</td><td>0.17</td></tr><tr><td>Greenhouse</td><td>1.05</td></tr><tr><td>Base Surface Temperature</td><td>-254&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-244&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-260&deg;C</td></tr><tr><td>Summer temperature increase</td><td>22&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>37&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-225&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-260&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>39%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>Yes</td></tr><tr><td>Native Intelligent Life</td><td>Catastrophic Extinct Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 16<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 12<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>gee</td></tr><tr><td>Orbital Distance</td><td>69048 km</td></tr><tr><td>Diameter</td><td>6263 km</td></tr><tr><td>Jump Point distance</td><td>794052 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 29m 42s; 2G: 21m 0s; 3G: 17m 8s; 4G: 14m 51s; 5G: 13m 17s; 6G: 12m 7s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.34 Earth</td></tr><tr><td>Mass</td><td>0.0425 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.17 G</td></tr><tr><td>Rotation Period</td><td>131 hours 2 minutes 23 seconds</td></tr><tr><td>Orbital Period</td><td>5 days 11 hours 2 minutes 23 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>1.9Atm</td></tr><tr><td>Atmosphere Composition</td><td>Standard Oxygen / Nitrogen Mix with a taint caused by Pollutants</td></tr><tr><td>Albedo</td><td>0.41</td></tr><tr><td>Greenhouse</td><td>1.15</td></tr><tr><td>Base Surface Temperature</td><td>-258&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-232&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-259&deg;C</td></tr><tr><td>Summer temperature increase</td><td>13&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>22&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-198&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-259&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>100%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Extinct Natives</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 15<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 11<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>aitch</td></tr><tr><td>Orbital Distance</td><td>86310 km</td></tr><tr><td>Diameter</td><td>3059 km</td></tr><tr><td>Jump Point distance</td><td>776790 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 29m 22s; 2G: 20m 46s; 3G: 16m 57s; 4G: 14m 41s; 5G: 13m 8s; 6G: 11m 59s; </td></tr><tr><td>Density Type</td><td>Icy Body</td></tr><tr><td>Density</td><td>0.44 Earth</td></tr><tr><td>Mass</td><td>0.00688 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.11 G</td></tr><tr><td>Rotation Period</td><td>182 hours 46 minutes 48 seconds</td></tr><tr><td>Orbital Period</td><td>7 days 14 hours 47 minutes 2 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0.06Atm</td></tr><tr><td>Atmosphere Composition</td><td>Trace gases</td></tr><tr><td>Albedo</td><td>0.24</td></tr><tr><td>Greenhouse</td><td>1</td></tr><tr><td>Base Surface Temperature</td><td>-256&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-251&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-268&deg;C</td></tr><tr><td>Summer temperature increase</td><td>16&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>27&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-251&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-268&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>2%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Settlers</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 14<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 10<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr><td>World Name</td><td></td></tr><tr><td>Orbit</td><td>ess</td></tr><tr><td>Orbital Distance</td><td>2157750 km</td></tr><tr><td>Diameter</td><td>272 km</td></tr><tr><td>Jump Point distance</td><td>27200 km</td></tr><tr><td>Time to Jump Point at ...</td><td>1G: 5m 29s; 2G: 3m 53s; 3G: 3m 10s; 4G: 2m 44s; 5G: 2m 27s; 6G: 2m 14s; </td></tr><tr><td>Density Type</td><td>Rocky Body</td></tr><tr><td>Density</td><td>0.62 Earth</td></tr><tr><td>Mass</td><td>0.00001 Earth</td></tr><tr><td>Surface Gravity (G)</td><td>0.0219 G</td></tr><tr><td>Rotation Period</td><td>33 hours 0 minutes 35 seconds</td></tr><tr><td>Orbital Period</td><td>34 Lunar months 0 days 11 hours 25 minutes 26 seconds</td></tr><tr><td>Axial Tilt</td><td>0</td></tr><tr><td>Surface Atmospheric Pressure</td><td>0Atm</td></tr><tr><td>Atmosphere Composition</td><td>None</td></tr><tr><td>Albedo</td><td>0.28</td></tr><tr><td>Greenhouse</td><td>1</td></tr><tr><td>Base Surface Temperature</td><td>-257&deg;C</td></tr><tr><td>Base Daytime temperature</td><td>-255&deg;C</td></tr><tr><td>Base Nighttime temperature</td><td>-270&deg;C</td></tr><tr><td>Summer temperature increase</td><td>17&deg;C</td></tr><tr><td>Winter temperature decrease</td><td>28&deg;C</td></tr><tr><td>Upper Temperature Limit</td><td>-255&deg;C</td></tr><tr><td>Lower Temperature Limit</td><td>-270&deg;C</td></tr><tr><td>Hydrographic Percentage</td><td>4%</td></tr><tr><td>Surface Liquid Composition</td><td>Water</td></tr><tr><td>Native Life</td><td>No</td></tr><tr><td>Native Intelligent Life</td><td>Settlers</td></tr><tr><td>Seismic Stress</td><td>Stress factor is 4<br />Occurence of a volcanic eruption or earthquake in a 24-hour period:<br />Formidable (4D) < 0<br /><b>Note:</b> DM -2 if on a Volcano hex, DM -2 if on a fault line.</td></tr><tr></tr></body></html>
